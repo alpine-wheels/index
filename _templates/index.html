@@ -1,0 +1,7 @@
+<html lang="en">
+<body>
+{% for package in packages %}
+    <a href="{{ package | normalize }}/">{{ package }}</a>
+{% endfor %}
+</body>
+</html>

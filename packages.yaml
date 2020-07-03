@@ -1,3 +1,5 @@
+# the information in this file is used to generate the html pages for the package index
+
 packages:
   cffi:
     files:

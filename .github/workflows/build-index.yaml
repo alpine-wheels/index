@@ -1,0 +1,24 @@
+name: Build HTML files for the package index
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - packages.yaml
+
+jobs:
+  build:
+    name: Build HTML files for the package index
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v2
+      - name: Run build
+        run: docker-compose up publish
+      - name: Create pull request
+        uses: peter-evans/create-pull-request@v2
+        with:
+          commit-message: Rebuild HTML files
+          title: Rebuild HTML files
+          body: Rebuild HTML files

@@ -9,6 +9,11 @@ packages:
       - hash_name: sha256
         hash_value: 42a143f298a451102a29ac068d64952a96c9edba47c5cd6d432d30c58ff468b6
         href: https://github.com/alpine-wheels/pynacl/releases/download/1.4.0/PyNaCl-1.4.0-cp38-cp38-linux_x86_64.whl
+  PyYAML:
+    files:
+      - hash_name: sha256
+        hash_value: d5a3c1249ed097ab7a5f7c23550e9142c37ca40dfb579e42a872f2080da76bcc
+        href: https://github.com/alpine-wheels/pyyaml/releases/download/5.3.1/PyYAML-5.3.1-cp38-cp38-linux_x86_64.whl
   antlr4-python3-runtime:
     files:
       - hash_name: sha256

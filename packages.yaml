@@ -34,6 +34,11 @@ packages:
       - hash_name: sha256
         hash_value: 11d2db552d6935ad9e581f49920d2c63f7defc996b3495378c7c5a0753e12c09
         href: https://github.com/alpine-wheels/elastic-apm/releases/download/5.8.0/elastic_apm-5.8.0-py3-none-any.whl
+  jsmin:
+    files:
+      - hash_name: sha256
+        hash_value: 1f2edcfe54f7e0856382d80ac036dec55efcd21c2a814440b59afa4e2461fe91
+        href: https://github.com/alpine-wheels/jsmin/releases/download/2.2.2/jsmin-2.2.2-py3-none-any.whl
   pendulum:
     files:
       - hash_name: sha256

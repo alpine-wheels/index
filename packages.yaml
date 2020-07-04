@@ -49,3 +49,8 @@ packages:
       - hash_name: sha256
         hash_value: eb5ebc100223873f0d5e0c9bca3316a2388d1a9936b869c9f29666259daa1ef9
         href: https://github.com/alpine-wheels/ruamel.yaml.clib/releases/download/0.2.0/ruamel.yaml.clib-0.2.0-py3-none-any.whl
+  sshtunnel:
+    files:
+      - hash_name: sha256
+        hash_value: 870aee566b35fae327d62b953d7ccd7ca0225d21794f19353926a2c8e666b4c6
+        href: https://github.com/alpine-wheels/sshtunnel/releases/download/0.1.5/sshtunnel-0.1.5-py2.py3-none-any.whl

@@ -1,38 +1,41 @@
-# the information in this file is used to generate the html pages for the package index
-
 packages:
-  cffi:
-    files:
-      - href: https://github.com/alpine-wheels/cffi/releases/download/1.14.0/cffi-1.14.0-cp38-cp38-linux_x86_64.whl
-        hash_name: sha256
-        hash_value: 754a93f666913b3dba3df81b10a6a64fd5392aebcfec8904fcf9e3a6cc180bb6
-  cryptography:
-    files:
-      - href: https://github.com/alpine-wheels/cryptography/releases/download/2.9.2/cryptography-2.9.2-cp38-cp38-linux_x86_64.whl
-        hash_name: sha256
-        hash_value: 15aebccd5c48e9dd232857880fc015ea588150da248cbb5baca84c4adb540afe
-  elastic-apm:
-    files:
-      - href: https://github.com/alpine-wheels/elastic-apm/releases/download/5.8.0/elastic_apm-5.8.0-py3-none-any.whl
-        hash_name: sha256
-        hash_value: 11d2db552d6935ad9e581f49920d2c63f7defc996b3495378c7c5a0753e12c09
   MarkupSafe:
     files:
-      - href: https://github.com/alpine-wheels/markupsafe/releases/download/1.1.1/MarkupSafe-1.1.1-py3-none-any.whl
-        hash_name: sha256
+      - hash_name: sha256
         hash_value: f0468a95d6edf763fb25e9052e2c4395f8beef89352033beb8e59fd674fd77ce
-  pendulum:
-    files:
-      - href: https://github.com/alpine-wheels/pendulum/releases/download/2.1.0/pendulum-2.1.0-cp38-cp38-linux_x86_64.whl
-        hash_name: sha256
-        hash_value: 588a8e602cbdb614df7f993ee06211bc768c44cc7b42607b270882faff0649a8
-  psycopg2:
-    files:
-      - href: https://github.com/alpine-wheels/psycopg2/releases/download/2.8.5/psycopg2-2.8.5-cp38-cp38-linux_x86_64.whl
-        hash_name: sha256
-        hash_value: 85a3be6e8f09fc88e45ebb7f02e0d2e20f8e6fc9595fcfb31a2c4016336533b0
+        href: https://github.com/alpine-wheels/markupsafe/releases/download/1.1.1/MarkupSafe-1.1.1-py3-none-any.whl
   PyNaCl:
     files:
-      - href: https://github.com/alpine-wheels/pynacl/releases/download/1.4.0/PyNaCl-1.4.0-cp38-cp38-linux_x86_64.whl
-        hash_name: sha256
+      - hash_name: sha256
         hash_value: 42a143f298a451102a29ac068d64952a96c9edba47c5cd6d432d30c58ff468b6
+        href: https://github.com/alpine-wheels/pynacl/releases/download/1.4.0/PyNaCl-1.4.0-cp38-cp38-linux_x86_64.whl
+  bcrypt:
+    files:
+      - hash_name: sha256
+        hash_value: c64f0a29d31e8e346814dc74d6d5844562ff76462af19afa5dab408ab3f77d99
+        href: https://github.com/alpine-wheels/bcrypt/releases/download/3.1.7/bcrypt-3.1.7-cp38-cp38-linux_x86_64.whl
+  cffi:
+    files:
+      - hash_name: sha256
+        hash_value: 754a93f666913b3dba3df81b10a6a64fd5392aebcfec8904fcf9e3a6cc180bb6
+        href: https://github.com/alpine-wheels/cffi/releases/download/1.14.0/cffi-1.14.0-cp38-cp38-linux_x86_64.whl
+  cryptography:
+    files:
+      - hash_name: sha256
+        hash_value: 15aebccd5c48e9dd232857880fc015ea588150da248cbb5baca84c4adb540afe
+        href: https://github.com/alpine-wheels/cryptography/releases/download/2.9.2/cryptography-2.9.2-cp38-cp38-linux_x86_64.whl
+  elastic-apm:
+    files:
+      - hash_name: sha256
+        hash_value: 11d2db552d6935ad9e581f49920d2c63f7defc996b3495378c7c5a0753e12c09
+        href: https://github.com/alpine-wheels/elastic-apm/releases/download/5.8.0/elastic_apm-5.8.0-py3-none-any.whl
+  pendulum:
+    files:
+      - hash_name: sha256
+        hash_value: 588a8e602cbdb614df7f993ee06211bc768c44cc7b42607b270882faff0649a8
+        href: https://github.com/alpine-wheels/pendulum/releases/download/2.1.0/pendulum-2.1.0-cp38-cp38-linux_x86_64.whl
+  psycopg2:
+    files:
+      - hash_name: sha256
+        hash_value: 85a3be6e8f09fc88e45ebb7f02e0d2e20f8e6fc9595fcfb31a2c4016336533b0
+        href: https://github.com/alpine-wheels/psycopg2/releases/download/2.8.5/psycopg2-2.8.5-cp38-cp38-linux_x86_64.whl

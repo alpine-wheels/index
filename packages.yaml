@@ -39,3 +39,8 @@ packages:
       - hash_name: sha256
         hash_value: 85a3be6e8f09fc88e45ebb7f02e0d2e20f8e6fc9595fcfb31a2c4016336533b0
         href: https://github.com/alpine-wheels/psycopg2/releases/download/2.8.5/psycopg2-2.8.5-cp38-cp38-linux_x86_64.whl
+  ruamel.yaml.clib:
+    files:
+      - hash_name: sha256
+        hash_value: eb5ebc100223873f0d5e0c9bca3316a2388d1a9936b869c9f29666259daa1ef9
+        href: https://github.com/alpine-wheels/ruamel.yaml.clib/releases/download/0.2.0/ruamel.yaml.clib-0.2.0-py3-none-any.whl

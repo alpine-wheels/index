@@ -11,3 +11,13 @@ services:
       - /usr/local/bin/python
     command:
       - publish.py
+
+  add-file:
+    image: docker.pkg.github.com/alpine-wheels/index/publish
+    build: .
+    working_dir: /alpine-wheels/index
+    volumes:
+      - ./:/alpine-wheels/index
+    entrypoint:
+      - /usr/local/bin/python
+      - add-file.py

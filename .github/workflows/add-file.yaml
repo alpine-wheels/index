@@ -1,0 +1,22 @@
+name: Add a new file to the package index
+
+on:
+  repository_dispatch:
+    types:
+      - add_file
+
+jobs:
+  add-file:
+    name: Add a new file to the package index
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v2
+      - name: Add the new file
+        run: docker-compose run add-file ${{ github.event.client_payload.package_name }} ${{ github.event.client_payload.href }} ${{ github.event.client_payload.hash_name }} ${{ github.event.client_payload.hash_value }}
+      - name: Create pull request
+        uses: peter-evans/create-pull-request@v2
+        with:
+          commit-message: Add a file for ${{ github.event.client_payload.package_name }} to the index
+          title: Add a file for ${{ github.event.client_payload.package_name }} to the index
+          body: Add a file for ${{ github.event.client_payload.package_name }} to the index

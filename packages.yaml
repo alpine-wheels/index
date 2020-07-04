@@ -9,6 +9,11 @@ packages:
       - hash_name: sha256
         hash_value: 42a143f298a451102a29ac068d64952a96c9edba47c5cd6d432d30c58ff468b6
         href: https://github.com/alpine-wheels/pynacl/releases/download/1.4.0/PyNaCl-1.4.0-cp38-cp38-linux_x86_64.whl
+  antlr4-python3-runtime:
+    files:
+      - hash_name: sha256
+        hash_value: c7026e170cc5210ac27f4edf946a6a4e846f5326c9a3c7ce329aefe428438deb
+        href: https://github.com/alpine-wheels/antlr4-python3-runtime/releases/download/4.7.2/antlr4_python3_runtime-4.7.2-py3-none-any.whl
   bcrypt:
     files:
       - hash_name: sha256

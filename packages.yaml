@@ -47,6 +47,11 @@ packages:
       - hash_name: sha256
         hash_value: 1f2edcfe54f7e0856382d80ac036dec55efcd21c2a814440b59afa4e2461fe91
         href: https://github.com/alpine-wheels/jsmin/releases/download/2.2.2/jsmin-2.2.2-py3-none-any.whl
+  jsondiff:
+    files:
+      - hash_name: sha256
+        hash_value: 576bc5f2292d053464976b13b401ceb9b19b726d0d6077e80caaedda969e3f30
+        href: https://github.com/alpine-wheels/jsondiff/releases/download/1.2.0/jsondiff-1.2.0-py3-none-any.whl
   pendulum:
     files:
       - hash_name: sha256

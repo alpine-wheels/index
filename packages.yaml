@@ -57,6 +57,11 @@ packages:
       - hash_name: sha256
         hash_value: 576bc5f2292d053464976b13b401ceb9b19b726d0d6077e80caaedda969e3f30
         href: https://github.com/alpine-wheels/jsondiff/releases/download/1.2.0/jsondiff-1.2.0-py3-none-any.whl
+  lxml:
+    files:
+      - hash_name: sha256
+        hash_value: a531ab3e6484ad1a49b345c66ae4925b358dd294cc5f5e07cbc20710b9436d73
+        href: https://github.com/alpine-wheels/lxml/releases/download/4.5.1/lxml-4.5.1-cp38-cp38-linux_x86_64.whl
   pendulum:
     files:
       - hash_name: sha256

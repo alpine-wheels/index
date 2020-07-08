@@ -77,6 +77,11 @@ packages:
       - hash_name: sha256
         hash_value: 36071e2062615a5aea9003bcfb06811a8c82916de9c09111c6280a87419d3699
         href: https://github.com/alpine-wheels/neobolt/releases/download/1.7.17/neobolt-1.7.17-py3-none-any.whl
+  okta:
+    files:
+      - hash_name: sha256
+        hash_value: fd7619c2759c4f8b708d24ddf6404f0e226bf03be6ff30f0d1e5f821b082082e
+        href: https://github.com/alpine-wheels/okta/releases/download/0.0.4/okta-0.0.4-py2.py3-none-any.whl
   pendulum:
     files:
       - hash_name: sha256

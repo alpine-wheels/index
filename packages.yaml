@@ -32,6 +32,11 @@ packages:
       - hash_name: sha256
         hash_value: 8dc4139734ce5b5fa5e463a0db6631e9117fcee4828fd39d1fcfa1043486ea4c
         href: https://github.com/alpine-wheels/blinker/releases/download/1.4/blinker-1.4-py3-none-any.whl
+  cartography:
+    files:
+      - hash_name: sha256
+        hash_value: c818c7a12840e7bfcbbc8efdc56139ff1e575633abe05a4ca8bba1cc40f76730
+        href: https://github.com/alpine-wheels/cartography/releases/download/0.23.0/cartography-0.23.0-py3-none-any.whl
   cffi:
     files:
       - hash_name: sha256

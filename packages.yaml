@@ -77,6 +77,11 @@ packages:
       - hash_name: sha256
         hash_value: 36071e2062615a5aea9003bcfb06811a8c82916de9c09111c6280a87419d3699
         href: https://github.com/alpine-wheels/neobolt/releases/download/1.7.17/neobolt-1.7.17-py3-none-any.whl
+  neotime:
+    files:
+      - hash_name: sha256
+        hash_value: 01b37b8456909a9556150774500e470077e248db83e9eab91e5e8e762f8eab2b
+        href: https://github.com/alpine-wheels/neotime/releases/download/1.7.4/neotime-1.7.4-py3-none-any.whl
   okta:
     files:
       - hash_name: sha256

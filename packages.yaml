@@ -72,6 +72,11 @@ packages:
       - hash_name: sha256
         hash_value: 4e244adabc41f40561e0a5f3551d8eba987e21ddf96af63d95117af3e4339f68
         href: https://github.com/alpine-wheels/neo4j/releases/download/1.7.6/neo4j-1.7.6-py3-none-any.whl
+  neobolt:
+    files:
+      - hash_name: sha256
+        hash_value: 36071e2062615a5aea9003bcfb06811a8c82916de9c09111c6280a87419d3699
+        href: https://github.com/alpine-wheels/neobolt/releases/download/1.7.17/neobolt-1.7.17-py3-none-any.whl
   pendulum:
     files:
       - hash_name: sha256

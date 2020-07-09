@@ -1,0 +1,27 @@
+name: Build the tools container image
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+
+  build:
+    name: Build the tools container image
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out the repository
+      uses: actions/checkout@v2
+    - name: Log in to the GitHub registry
+      run: docker login --password "${{ github.token }}" --username "${{ github.actor }}" docker.pkg.github.com
+    - name: Set the image name and tag
+      id: set-image-name
+      run: echo ::set-output name=image-name::alpine-wheels-index-tools:latest
+    - name: Set the full GitHub image name
+      id: set-github-image-name
+      run: echo ::set-output name=image-name::docker.pkg.github.com/${{ github.repository }}/${{ steps.set-image-name.outputs.image-name }}
+    - name: Build the container image
+      run: docker build --file Dockerfile --tag ${{ steps.set-github-image-name.outputs.image-name }} .
+    - name: Push the image to the GitHub registry
+      run: docker image push ${{ steps.set-github-image-name.outputs.image-name }}

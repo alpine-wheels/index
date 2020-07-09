@@ -121,6 +121,11 @@ packages:
       - hash_name: sha256
         hash_value: 870aee566b35fae327d62b953d7ccd7ca0225d21794f19353926a2c8e666b4c6
         href: https://github.com/alpine-wheels/sshtunnel/releases/download/0.1.5/sshtunnel-0.1.5-py2.py3-none-any.whl
+  stemming:
+    files:
+      - hash_name: sha256
+        hash_value: b38a3b9b604f9ce91a4b699ac4fccb312dffe5618c1b567d20e036012f909cc6
+        href: https://github.com/alpine-wheels/stemming/releases/download/1.0.1/stemming-1.0.1-py3-none-any.whl
   vsts-cd-manager:
     files:
       - hash_name: sha256

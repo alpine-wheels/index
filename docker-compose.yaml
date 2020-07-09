@@ -2,22 +2,19 @@ version: '3.8'
 
 services:
   publish:
-    image: docker.pkg.github.com/alpine-wheels/index/publish
-    build: .
-    working_dir: /alpine-wheels/index
+    image: docker.pkg.github.com/alpine-wheels/index/alpine-wheels-index-tools
+    working_dir: /workspace
     volumes:
-      - ./:/alpine-wheels/index
+      - ./:/workspace
     entrypoint:
       - /usr/local/bin/python
-    command:
       - publish.py
 
   add-file:
-    image: docker.pkg.github.com/alpine-wheels/index/publish
-    build: .
-    working_dir: /alpine-wheels/index
+    image: docker.pkg.github.com/alpine-wheels/index/alpine-wheels-index-tools
+    working_dir: /workspace
     volumes:
-      - ./:/alpine-wheels/index
+      - ./:/workspace
     entrypoint:
       - /usr/local/bin/python
       - add-file.py

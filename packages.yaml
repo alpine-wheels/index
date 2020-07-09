@@ -70,6 +70,11 @@ packages:
       - hash_name: sha256
         hash_value: a531ab3e6484ad1a49b345c66ae4925b358dd294cc5f5e07cbc20710b9436d73
         href: https://github.com/alpine-wheels/lxml/releases/download/4.5.1/lxml-4.5.1-cp38-cp38-linux_x86_64.whl
+  multidict:
+    files:
+      - hash_name: sha256
+        hash_value: 85979718fe1ee155659238e9c113a0690ed866ef29aeb762b8910ea75169212e
+        href: https://github.com/alpine-wheels/multidict/releases/download/4.7.6/multidict-4.7.6-cp38-cp38-linux_x86_64.whl
   neo4j:
     files:
       - hash_name: sha256

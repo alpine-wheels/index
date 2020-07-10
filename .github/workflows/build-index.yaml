@@ -14,6 +14,8 @@ jobs:
     steps:
       - name: Check out the repository
         uses: actions/checkout@v2
+      - name: Log in to the GitHub registry
+        run: docker login --password "${{ github.token }}" --username "${{ github.actor }}" docker.pkg.github.com
       - name: Run build
         run: docker-compose run -T publish
       - name: Create pull request

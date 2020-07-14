@@ -114,6 +114,9 @@ packages:
       - hash_name: sha256
         hash_value: 588a8e602cbdb614df7f993ee06211bc768c44cc7b42607b270882faff0649a8
         href: https://github.com/alpine-wheels/pendulum/releases/download/2.1.0/pendulum-2.1.0-cp38-cp38-linux_x86_64.whl
+      - hash_name: sha256
+        hash_value: 2df1e6396d9f94e8c9301fe75e3c81ade2be9bc7877e365e89dd7abe328477cf
+        href: https://github.com/alpine-wheels/pendulum/releases/download/2.1.1/pendulum-2.1.1-cp38-cp38-linux_x86_64.whl
   policyuniverse:
     files:
       - hash_name: sha256

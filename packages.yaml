@@ -9,6 +9,11 @@ packages:
       - hash_name: sha256
         hash_value: 42a143f298a451102a29ac068d64952a96c9edba47c5cd6d432d30c58ff468b6
         href: https://github.com/alpine-wheels/pynacl/releases/download/1.4.0/PyNaCl-1.4.0-cp38-cp38-linux_x86_64.whl
+  PyPDF2:
+    files:
+      - hash_name: sha256
+        hash_value: 09373b3cf8bb74dcf4027b541cda176f1195359ed4f9322937b56ed44f7b5366
+        href: https://github.com/alpine-wheels/pypdf2/releases/download/1.26.0/PyPDF2-1.26.0-py3-none-any.whl
   PyYAML:
     files:
       - hash_name: sha256

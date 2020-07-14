@@ -73,6 +73,11 @@ packages:
       - hash_name: sha256
         hash_value: 32a27397e2f0632ef4a910621a8183aed264c48bbe64ee0fcc70f4095486f9ca
         href: https://github.com/alpine-wheels/lxml/releases/download/4.5.2/lxml-4.5.2-cp38-cp38-linux_x86_64.whl
+  msgpack:
+    files:
+      - hash_name: sha256
+        hash_value: 5d68ea085cfcf2a355c7cd803a54ceea9ad621df2a99b5f8b1307d22dfeada10
+        href: https://github.com/alpine-wheels/msgpack/releases/download/1.0.0/msgpack-1.0.0-cp38-cp38-linux_x86_64.whl
   multidict:
     files:
       - hash_name: sha256

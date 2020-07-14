@@ -119,6 +119,11 @@ packages:
       - hash_name: sha256
         hash_value: 85a3be6e8f09fc88e45ebb7f02e0d2e20f8e6fc9595fcfb31a2c4016336533b0
         href: https://github.com/alpine-wheels/psycopg2/releases/download/2.8.5/psycopg2-2.8.5-cp38-cp38-linux_x86_64.whl
+  pyrsistent:
+    files:
+      - hash_name: sha256
+        hash_value: 401d6bbe3556ffb9d2543e1b0b0245056f815bde2e2fc692dafcb38de1a45e44
+        href: https://github.com/alpine-wheels/pyrsistent/releases/download/0.14.11/pyrsistent-0.14.11-cp38-cp38-linux_x86_64.whl
   ruamel.yaml.clib:
     files:
       - hash_name: sha256

@@ -70,6 +70,11 @@ packages:
       - hash_name: sha256
         hash_value: 11d2db552d6935ad9e581f49920d2c63f7defc996b3495378c7c5a0753e12c09
         href: https://github.com/alpine-wheels/elastic-apm/releases/download/5.8.0/elastic_apm-5.8.0-py3-none-any.whl
+  future:
+    files:
+      - hash_name: sha256
+        hash_value: f120d74bf64a647ad69fee3ee5f05983bd7dc9ab62a91705c1966f73726906a7
+        href: https://github.com/alpine-wheels/future/releases/download/0.18.2/future-0.18.2-py3-none-any.whl
   jsmin:
     files:
       - hash_name: sha256

@@ -55,6 +55,11 @@ packages:
       - hash_name: sha256
         hash_value: 754a93f666913b3dba3df81b10a6a64fd5392aebcfec8904fcf9e3a6cc180bb6
         href: https://github.com/alpine-wheels/cffi/releases/download/1.14.0/cffi-1.14.0-cp38-cp38-linux_x86_64.whl
+  cmake:
+    files:
+      - hash_name: sha256
+        hash_value: a506d6d71afa5ecf77c436d56bba100193c4c097eba45f5e611c319fb3935ad4
+        href: https://github.com/alpine-wheels/cmake/releases/download/3.17.3/cmake-3.17.3-cp38-cp38-linux_x86_64.whl
   cryptography:
     files:
       - hash_name: sha256

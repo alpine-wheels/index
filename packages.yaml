@@ -160,6 +160,11 @@ packages:
       - hash_name: sha256
         hash_value: 401d6bbe3556ffb9d2543e1b0b0245056f815bde2e2fc692dafcb38de1a45e44
         href: https://github.com/alpine-wheels/pyrsistent/releases/download/0.14.11/pyrsistent-0.14.11-cp38-cp38-linux_x86_64.whl
+  python-opencv:
+    files:
+      - hash_name: sha256
+        hash_value: a0480f29884f2310a8784418a5d6939405e11938631c9a37edd16b9e8b0eb7a8
+        href: https://github.com/alpine-wheels/opencv-python/releases/download/3.4.10.35/opencv_python-3.4.10.35-cp38-cp38-linux_x86_64.whl
   ruamel.yaml.clib:
     files:
       - hash_name: sha256

@@ -60,6 +60,9 @@ packages:
       - hash_name: sha256
         hash_value: a506d6d71afa5ecf77c436d56bba100193c4c097eba45f5e611c319fb3935ad4
         href: https://github.com/alpine-wheels/cmake/releases/download/3.17.3/cmake-3.17.3-cp38-cp38-linux_x86_64.whl
+      - hash_name: sha256
+        hash_value: 1a5d96ada5d18092ca8fab529721c6a8dc42eb2f9ad8fadf9cbfbafd825fbbe0
+        href: https://github.com/alpine-wheels/cmake/releases/download/3.18.0/cmake-3.18.0-cp38-cp38-linux_x86_64.whl
   cryptography:
     files:
       - hash_name: sha256

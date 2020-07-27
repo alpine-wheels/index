@@ -242,3 +242,6 @@ packages:
       - hash_name: sha256
         hash_value: 941e8db102e0941d3a2a14dd70fc426104915aacd8f294d486b9cb18622198b8
         href: https://github.com/alpine-wheels/yarl/releases/download/1.4.2/yarl-1.4.2-cp38-cp38-linux_x86_64.whl
+      - hash_name: sha256
+        hash_value: 5566c8637933601baff7cc28400293b8e10cfb6df73f373c15da5ad28a616728
+        href: https://github.com/alpine-wheels/yarl/releases/download/1.5.0/yarl-1.5.0-cp38-cp38-linux_x86_64.whl

@@ -6,4 +6,4 @@ This is a PEP 503-compliant Python package index specifically providing wheels b
 
 To search this index, add one line at the top of your `requirements.txt` file:
 
-    --extra-index-url https://alpine-wheels.github.io/index/
+    --extra-index-url https://alpine-wheels.github.io/index

@@ -56,6 +56,9 @@ packages:
       - hash_name: sha256
         hash_value: b5eac1b32acd6ecf4ba7f6699c7ebfb49e0a20dba0bbbf6d31dad34e3d2b8b4a
         href: https://github.com/alpine-wheels/cartography/releases/download/0.23.1/cartography-0.23.1-py3-none-any.whl
+      - hash_name: sha256
+        hash_value: 32b1ab338334e90069beba9519bde9627cc5ef5b4d306f985fb27f43cef9419b
+        href: https://github.com/alpine-wheels/cartography/releases/download/0.26.0/cartography-0.26.0-py3-none-any.whl
   cffi:
     files:
       - hash_name: sha256

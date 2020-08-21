@@ -129,6 +129,11 @@ packages:
       - hash_name: sha256
         hash_value: 85979718fe1ee155659238e9c113a0690ed866ef29aeb762b8910ea75169212e
         href: https://github.com/alpine-wheels/multidict/releases/download/4.7.6/multidict-4.7.6-cp38-cp38-linux_x86_64.whl
+  mysqlclient:
+    files:
+      - hash_name: sha256
+        hash_value: 82f510bcc5d06c96d64d18220c06dba96d4bd86bfe1d455220f738bce2a6b54e
+        href: https://github.com/alpine-wheels/mysqlclient/releases/download/2.0.1/mysqlclient-2.0.1-cp38-cp38-linux_x86_64.whl
   neo4j:
     files:
       - hash_name: sha256

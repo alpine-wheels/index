@@ -251,6 +251,11 @@ packages:
       - hash_name: sha256
         hash_value: 655e29bb98d59061441f1698adabb1013fa7e6d3536040e5a9e78d3f665c4ee7
         href: https://github.com/alpine-wheels/pyrsistent/releases/download/0.16.0/pyrsistent-0.16.0-cp38-cp38-linux_x86_64.whl
+  regex:
+    files:
+      - hash_name: sha256
+        hash_value: c9d9cbfc62670b1d492f3520ba54b4c9d33184446e50da1603f3f59824a5a1bd
+        href: https://github.com/alpine-wheels/regex/releases/download/2020.7.14/regex-2020.7.14-cp38-cp38-linux_x86_64.whl
   ruamel.yaml.clib:
     files:
       - hash_name: sha256

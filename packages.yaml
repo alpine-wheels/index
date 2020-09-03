@@ -4,6 +4,11 @@ packages:
       - hash_name: sha256
         hash_value: f0468a95d6edf763fb25e9052e2c4395f8beef89352033beb8e59fd674fd77ce
         href: https://github.com/alpine-wheels/markupsafe/releases/download/1.1.1/MarkupSafe-1.1.1-py3-none-any.whl
+  Pillow:
+    files:
+      - hash_name: sha256
+        hash_value: 0b63ca6e0108bf26cdd1be6ec2beb0990907b8d3cc00340654b8c582c02660c1
+        href: https://github.com/alpine-wheels/pillow/releases/download/7.2.0/Pillow-7.2.0-cp38-cp38-linux_x86_64.whl
   PyNaCl:
     files:
       - hash_name: sha256

@@ -17,7 +17,7 @@ jobs:
       - name: Add the new file
         run: docker-compose run -T add-file ${{ github.event.client_payload.package_name }} ${{ github.event.client_payload.href }} ${{ github.event.client_payload.hash_name }} ${{ github.event.client_payload.hash_value }}
       - name: Create pull request
-        uses: peter-evans/create-pull-request@v3.2.0
+        uses: peter-evans/create-pull-request@v3.3.0
         with:
           commit-message: Add a file for ${{ github.event.client_payload.package_name }} to the index
           title: Add a file for ${{ github.event.client_payload.package_name }} to the index

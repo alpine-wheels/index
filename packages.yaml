@@ -274,6 +274,9 @@ packages:
       - hash_name: sha256
         hash_value: 655e29bb98d59061441f1698adabb1013fa7e6d3536040e5a9e78d3f665c4ee7
         href: https://github.com/alpine-wheels/pyrsistent/releases/download/0.16.0/pyrsistent-0.16.0-cp38-cp38-linux_x86_64.whl
+      - hash_name: sha256
+        hash_value: 7f6006f05c0381b8d546f5a68cecf8c4f1df778182fe346cdd771d21abb379bb
+        href: https://github.com/alpine-wheels/pyrsistent/releases/download/0.17.3/pyrsistent-0.17.3-cp38-cp38-linux_x86_64.whl
   regex:
     files:
       - hash_name: sha256

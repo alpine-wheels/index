@@ -235,6 +235,9 @@ packages:
       - hash_name: sha256
         hash_value: 3fadb7876d8b51f1990e8afbcc25c34ec048f29a410ee0e5831f43cf9ae651e6
         href: https://github.com/alpine-wheels/opencv-python/releases/download/4.4.0.42/opencv_python-4.4.0.42-cp38-cp38-linux_x86_64.whl
+      - hash_name: sha256
+        hash_value: cd92914830ad01cd4bcda75fedf15d307c44e709e89c8c3a9c93b828a35d26c3
+        href: https://github.com/alpine-wheels/opencv-python/releases/download/3.4.11.43/opencv_python-3.4.11.43-cp38-cp38-linux_x86_64.whl
   pandas:
     files:
       - hash_name: sha256

@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out the repository
-        uses: actions/checkout@v2.3.2
+        uses: actions/checkout@v2.3.3
       - name: Log in to the GitHub registry
         run: docker login --password "${{ github.token }}" --username "${{ github.actor }}" docker.pkg.github.com
       - name: Add the new file

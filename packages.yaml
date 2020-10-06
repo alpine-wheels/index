@@ -266,6 +266,9 @@ packages:
     - hash_name: sha256
       hash_value: a994d63e8af65d6c8acd19425093cd08e698c4ecfc9709f2efcc4cec911d13b5
       href: https://github.com/alpine-wheels/pandas/releases/download/1.1.2/pandas-1.1.2-cp38-cp38-linux_x86_64.whl
+    - hash_name: sha256
+      hash_value: 036543d013f0d962bb71dff48a7f3f696fb45156ec74411115cc03a219614a1a
+      href: https://github.com/alpine-wheels/pandas/releases/download/1.1.3/pandas-1.1.3-cp38-cp38-linux_x86_64.whl
   pendulum:
     files:
     - hash_name: sha256

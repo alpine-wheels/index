@@ -360,6 +360,9 @@ packages:
       - hash_name: sha256
         hash_value: 2f3269daaa068feb2bebf77115d2eeb3fcdeaea6bd7fdfbc4f11ffb1134d44eb
         href: https://github.com/alpine-wheels/typed-ast/releases/download/1.4.1/typed_ast-1.4.1-cp38-cp38-linux_x86_64.whl
+      - hash_name: sha256
+        hash_value: 22e6d9668678c816523f679bde79aa431692e55c30716d76d70ef9cc8d7f7b28
+        href: https://github.com/alpine-wheels/typed-ast/releases/download/1.4.1/typed_ast-1.4.1-cp39-cp39-linux_x86_64.whl
   vsts-cd-manager:
     files:
       - hash_name: sha256

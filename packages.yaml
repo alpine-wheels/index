@@ -51,6 +51,9 @@ packages:
       - hash_name: sha256
         hash_value: ea000b642484eac4546da5b8fcbbd7517e39d75acadd6b65b9078418e8412a28
         href: https://github.com/alpine-wheels/bcrypt/releases/download/3.2.0/bcrypt-3.2.0-cp38-cp38-linux_x86_64.whl
+      - hash_name: sha256
+        hash_value: 2ca7b9660066ca80ee81c0d138ce2ec8824bde5fd202744702b9d0d8b09d729d
+        href: https://github.com/alpine-wheels/bcrypt/releases/download/3.2.0/bcrypt-3.2.0-cp39-cp39-linux_x86_64.whl
   blinker:
     files:
       - hash_name: sha256

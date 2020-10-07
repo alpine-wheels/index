@@ -317,6 +317,9 @@ packages:
       - hash_name: sha256
         hash_value: e98e20c5a44f84c3972b72b7001869a6d05e30c24c934a5682e64a03f4dbc283
         href: https://github.com/alpine-wheels/psutil/releases/download/5.7.2/psutil-5.7.2-cp38-cp38-linux_x86_64.whl
+      - hash_name: sha256
+        hash_value: cd5d51e83f56b47694a417861e6259745a24781e9cbccb0c01a0c6c332e2d69a
+        href: https://github.com/alpine-wheels/psutil/releases/download/5.7.2/psutil-5.7.2-cp39-cp39-linux_x86_64.whl
   psycopg2:
     files:
       - hash_name: sha256

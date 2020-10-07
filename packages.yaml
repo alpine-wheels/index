@@ -301,6 +301,9 @@ packages:
       - hash_name: sha256
         hash_value: 8b2bf05b38338f642127e995777af3de7647bb40a0180f47ea8cfa404a06bf6c
         href: https://github.com/alpine-wheels/psycopg2/releases/download/2.8.6/psycopg2-2.8.6-cp38-cp38-linux_x86_64.whl
+      - hash_name: sha256
+        hash_value: ca6c29e1ea43c0a10f1baf3dae13a8560ae9527f01c24c87a8f6301b1391cd58
+        href: https://github.com/alpine-wheels/psycopg2/releases/download/2.8.6/psycopg2-2.8.6-cp39-cp39-linux_x86_64.whl
   pycryptodome:
     files:
       - hash_name: sha256

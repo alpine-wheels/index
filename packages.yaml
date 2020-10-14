@@ -41,6 +41,9 @@ packages:
       - hash_name: sha256
         hash_value: bd25bd9cb6a3187551cd03a861467af9ae7979105f4b335b2e0ff520c6949a66
         href: https://github.com/alpine-wheels/sqlalchemy/releases/download/1.3.19/SQLAlchemy-1.3.19-cp38-cp38-linux_x86_64.whl
+      - hash_name: sha256
+        hash_value: adb478b4ccb4474a38a8d08cfc28ba8f47299234f3bfb9912d47cf679bd8d026
+        href: https://github.com/alpine-wheels/sqlalchemy/releases/download/1.3.20/SQLAlchemy-1.3.20-cp39-cp39-linux_x86_64.whl
   antlr4-python3-runtime:
     files:
       - hash_name: sha256

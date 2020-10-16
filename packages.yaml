@@ -388,6 +388,9 @@ packages:
       - hash_name: sha256
         hash_value: 7514b969d73920ad2d5d815b36b65280b160ed183b6c670e43bf0f395a26fc79
         href: https://github.com/alpine-wheels/regex/releases/download/2020.10.11/regex-2020.10.11-cp39-cp39-linux_x86_64.whl
+      - hash_name: sha256
+        hash_value: 87f9c3db8ffc908f2aab72d48607873f1e90cabae22b34ccc373917cbfd77d0b
+        href: https://github.com/alpine-wheels/regex/releases/download/2020.10.15/regex-2020.10.15-cp39-cp39-linux_x86_64.whl
   ruamel.yaml.clib:
     files:
       - hash_name: sha256

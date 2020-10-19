@@ -192,6 +192,9 @@ packages:
       - hash_name: sha256
         hash_value: 5533c57d6c77b07e3b405c71ff0710da91323301dbfbe3d76019603200398786
         href: https://github.com/alpine-wheels/lxml/releases/download/4.5.2/lxml-4.5.2-cp39-cp39-linux_x86_64.whl
+      - hash_name: sha256
+        hash_value: 2cb6ca558995d5dced524b9b80c7fb6babf922fe028a1b023f0ff21f8c57fc8e
+        href: https://github.com/alpine-wheels/lxml/releases/download/4.6.1/lxml-4.6.1-cp39-cp39-linux_x86_64.whl
   msgpack:
     files:
       - hash_name: sha256

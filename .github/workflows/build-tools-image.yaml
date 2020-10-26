@@ -5,12 +5,14 @@ on:
     branches:
       - master
     paths:
+      - .github/workflows/build-tools-image.yaml
       - Dockerfile
       - requirements.txt
   push:
     branches:
       - master
     paths:
+      - .github/workflows/build-tools-image.yaml
       - Dockerfile
       - requirements.txt
 

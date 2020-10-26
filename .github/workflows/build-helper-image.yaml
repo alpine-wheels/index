@@ -1,4 +1,4 @@
-name: Build the tools container image
+name: Build the helper container image
 
 on:
   pull_request:

@@ -10,12 +10,20 @@ jobs:
     name: Add a new file to the package index
     runs-on: ubuntu-latest
     steps:
+
       - name: Check out the repository
         uses: actions/checkout@v2.3.3
-      - name: Log in to the GitHub registry
-        run: docker login --password "${{ github.token }}" --username "${{ github.actor }}" docker.pkg.github.com
+
+      - name: Log in to the GitHub Container Registry
+        uses: docker/login-action@v1.6.0
+        with:
+          registry: ghcr.io
+          username: ${{ secrets.ghcr_username }}
+          password: ${{ secrets.ghcr_token }}
+
       - name: Add the new file
         run: docker-compose run -T add-file ${{ github.event.client_payload.package_name }} ${{ github.event.client_payload.href }} ${{ github.event.client_payload.hash_name }} ${{ github.event.client_payload.hash_value }}
+
       - name: Create pull request
         uses: peter-evans/create-pull-request@v3.4.1
         with:

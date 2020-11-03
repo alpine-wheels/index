@@ -384,6 +384,9 @@ packages:
       - hash_name: sha256
         hash_value: 3086083afd905fc9349c8fbfab7ff1265cbe35726479ec3229f6e56c8b8719ac
         href: https://github.com/alpine-wheels/pycryptodome/releases/download/3.9.8/pycryptodome-3.9.8-cp39-cp39-linux_x86_64.whl
+      - hash_name: sha256
+        hash_value: 7e71bb84edc2e91bb2b292d3e468d0d9a919bad5bca52380a396841af4637895
+        href: https://github.com/alpine-wheels/pycryptodome/releases/download/3.9.9/pycryptodome-3.9.9-cp39-cp39-linux_x86_64.whl
   pyrsistent:
     files:
       - hash_name: sha256

@@ -14,7 +14,7 @@ jobs:
     steps:
 
       - name: Check out the repository
-        uses: actions/checkout@v2.3.3
+        uses: actions/checkout@v2.3.4
 
       - name: Run build
         run: docker-compose run -T publish

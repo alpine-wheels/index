@@ -111,6 +111,9 @@ packages:
       - hash_name: sha256
         hash_value: fe254f64686684feeb5229cc2996ced62647bf7b0a95e091410b7765a4cd6f97
         href: https://github.com/alpine-wheels/cffi/releases/download/1.14.3/cffi-1.14.3-cp39-cp39-linux_x86_64.whl
+      - hash_name: sha256
+        hash_value: f0751c332bd408a025bd0946c7cfe7fdaa33ec3307c4862f575d8f6247122a4d
+        href: https://github.com/alpine-wheels/cffi/releases/download/1.14.4/cffi-1.14.4-cp39-cp39-linux_x86_64.whl
   cmake:
     files:
       - hash_name: sha256

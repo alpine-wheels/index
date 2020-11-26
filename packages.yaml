@@ -58,6 +58,9 @@ packages:
       - hash_name: sha256
         hash_value: 52cf7e95e9dbf0e00bff7f495fa21f965ba68d1de78afd8c9b5e3826d90102dd
         href: https://github.com/alpine-wheels/antlr4-python3-runtime/releases/download/4.8/antlr4_python3_runtime-4.8-py3-none-any.whl
+      - hash_name: sha256
+        hash_value: 83eba9a0c37ab75abc75e5c54de974e29b3b30603273ecc1394be7b178fe3c67
+        href: https://github.com/alpine-wheels/antlr4-python3-runtime/releases/download/4.9/antlr4_python3_runtime-4.9-py3-none-any.whl
   bcrypt:
     files:
       - hash_name: sha256

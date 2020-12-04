@@ -241,6 +241,9 @@ packages:
       - hash_name: sha256
         hash_value: cc3b6b30667e069706b6b93487e65366488dbfaa495633071a4f1772819d6b79
         href: https://github.com/alpine-wheels/multidict/releases/download/5.0.2/multidict-5.0.2-cp39-cp39-linux_x86_64.whl
+      - hash_name: sha256
+        hash_value: de8ae6c0ee3c24dd8d2dc8cb48c84f3f7b7ae504da838875f3d4e6420eb32828
+        href: https://github.com/alpine-wheels/multidict/releases/download/5.1.0/multidict-5.1.0-cp39-cp39-linux_x86_64.whl
   mysqlclient:
     files:
       - hash_name: sha256

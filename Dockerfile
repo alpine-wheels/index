@@ -1,4 +1,4 @@
-FROM python:3.9.0-alpine3.12
+FROM python:3.9.1-alpine3.12
 
 COPY requirements.txt /alpine-wheels/index/requirements.txt
 

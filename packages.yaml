@@ -55,6 +55,9 @@ packages:
       - hash_name: sha256
         hash_value: 86433079394be441eb3d260d3d81492f5552a23127cbb014f1152cc09ada79bf
         href: https://github.com/alpine-wheels/aiohttp/releases/download/3.7.3/aiohttp-3.7.3-cp39-cp39-linux_x86_64.whl
+      - hash_name: sha256
+        hash_value: e35665063826395fd238c79ff58aa900e030d7f044495f64d62b27dc9d5754bd
+        href: https://github.com/alpine-wheels/aiohttp/releases/download/3.6.3/aiohttp-3.6.3-cp39-cp39-linux_x86_64.whl
   antlr4-python3-runtime:
     files:
       - hash_name: sha256

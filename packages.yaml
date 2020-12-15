@@ -246,6 +246,9 @@ packages:
       - hash_name: sha256
         hash_value: 5d68ea085cfcf2a355c7cd803a54ceea9ad621df2a99b5f8b1307d22dfeada10
         href: https://github.com/alpine-wheels/msgpack/releases/download/1.0.0/msgpack-1.0.0-cp38-cp38-linux_x86_64.whl
+      - hash_name: sha256
+        hash_value: 5060ecc51aae35d01b884b8464c4a9789d84ade47a098591b7e28e3de80f15f0
+        href: https://github.com/alpine-wheels/msgpack/releases/download/1.0.1/msgpack-1.0.1-cp39-cp39-linux_x86_64.whl
   multidict:
     files:
       - hash_name: sha256

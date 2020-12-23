@@ -303,6 +303,9 @@ packages:
       - hash_name: sha256
         hash_value: 0e6fdac3591c1afbc984ed7ab7e1164b6f6e59774bde07e7b1a06252d3f4d75c
         href: https://github.com/alpine-wheels/neo4j/releases/download/4.2.0/neo4j-4.2.0-py3-none-any.whl
+      - hash_name: sha256
+        hash_value: 3effa27eaa4c2a13d4b58e9f794014bfeec994cee5dba8653e3db2d2d22e1da0
+        href: https://github.com/alpine-wheels/neo4j/releases/download/4.2.1/neo4j-4.2.1-py3-none-any.whl
   neobolt:
     files:
       - hash_name: sha256

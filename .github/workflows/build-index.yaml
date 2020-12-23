@@ -20,7 +20,7 @@ jobs:
         run: docker-compose run -T publish
 
       - name: Create pull request
-        uses: peter-evans/create-pull-request@v3.5.2
+        uses: peter-evans/create-pull-request@v3.6.0
         with:
           commit-message: Rebuild HTML files
           title: Rebuild HTML files

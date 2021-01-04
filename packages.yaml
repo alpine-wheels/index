@@ -283,6 +283,9 @@ packages:
       - hash_name: sha256
         hash_value: 48172854fcea834b8371a8c6a4425719095c432350a30ac2b90d8c6bf5a85e63
         href: https://github.com/alpine-wheels/mysqlclient/releases/download/2.0.2/mysqlclient-2.0.2-cp39-cp39-linux_x86_64.whl
+      - hash_name: sha256
+        hash_value: 222512c992ec7a85ff229bd4f6a004c408c4050d6e6d3fa2057f8dae049f5013
+        href: https://github.com/alpine-wheels/mysqlclient/releases/download/2.0.3/mysqlclient-2.0.3-cp39-cp39-linux_x86_64.whl
   neo4j:
     files:
       - hash_name: sha256

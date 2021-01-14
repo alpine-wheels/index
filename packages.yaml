@@ -223,6 +223,9 @@ packages:
       - hash_name: sha256
         hash_value: 40fae205ee8ab0c28c4b1683aa442222c97b58529f37244ac2888b1552039e8a
         href: https://github.com/alpine-wheels/greenlet/releases/download/0.4.17/greenlet-0.4.17-cp39-cp39-linux_x86_64.whl
+      - hash_name: sha256
+        hash_value: 68f2b2e7e08eac1c7dd4832b3fcf6f7c1efc490d0b71b491da906cd32df9ac05
+        href: https://github.com/alpine-wheels/greenlet/releases/download/1.0.0/greenlet-1.0.0-cp39-cp39-linux_x86_64.whl
   jsmin:
     files:
       - hash_name: sha256

@@ -84,6 +84,11 @@ packages:
       - hash_name: sha256
         hash_value: e14d32f6a9b0222deb5bd6fea7d9858fd8fad8200ce66b8c7e516f060438cd27
         href: https://github.com/alpine-wheels/antlr4-python3-runtime/releases/download/4.9.1/antlr4_python3_runtime-4.9.1-py3-none-any.whl
+  asyncpg:
+    files:
+      - hash_name: sha256
+        hash_value: 08592c2e5c3b4ce7ce46f1b5dda6d4753fdfc44eefedae28197806c27d63844d
+        href: https://github.com/alpine-wheels/asyncpg/releases/download/0.21.0/asyncpg-0.21.0-cp39-cp39-linux_x86_64.whl
   bcrypt:
     files:
       - hash_name: sha256

@@ -20,6 +20,9 @@ jobs:
       - name: Create pull request
         uses: peter-evans/create-pull-request@v3.8.0
         with:
-          commit-message: Add a file for ${{ github.event.client_payload.package_name }} to the index
-          title: Add a file for ${{ github.event.client_payload.package_name }} to the index
           body: Add a file for ${{ github.event.client_payload.package_name }} to the index
+          branch: add-file-to-index
+          branch-suffix: random
+          commit-message: Add a file for ${{ github.event.client_payload.package_name }} to the index
+          delete-branch: true
+          title: Add a file for ${{ github.event.client_payload.package_name }} to the index

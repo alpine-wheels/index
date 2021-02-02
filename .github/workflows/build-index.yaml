@@ -22,6 +22,8 @@ jobs:
       - name: Create pull request
         uses: peter-evans/create-pull-request@v3.8.0
         with:
+          body: Rebuild HTML files
+          branch: rebuild-html-files
+          branch-suffix: timestamp
           commit-message: Rebuild HTML files
           title: Rebuild HTML files
-          body: Rebuild HTML files

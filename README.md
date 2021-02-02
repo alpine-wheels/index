@@ -16,7 +16,7 @@ To search this index, add one line at the top of your `requirements.txt` file:
 
 ## Contributing
 
-Is there a package you need that is missing from the index? [Open an issue][c] to request it. We only support packages that are available on [PyPI][d] but do not already have a wheel that is compatible with Alpine Linux.
+Is there a package you need that is missing from the index? [Open an issue][c] to suggest it. We only support packages that are available on [PyPI][d] but do not already have a wheel that is compatible with Alpine Linux.
 
 [c]: https://github.com/alpine-wheels/index/issues/new/choose
 [d]: https://pypi.org/

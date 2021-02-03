@@ -259,6 +259,11 @@ packages:
       - hash_name: sha256
         hash_value: 576bc5f2292d053464976b13b401ceb9b19b726d0d6077e80caaedda969e3f30
         href: https://github.com/alpine-wheels/jsondiff/releases/download/1.2.0/jsondiff-1.2.0-py3-none-any.whl
+  lazy-object-proxy:
+    files:
+      - hash_name: sha256
+        hash_value: 7da57c289e5424efbd36f1ecff12ddb86d3c87a27a21882fbe2fc2e0f77d2112
+        href: https://github.com/alpine-wheels/lazy-object-proxy/releases/download/1.4.3/lazy_object_proxy-1.4.3-cp39-cp39-linux_x86_64.whl
   lxml:
     files:
       - hash_name: sha256

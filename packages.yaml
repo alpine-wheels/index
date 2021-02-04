@@ -267,6 +267,9 @@ packages:
       - hash_name: sha256
         hash_value: 9a692992ec7e79afdb6716ba928580ea1c6465660b02799493380a60f7839597
         href: https://github.com/alpine-wheels/lazy-object-proxy/releases/download/1.5.0/lazy_object_proxy-1.5.0-cp39-cp39-linux_x86_64.whl
+      - hash_name: sha256
+        hash_value: 5e29f248961896a0f0d1ca924b9b56f0964f7d16e9293953cea124e40d4048f8
+        href: https://github.com/alpine-wheels/lazy-object-proxy/releases/download/1.5.1/lazy_object_proxy-1.5.1-cp39-cp39-linux_x86_64.whl
   lxml:
     files:
       - hash_name: sha256

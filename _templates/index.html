@@ -1,7 +1,19 @@
 <html lang="en">
 <body>
+
+<h1>Alpine Wheels Index</h1>
+
+<p>This is a PEP 503-compatible Python package index specifically providing wheels built for Alpine Linux.</p>
+<p>To install packages from this index, add the following line to the top of your <code>requirements.txt</code> file:</p>
+<p><code>--extra-index-url https://alpine-wheels.github.io/index</code></p>
+<hr>
+<ul>
 {% for package in packages %}
+    <li>
     <a href="{{ package | normalize }}/">{{ package }}</a>
+    </li>
 {% endfor %}
+</ul>
+
 </body>
 </html>

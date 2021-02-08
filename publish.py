@@ -23,7 +23,7 @@ def main():
     packages = yaml.load(packages_file)
     for name, data in packages.get('packages').items():
         package_template = jinja_env.get_template('package.html')
-        package_rendered = package_template.render(package=data)
+        package_rendered = package_template.render(name=name, package=data)
         out_dir = pathlib.Path(normalize(name))
         out_dir.mkdir(exist_ok=True)
         out_file = out_dir / 'index.html'

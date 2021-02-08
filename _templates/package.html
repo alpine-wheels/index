@@ -1,7 +1,12 @@
 <html lang="en">
 <body>
+<h1>{{ name }}</h1>
+<ul>
 {% for file in package.files %}
+    <li>
     <a href="{{ file.href }}#{{ file.hash_name }}={{ file.hash_value }}">{{ file.href | name_from_href }}</a>
+    </li>
 {% endfor %}
+</ul>
 </body>
 </html>

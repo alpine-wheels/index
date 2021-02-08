@@ -409,6 +409,9 @@ packages:
       - hash_name: sha256
         hash_value: 9de323db6e7bf8de470b0a50efd49c84835e805e4f07aaccf08e9dbf23a6ce3d
         href: https://github.com/alpine-wheels/numpy/releases/download/1.20.0/numpy-1.20.0-cp39-cp39-linux_x86_64.whl
+      - hash_name: sha256
+        hash_value: 238347e05358f3a45776144b2b7d2291fee84da01ee6ffb08c21a107c9a68cad
+        href: https://github.com/alpine-wheels/numpy/releases/download/1.20.1/numpy-1.20.1-cp39-cp39-linux_x86_64.whl
   okta:
     files:
       - hash_name: sha256

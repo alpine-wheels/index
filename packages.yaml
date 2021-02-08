@@ -214,6 +214,9 @@ packages:
       - hash_name: sha256
         hash_value: 11a1ae55c0c98a9285dfe99704fce340a185ecbb58e30e71099aae105f32ec9a
         href: https://github.com/alpine-wheels/cryptography/releases/download/3.4/cryptography-3.4-cp39-cp39-linux_x86_64.whl
+      - hash_name: sha256
+        hash_value: 4986dcef81c7301d6a28fa0d055d75fea0ffda8ff5f8418aa45cdc249e20cd9e
+        href: https://github.com/alpine-wheels/cryptography/releases/download/3.4.1/cryptography-3.4.1-cp39-cp39-linux_x86_64.whl
   elastic-apm:
     files:
       - hash_name: sha256

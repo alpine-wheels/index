@@ -634,6 +634,9 @@ packages:
       - hash_name: sha256
         hash_value: e9a0fb7750393e05f7076bd3f9eea68710ad2b8b6c0b7b3b5e6012df5eea85b5
         href: https://github.com/alpine-wheels/uvloop/releases/download/0.14.0/uvloop-0.14.0-cp39-cp39-linux_x86_64.whl
+      - hash_name: sha256
+        hash_value: 6fc656d374ed329edd2c5ce2076e86c62dc17edf5f34aa842a54664d12961201
+        href: https://github.com/alpine-wheels/uvloop/releases/download/0.15.0/uvloop-0.15.0-cp39-cp39-linux_x86_64.whl
   vsts-cd-manager:
     files:
       - hash_name: sha256

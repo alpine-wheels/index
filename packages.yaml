@@ -568,6 +568,11 @@ packages:
       - hash_name: sha256
         hash_value: ca6c29e1ea43c0a10f1baf3dae13a8560ae9527f01c24c87a8f6301b1391cd58
         href: https://github.com/alpine-wheels/psycopg2/releases/download/2.8.6/psycopg2-2.8.6-cp39-cp39-linux_x86_64.whl
+  pybktree:
+    files:
+      - hash_name: sha256
+        hash_value: 0205e9438f256818a087d6403a2dff50f150782d45fe075f2b1e7d1879224654
+        href: https://github.com/alpine-wheels/pybktree/releases/download/1.1/pybktree-1.1-py3-none-any.whl
   pycryptodome:
     files:
       - hash_name: sha256

@@ -598,6 +598,11 @@ packages:
       - hash_name: sha256
         hash_value: 7f6006f05c0381b8d546f5a68cecf8c4f1df778182fe346cdd771d21abb379bb
         href: https://github.com/alpine-wheels/pyrsistent/releases/download/0.17.3/pyrsistent-0.17.3-cp38-cp38-linux_x86_64.whl
+  python-xmp-toolkit:
+    files:
+      - hash_name: sha256
+        hash_value: 3101a54b8273f81bf64f66af99cf23ea11df833ce6cd462dc823d146c6b4d45b
+        href: https://github.com/alpine-wheels/python-xmp-toolkit/releases/download/2.0.1/python_xmp_toolkit-2.0.1-py3-none-any.whl
   regex:
     files:
       - hash_name: sha256

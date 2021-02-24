@@ -243,6 +243,11 @@ packages:
       - hash_name: sha256
         hash_value: c05f5ccc865c852697b32f8efdf45d256688493d1ed54bae1eeff1ae3df65eda
         href: https://github.com/alpine-wheels/cryptography/releases/download/3.4.6/cryptography-3.4.6-cp39-cp39-linux_x86_64.whl
+  dhash:
+    files:
+      - hash_name: sha256
+        hash_value: dc2d49b789dd8802d7293247bca8da1122b49b04595237125b7e6a72a73e5028
+        href: https://github.com/alpine-wheels/dhash/releases/download/1.3/dhash-1.3-py3-none-any.whl
   elastic-apm:
     files:
       - hash_name: sha256

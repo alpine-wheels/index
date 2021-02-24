@@ -165,6 +165,11 @@ packages:
       - hash_name: sha256
         hash_value: 5202f705167a2e87579798fd90bca03d439a8c8f49028ad034ca5d5127e208f7
         href: https://github.com/alpine-wheels/cffi/releases/download/1.14.5/cffi-1.14.5-cp39-cp39-linux_x86_64.whl
+  click-didyoumean:
+    files:
+      - hash_name: sha256
+        hash_value: a68b2cf0b94ca17d5215840196ab8e4417550b4187644e204e5922f4ff201dcc
+        href: https://github.com/alpine-wheels/click-didyoumean/releases/download/0.0.3/click_didyoumean-0.0.3-py3-none-any.whl
   cmake:
     files:
       - hash_name: sha256

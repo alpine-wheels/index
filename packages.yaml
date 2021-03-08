@@ -652,6 +652,9 @@ packages:
       - hash_name: sha256
         hash_value: c670a17c6bb70141485019bd7bc45bef1885357520b9a74f450b62eb3ab5e02f
         href: https://github.com/alpine-wheels/ruamel.yaml.clib/releases/download/0.2.2/ruamel.yaml.clib-0.2.2-cp38-cp38-linux_x86_64.whl
+      - hash_name: sha256
+        hash_value: 00b4256a9898841850903cc13ea7450b8b04a7b656661992fb4eaa31e0bafd9e
+        href: https://github.com/alpine-wheels/ruamel.yaml.clib/releases/download/0.2.2/ruamel.yaml.clib-0.2.2-cp39-cp39-linux_x86_64.whl
   sshtunnel:
     files:
       - hash_name: sha256

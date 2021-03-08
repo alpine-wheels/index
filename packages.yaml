@@ -24,6 +24,9 @@ packages:
       - hash_name: sha256
         hash_value: f4ba9ccc82ca45cca6009ce7f4a4a32f251fcb4ca9f263ed633daa8d799a874c
         href: https://github.com/alpine-wheels/pillow/releases/download/8.1.1/Pillow-8.1.1-cp39-cp39-linux_x86_64.whl
+      - hash_name: sha256
+        hash_value: 6aa99ee90f4934a2aa3d7b1427547d98e2aa360886dda499f6346dcd846b280a
+        href: https://github.com/alpine-wheels/pillow/releases/download/8.1.2/Pillow-8.1.2-cp39-cp39-linux_x86_64.whl
   PyNaCl:
     files:
       - hash_name: sha256

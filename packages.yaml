@@ -71,6 +71,9 @@ packages:
       - hash_name: sha256
         hash_value: 3a0b3adecbe16d1883eb713c9089d000c1b43b1764de5c6ed9a5cc5b8879657a
         href: https://github.com/alpine-wheels/sqlalchemy/releases/download/1.3.23/SQLAlchemy-1.3.23-cp39-cp39-linux_x86_64.whl
+      - hash_name: sha256
+        hash_value: f64578534f394f52ccce36a532cf477a8d058a3ab0ca24221787cb2260585d38
+        href: https://github.com/alpine-wheels/sqlalchemy/releases/download/1.4.0/SQLAlchemy-1.4.0-cp39-cp39-linux_x86_64.whl
   aiohttp:
     files:
       - hash_name: sha256

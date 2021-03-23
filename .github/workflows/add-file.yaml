@@ -4,6 +4,21 @@ on:
   repository_dispatch:
     types:
       - add_file
+  workflow_dispatch:
+    inputs:
+      package_name:
+        description: Package name
+        required: true
+      href:
+        description: Package file href
+        required: true
+      hash_name:
+        description: Package hash name
+        required: true
+        default: sha256
+      hash_value:
+        description: Package hash value
+        required: true
 
 jobs:
   add-file:
@@ -14,8 +29,13 @@ jobs:
       - name: Check out the repository
         uses: actions/checkout@v2.3.4
 
-      - name: Add the new file
+      - name: Add the new file (on repository dispatch)
+        if: github.event_name == 'repository_dispatch'
         run: docker-compose run -T add-file ${{ github.event.client_payload.package_name }} ${{ github.event.client_payload.href }} ${{ github.event.client_payload.hash_name }} ${{ github.event.client_payload.hash_value }}
+
+      - name: Add the new file (on workflow dispatch)
+        if: github.event_name == 'workflow_dispatch'
+        run: docker-compose run -T add-file ${{ github.event.inputs.package_name }} ${{ github.event.inputs.href }} ${{ github.event.inputs.hash_name }} ${{ github.event.inputs.hash_value }}
 
       - name: Run build
         run: docker-compose run --user="$(id -u):$(id -g)" -T publish

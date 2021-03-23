@@ -2,7 +2,7 @@
 <body>
 <h1>{{ name }}</h1>
 <ul>
-{% for file in package.files %}
+{% for file in packages %}
     <li>
     <a href="{{ file.href }}#{{ file.hash_name }}={{ file.hash_value }}">{{ file.href | name_from_href }}</a>
     </li>

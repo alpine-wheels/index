@@ -29,6 +29,17 @@ pandas
 ```shell
 $ pip install -r requirements.txt
 ```
+### pip-tools
+
+```shell
+# add this to the top of requirements.in
+
+--extra-index-url https://alpine-wheels.github.io/index
+```
+
+```shell
+$ pip-compile
+```
 
 ### Poetry
 

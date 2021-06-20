@@ -74,5 +74,7 @@ $ pipenv install pandas
 
 Is there a package you need that is missing from the index? [Open an issue][c] to suggest it. We only support packages that are available on [PyPI][d] but do not already have a wheel that is compatible with Alpine Linux.
 
+To add a new package, do *not* fork this repository directly; make a new repository for the individual package using https://github.com/alpine-wheels/_template.
+
 [c]: https://github.com/alpine-wheels/index/issues/new/choose
 [d]: https://pypi.org/

@@ -14,7 +14,10 @@ def parse_args():
 
 def main():
     args = parse_args()
-    cnx = sqlite3.connect(pathlib.Path('packages.db').resolve())
+    packages_sql = pathlib.Path('packages.sql').resolve()
+    cnx = sqlite3.connect(':memory:')
+    with packages_sql.open() as f:
+        cnx.executescript(f.read())
     with cnx:
         cnx.execute('''
             insert into packages (name, hash_name, hash_value, href)
@@ -25,6 +28,9 @@ def main():
             'hash_value': args.hash_value,
             'href': args.href
         })
+    with packages_sql.open('w') as f:
+        for line in cnx.iterdump():
+            f.write(f'{line}\n')
     cnx.close()
 
 

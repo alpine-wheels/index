@@ -23,9 +23,11 @@ def main():
                                    loader=jinja2.FileSystemLoader('_templates'), trim_blocks=True)
     jinja_env.filters['name_from_href'] = name_from_href
     jinja_env.filters['normalize'] = normalize
-    packages_db = pathlib.Path('packages.db').resolve()
-    cnx = sqlite3.connect(packages_db)
+    packages_sql = pathlib.Path('packages.sql').resolve()
+    cnx = sqlite3.connect(':memory:')
     cnx.row_factory = sqlite3.Row
+    with packages_sql.open() as f:
+        cnx.executescript(f.read())
     cur = cnx.execute('select name, hash_name, hash_value, href from packages order by name, href')
     packages = cur.fetchall()
     package_names = []

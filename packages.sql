@@ -266,4 +266,5 @@ INSERT INTO "packages" VALUES('psycopg2','sha256','ec1e47728eeaa507ea7d56a9be2cf
 INSERT INTO "packages" VALUES('pandas','sha256','d963e7e66605b8a98d4548128c9157b56b695834ddb850199f4bedd48b4ad405','https://github.com/alpine-wheels/pandas/releases/download/1.2.5/pandas-1.2.5-cp39-cp39-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('numpy','sha256','bbf9903a5216c945445c007411a21e9c3c32b72edd64239681ef3609e4ce4863','https://github.com/alpine-wheels/numpy/releases/download/1.21.0/numpy-1.21.0-cp39-cp39-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('SQLAlchemy','sha256','704929e00290b6963f827e6101b1421010f56a7abf699d820808e1e2c5ea9f4b','https://github.com/alpine-wheels/sqlalchemy/releases/download/1.4.19/SQLAlchemy-1.4.19-cp39-cp39-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('cmake','sha256','6a9f724695a352325d23f8b6aba4391a7c4e095e51ff50897eee81b5734c577a','https://github.com/alpine-wheels/cmake/releases/download/3.20.4/cmake-3.20.4-cp39-cp39-linux_x86_64.whl');
 COMMIT;

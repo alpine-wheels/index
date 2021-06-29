@@ -268,4 +268,5 @@ INSERT INTO "packages" VALUES('numpy','sha256','bbf9903a5216c945445c007411a21e9c
 INSERT INTO "packages" VALUES('SQLAlchemy','sha256','704929e00290b6963f827e6101b1421010f56a7abf699d820808e1e2c5ea9f4b','https://github.com/alpine-wheels/sqlalchemy/releases/download/1.4.19/SQLAlchemy-1.4.19-cp39-cp39-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('cmake','sha256','6a9f724695a352325d23f8b6aba4391a7c4e095e51ff50897eee81b5734c577a','https://github.com/alpine-wheels/cmake/releases/download/3.20.4/cmake-3.20.4-cp39-cp39-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('ruamel.yaml.clib','sha256','4d96248ec9a86e3d03e489622cdf4bd714a30e1010a6a99e22928db42074e59b','https://github.com/alpine-wheels/ruamel.yaml.clib/releases/download/0.2.4/ruamel.yaml.clib-0.2.4-cp39-cp39-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('pyrsistent','sha256','8a1b160fa7f986c1052b67a21998d91f118b0f38b302ad4239e90c010bc8b1c6','https://github.com/alpine-wheels/pyrsistent/releases/download/0.18.0/pyrsistent-0.18.0-cp39-cp39-linux_x86_64.whl');
 COMMIT;

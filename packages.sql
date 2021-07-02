@@ -273,4 +273,5 @@ INSERT INTO "packages" VALUES('elastic-apm','sha256','89b9aec8b372af61e1d20f9622
 INSERT INTO "packages" VALUES('SQLAlchemy','sha256','0ba02b6a4e64b6f371c3692762babafde274363b93bd376ea8015e21ba50def4','https://github.com/alpine-wheels/sqlalchemy/releases/download/1.4.20/SQLAlchemy-1.4.20-cp39-cp39-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('Pillow','sha256','6344661a836f0bcc802768c4d3b733605a6ed353cf433abe3e4480872ebc4ec1','https://github.com/alpine-wheels/pillow/releases/download/8.3.0/Pillow-8.3.0-cp39-cp39-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('regex','sha256','7b16235dad9692329550c31e99eaf72624dd9254122fcac44a36fc81d2147b04','https://github.com/alpine-wheels/regex/releases/download/2021.7.1/regex-2021.7.1-cp39-cp39-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('cmake','sha256','fb7bb992a0836fd1141e23704efecbaeed2a9b76fd6c3a9f9a872931f81d7a98','https://github.com/alpine-wheels/cmake/releases/download/3.20.5/cmake-3.20.5-cp39-cp39-linux_x86_64.whl');
 COMMIT;

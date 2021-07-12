@@ -281,4 +281,5 @@ INSERT INTO "packages" VALUES('Pillow','sha256','16f67da923b4e6e63f177166d7ddde6
 INSERT INTO "packages" VALUES('regex','sha256','c54c2ada03d04905038aa8d7ae3f5c9ceb88f80b8ddf19ccc0f536049fa1fe22','https://github.com/alpine-wheels/regex/releases/download/2021.7.6/regex-2021.7.6-cp39-cp39-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('ruamel.yaml.clib','sha256','66c14ba8d6a9d77d092c065190322892734d8990baa6b7c488746c33c67394eb','https://github.com/alpine-wheels/ruamel.yaml.clib/releases/download/0.2.6/ruamel.yaml.clib-0.2.6-cp39-cp39-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('pandas','sha256','22eedcf46d584fcf370fc4d0d7bd56367b0ee59408f557c347d3ca3e07340bd4','https://github.com/alpine-wheels/pandas/releases/download/1.3.0/pandas-1.3.0-cp39-cp39-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('opencv-python','sha256','0e796d4c496a092e86e881b73e0914354036957f4fbd6e4fd13b5907f74daa8a','https://github.com/alpine-wheels/opencv-python/releases/download/3.4.15.55/opencv_python-3.4.15.55-cp39-cp39-linux_x86_64.whl');
 COMMIT;

@@ -275,4 +275,5 @@ INSERT INTO "packages" VALUES('Pillow','sha256','6344661a836f0bcc802768c4d3b7336
 INSERT INTO "packages" VALUES('regex','sha256','7b16235dad9692329550c31e99eaf72624dd9254122fcac44a36fc81d2147b04','https://github.com/alpine-wheels/regex/releases/download/2021.7.1/regex-2021.7.1-cp39-cp39-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('cmake','sha256','fb7bb992a0836fd1141e23704efecbaeed2a9b76fd6c3a9f9a872931f81d7a98','https://github.com/alpine-wheels/cmake/releases/download/3.20.5/cmake-3.20.5-cp39-cp39-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('cffi','sha256','c0f4f2d49e5aa10af9e7f29d1fc129532ad0c49f649b9167570c83597c319695','https://github.com/alpine-wheels/cffi/releases/download/1.14.6/cffi-1.14.6-cp39-cp39-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('neo4j','sha256','9aa23ec64943f2513a0fcf15d744d3a810d9a7ea962db9ecf016521fef17e6fe','https://github.com/alpine-wheels/neo4j/releases/download/4.3.2/neo4j-4.3.2-py3-none-any.whl');
 COMMIT;

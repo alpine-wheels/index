@@ -279,4 +279,5 @@ INSERT INTO "packages" VALUES('neo4j','sha256','9aa23ec64943f2513a0fcf15d744d3a8
 INSERT INTO "packages" VALUES('elastic-apm','sha256','6bf01d484ac64e7c0097e5637be4ad13f93798bc83e51e5c23538489a5a181a2','https://github.com/alpine-wheels/elastic-apm/releases/download/6.3.2/elastic_apm-6.3.2-py3-none-any.whl');
 INSERT INTO "packages" VALUES('Pillow','sha256','16f67da923b4e6e63f177166d7ddde665581902bbae250904466897dbb5992d7','https://github.com/alpine-wheels/pillow/releases/download/8.3.1/Pillow-8.3.1-cp39-cp39-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('regex','sha256','c54c2ada03d04905038aa8d7ae3f5c9ceb88f80b8ddf19ccc0f536049fa1fe22','https://github.com/alpine-wheels/regex/releases/download/2021.7.6/regex-2021.7.6-cp39-cp39-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('ruamel.yaml.clib','sha256','66c14ba8d6a9d77d092c065190322892734d8990baa6b7c488746c33c67394eb','https://github.com/alpine-wheels/ruamel.yaml.clib/releases/download/0.2.6/ruamel.yaml.clib-0.2.6-cp39-cp39-linux_x86_64.whl');
 COMMIT;

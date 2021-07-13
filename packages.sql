@@ -283,4 +283,5 @@ INSERT INTO "packages" VALUES('ruamel.yaml.clib','sha256','66c14ba8d6a9d77d092c0
 INSERT INTO "packages" VALUES('pandas','sha256','22eedcf46d584fcf370fc4d0d7bd56367b0ee59408f557c347d3ca3e07340bd4','https://github.com/alpine-wheels/pandas/releases/download/1.3.0/pandas-1.3.0-cp39-cp39-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('opencv-python','sha256','0e796d4c496a092e86e881b73e0914354036957f4fbd6e4fd13b5907f74daa8a','https://github.com/alpine-wheels/opencv-python/releases/download/3.4.15.55/opencv_python-3.4.15.55-cp39-cp39-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('opencv-python','sha256','7ad38a628d85690ca2cb5091d5bece827841ddb61caac3b7f101251866f58771','https://github.com/alpine-wheels/opencv-python/releases/download/4.5.3.56/opencv_python-4.5.3.56-cp39-cp39-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('neo4j','sha256','5643280e91be92529249afb03056140924dc9eac7303002bdc27e5f684cf5762','https://github.com/alpine-wheels/neo4j/releases/download/4.3.3/neo4j-4.3.3-py3-none-any.whl');
 COMMIT;

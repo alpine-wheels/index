@@ -284,4 +284,5 @@ INSERT INTO "packages" VALUES('pandas','sha256','22eedcf46d584fcf370fc4d0d7bd563
 INSERT INTO "packages" VALUES('opencv-python','sha256','0e796d4c496a092e86e881b73e0914354036957f4fbd6e4fd13b5907f74daa8a','https://github.com/alpine-wheels/opencv-python/releases/download/3.4.15.55/opencv_python-3.4.15.55-cp39-cp39-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('opencv-python','sha256','7ad38a628d85690ca2cb5091d5bece827841ddb61caac3b7f101251866f58771','https://github.com/alpine-wheels/opencv-python/releases/download/4.5.3.56/opencv_python-4.5.3.56-cp39-cp39-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('neo4j','sha256','5643280e91be92529249afb03056140924dc9eac7303002bdc27e5f684cf5762','https://github.com/alpine-wheels/neo4j/releases/download/4.3.3/neo4j-4.3.3-py3-none-any.whl');
+INSERT INTO "packages" VALUES('uvloop','sha256','7108db35509e0dc6f642e26633bc0a657d69a021dd0f8150a57490fe76de59ed','https://github.com/alpine-wheels/uvloop/releases/download/0.15.3/uvloop-0.15.3-cp39-cp39-linux_x86_64.whl');
 COMMIT;

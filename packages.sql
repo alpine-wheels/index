@@ -287,4 +287,5 @@ INSERT INTO "packages" VALUES('neo4j','sha256','5643280e91be92529249afb030561409
 INSERT INTO "packages" VALUES('uvloop','sha256','7108db35509e0dc6f642e26633bc0a657d69a021dd0f8150a57490fe76de59ed','https://github.com/alpine-wheels/uvloop/releases/download/0.15.3/uvloop-0.15.3-cp39-cp39-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('elastic-apm','sha256','b7d58350b37a65706f97ee4525029f8a60dfa22c478c90106872d7a71bd99b91','https://github.com/alpine-wheels/elastic-apm/releases/download/6.3.3/elastic_apm-6.3.3-py3-none-any.whl');
 INSERT INTO "packages" VALUES('SQLAlchemy','sha256','cdc41df2650c0556eaecf567864967fe690e0f262c30bee6906478e8af7190f9','https://github.com/alpine-wheels/sqlalchemy/releases/download/1.4.21/SQLAlchemy-1.4.21-cp39-cp39-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('cmake','sha256','cc39ce629bf88fd2b024c481f6ef8e9c325853522c2449a79a590fd52b06d81a','https://github.com/alpine-wheels/cmake/releases/download/3.21.0/cmake-3.21.0-cp39-cp39-linux_x86_64.whl');
 COMMIT;

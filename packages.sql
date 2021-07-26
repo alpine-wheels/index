@@ -290,4 +290,5 @@ INSERT INTO "packages" VALUES('SQLAlchemy','sha256','cdc41df2650c0556eaecf567864
 INSERT INTO "packages" VALUES('cmake','sha256','cc39ce629bf88fd2b024c481f6ef8e9c325853522c2449a79a590fd52b06d81a','https://github.com/alpine-wheels/cmake/releases/download/3.21.0/cmake-3.21.0-cp39-cp39-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('numpy','sha256','636f6b0bb67b1b8efb815cb30b568d667ba043547834342c4f7e7c2bd0b76076','https://github.com/alpine-wheels/numpy/releases/download/1.21.1/numpy-1.21.1-cp39-cp39-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('SQLAlchemy','sha256','583af752eac8ac3500e58f56044c1e72e62f7934abc1e09551b015d4dacf0f25','https://github.com/alpine-wheels/sqlalchemy/releases/download/1.4.22/SQLAlchemy-1.4.22-cp39-cp39-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('pandas','sha256','6963d33304e833e6b71e79338a80e6deb85167d10241a746a75fcb139417de34','https://github.com/alpine-wheels/pandas/releases/download/1.3.1/pandas-1.3.1-cp39-cp39-linux_x86_64.whl');
 COMMIT;

@@ -293,4 +293,5 @@ INSERT INTO "packages" VALUES('SQLAlchemy','sha256','583af752eac8ac3500e58f56044
 INSERT INTO "packages" VALUES('pandas','sha256','6963d33304e833e6b71e79338a80e6deb85167d10241a746a75fcb139417de34','https://github.com/alpine-wheels/pandas/releases/download/1.3.1/pandas-1.3.1-cp39-cp39-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('cmake','sha256','6d63dac899318a64a952fa69fccb2b874ad041ab3615328efcaed659ab01367e','https://github.com/alpine-wheels/cmake/releases/download/3.21.1/cmake-3.21.1-cp39-cp39-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('cmake','sha256','43227b4082061049fc13049a9b32aee5b5559eff8ce937166329c899205efb42','https://github.com/alpine-wheels/cmake/releases/download/3.21.1.post1/cmake-3.21.1.post1-cp39-cp39-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('neo4j','sha256','45082af84e1ef705122bd7cf552bd7565d854b8944c2e52ef8eaab6f68c3e641','https://github.com/alpine-wheels/neo4j/releases/download/4.3.4/neo4j-4.3.4-py3-none-any.whl');
 COMMIT;

@@ -294,4 +294,5 @@ INSERT INTO "packages" VALUES('pandas','sha256','6963d33304e833e6b71e79338a80e6d
 INSERT INTO "packages" VALUES('cmake','sha256','6d63dac899318a64a952fa69fccb2b874ad041ab3615328efcaed659ab01367e','https://github.com/alpine-wheels/cmake/releases/download/3.21.1/cmake-3.21.1-cp39-cp39-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('cmake','sha256','43227b4082061049fc13049a9b32aee5b5559eff8ce937166329c899205efb42','https://github.com/alpine-wheels/cmake/releases/download/3.21.1.post1/cmake-3.21.1.post1-cp39-cp39-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('neo4j','sha256','45082af84e1ef705122bd7cf552bd7565d854b8944c2e52ef8eaab6f68c3e641','https://github.com/alpine-wheels/neo4j/releases/download/4.3.4/neo4j-4.3.4-py3-none-any.whl');
+INSERT INTO "packages" VALUES('regex','sha256','c6b59e08c7e4c43665e02f78b84a26385f01e8680b3ec3beb16e3524ac900786','https://github.com/alpine-wheels/regex/releases/download/2021.8.3/regex-2021.8.3-cp39-cp39-linux_x86_64.whl');
 COMMIT;

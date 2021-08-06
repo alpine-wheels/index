@@ -299,4 +299,5 @@ INSERT INTO "packages" VALUES('cryptography','sha256','e55964a1771f54400ba98b91d
 INSERT INTO "packages" VALUES('pendulum','sha256','7e00e00926e37b84f861113afe39c29f3e8d7a7d2c93ba672fa2d22a80ee8298','https://github.com/alpine-wheels/pendulum/releases/download/2.1.2/pendulum-2.1.2-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('psycopg2','sha256','e28d19381b76d49b0810935683188fb3f14f6433278c0d44537e32c403e37cad','https://github.com/alpine-wheels/psycopg2/releases/download/2.9.1/psycopg2-2.9.1-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('MarkupSafe','sha256','00dba232bdb0d1295b1e70283d674cf848111bf2bb4e7648a68f03a5ad6c35f8','https://github.com/alpine-wheels/markupsafe/releases/download/2.0.1/MarkupSafe-2.0.1-cp310-cp310-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('cffi','sha256','58e5bdac7d8f06e8cc8a030681d892e14fff460c3c66b5936108cda33d52a4cb','https://github.com/alpine-wheels/cffi/releases/download/1.14.6/cffi-1.14.6-cp310-cp310-linux_x86_64.whl');
 COMMIT;

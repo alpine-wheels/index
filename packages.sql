@@ -297,4 +297,5 @@ INSERT INTO "packages" VALUES('neo4j','sha256','45082af84e1ef705122bd7cf552bd756
 INSERT INTO "packages" VALUES('regex','sha256','c6b59e08c7e4c43665e02f78b84a26385f01e8680b3ec3beb16e3524ac900786','https://github.com/alpine-wheels/regex/releases/download/2021.8.3/regex-2021.8.3-cp39-cp39-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('cryptography','sha256','e55964a1771f54400ba98b91d31c783df0bd41715be7c65711c7963b78a40941','https://github.com/alpine-wheels/cryptography/releases/download/3.4.7/cryptography-3.4.7-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('pendulum','sha256','7e00e00926e37b84f861113afe39c29f3e8d7a7d2c93ba672fa2d22a80ee8298','https://github.com/alpine-wheels/pendulum/releases/download/2.1.2/pendulum-2.1.2-cp310-cp310-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('psycopg2','sha256','e28d19381b76d49b0810935683188fb3f14f6433278c0d44537e32c403e37cad','https://github.com/alpine-wheels/psycopg2/releases/download/2.9.1/psycopg2-2.9.1-cp310-cp310-linux_x86_64.whl');
 COMMIT;

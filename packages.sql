@@ -301,4 +301,5 @@ INSERT INTO "packages" VALUES('psycopg2','sha256','e28d19381b76d49b0810935683188
 INSERT INTO "packages" VALUES('MarkupSafe','sha256','00dba232bdb0d1295b1e70283d674cf848111bf2bb4e7648a68f03a5ad6c35f8','https://github.com/alpine-wheels/markupsafe/releases/download/2.0.1/MarkupSafe-2.0.1-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('cffi','sha256','58e5bdac7d8f06e8cc8a030681d892e14fff460c3c66b5936108cda33d52a4cb','https://github.com/alpine-wheels/cffi/releases/download/1.14.6/cffi-1.14.6-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('cffi','sha256','96fcd1c5220bea3c128ea8883c3989fced0afd5daac2e7082a0b0d3ea85ec7de','https://github.com/alpine-wheels/cffi/releases/download/1.14.5/cffi-1.14.5-cp310-cp310-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('greenlet','sha256','e602b90cf4102a913402e7f9bf0893252479a6ace43d43d714c43b546ec59e2e','https://github.com/alpine-wheels/greenlet/releases/download/1.1.1/greenlet-1.1.1-cp39-cp39-linux_x86_64.whl');
 COMMIT;

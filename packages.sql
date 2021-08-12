@@ -303,4 +303,5 @@ INSERT INTO "packages" VALUES('cffi','sha256','58e5bdac7d8f06e8cc8a030681d892e14
 INSERT INTO "packages" VALUES('cffi','sha256','96fcd1c5220bea3c128ea8883c3989fced0afd5daac2e7082a0b0d3ea85ec7de','https://github.com/alpine-wheels/cffi/releases/download/1.14.5/cffi-1.14.5-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('greenlet','sha256','e602b90cf4102a913402e7f9bf0893252479a6ace43d43d714c43b546ec59e2e','https://github.com/alpine-wheels/greenlet/releases/download/1.1.1/greenlet-1.1.1-cp39-cp39-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('asyncpg','sha256','313faa0be8167b05773e37f88621bcf5507ba084296b3bda0d8eba60b012e74a','https://github.com/alpine-wheels/asyncpg/releases/download/0.24.0/asyncpg-0.24.0-cp39-cp39-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('uvloop','sha256','762be8efefdd92e926c52c2ff2fbc2bcb73e452de34955dcca6908a01bb52fcd','https://github.com/alpine-wheels/uvloop/releases/download/0.16.0/uvloop-0.16.0-cp39-cp39-linux_x86_64.whl');
 COMMIT;

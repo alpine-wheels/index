@@ -306,4 +306,5 @@ INSERT INTO "packages" VALUES('asyncpg','sha256','313faa0be8167b05773e37f88621bc
 INSERT INTO "packages" VALUES('uvloop','sha256','762be8efefdd92e926c52c2ff2fbc2bcb73e452de34955dcca6908a01bb52fcd','https://github.com/alpine-wheels/uvloop/releases/download/0.16.0/uvloop-0.16.0-cp39-cp39-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('pandas','sha256','108d9f648a5b1afd87300df758da89842823d8152f5f06894dcd23eca58db859','https://github.com/alpine-wheels/pandas/releases/download/1.3.2/pandas-1.3.2-cp39-cp39-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('numpy','sha256','9678ac49fcd0c976c32872715cd5f0a8d73bb10b4ce419f498208546d264810b','https://github.com/alpine-wheels/numpy/releases/download/1.21.2/numpy-1.21.2-cp39-cp39-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('SQLAlchemy','sha256','1810d5bee0aa3e5939e53db0d383407066ea74ffd27affbd6c4d74ce497434c0','https://github.com/alpine-wheels/sqlalchemy/releases/download/1.4.23/SQLAlchemy-1.4.23-cp39-cp39-linux_x86_64.whl');
 COMMIT;

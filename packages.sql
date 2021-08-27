@@ -309,4 +309,5 @@ INSERT INTO "packages" VALUES('numpy','sha256','9678ac49fcd0c976c32872715cd5f0a8
 INSERT INTO "packages" VALUES('SQLAlchemy','sha256','1810d5bee0aa3e5939e53db0d383407066ea74ffd27affbd6c4d74ce497434c0','https://github.com/alpine-wheels/sqlalchemy/releases/download/1.4.23/SQLAlchemy-1.4.23-cp39-cp39-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('regex','sha256','c42dbfd4b57808ad170e196727c9651832adaa51a4a6faa5619d1f4bad0219dc','https://github.com/alpine-wheels/regex/releases/download/2021.8.21/regex-2021.8.21-cp39-cp39-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('cryptography','sha256','59294ce0f9988a383663da0ff3a8a5e1982b85118c41840727f9d4826edcf186','https://github.com/alpine-wheels/cryptography/releases/download/3.4.8/cryptography-3.4.8-cp39-cp39-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('regex','sha256','3a144b494bf37d50faea48d1e72ec201c415ba91539c89f9655d5419eb7c8c02','https://github.com/alpine-wheels/regex/releases/download/2021.8.27/regex-2021.8.27-cp39-cp39-linux_x86_64.whl');
 COMMIT;

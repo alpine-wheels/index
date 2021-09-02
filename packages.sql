@@ -312,4 +312,5 @@ INSERT INTO "packages" VALUES('cryptography','sha256','59294ce0f9988a383663da0ff
 INSERT INTO "packages" VALUES('regex','sha256','3a144b494bf37d50faea48d1e72ec201c415ba91539c89f9655d5419eb7c8c02','https://github.com/alpine-wheels/regex/releases/download/2021.8.27/regex-2021.8.27-cp39-cp39-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('cmake','sha256','59b47ed6e0bcb46570f87245b0fa596cd939cc9467190c8346bbb8cc1b5d8aa7','https://github.com/alpine-wheels/cmake/releases/download/3.21.2/cmake-3.21.2-cp39-cp39-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('regex','sha256','dfb87f0f09333720e5c7e837d6a9408d077b83317e5ff6210233c267adcaabeb','https://github.com/alpine-wheels/regex/releases/download/2021.8.28/regex-2021.8.28-cp39-cp39-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('google-crc32c','sha256','731987b220252935e998c6cb4c5e2d3a022e1cbbcf63676c2ee70acc0ddddda0','https://github.com/alpine-wheels/google-crc32c/releases/download/1.1.4/google_crc32c-1.1.4-py3-none-any.whl');
 COMMIT;

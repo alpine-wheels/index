@@ -315,4 +315,5 @@ INSERT INTO "packages" VALUES('regex','sha256','dfb87f0f09333720e5c7e837d6a9408d
 INSERT INTO "packages" VALUES('google-crc32c','sha256','731987b220252935e998c6cb4c5e2d3a022e1cbbcf63676c2ee70acc0ddddda0','https://github.com/alpine-wheels/google-crc32c/releases/download/1.1.4/google_crc32c-1.1.4-py3-none-any.whl');
 INSERT INTO "packages" VALUES('Pillow','sha256','bb58a50a9bbecd6af7c5cf95cab04829cfa4cdeffd1b5a8594fc7ca6e409a9c3','https://github.com/alpine-wheels/pillow/releases/download/8.3.2/Pillow-8.3.2-cp39-cp39-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('elastic-apm','sha256','e837b71bd03c4a2221295f81f73e2d344dce07e16c886fec89026d791badcab4','https://github.com/alpine-wheels/elastic-apm/releases/download/6.4.0/elastic_apm-6.4.0-cp39-cp39-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('google-crc32c','sha256','a3f4411dbf3d2f290ebf9d44906f9bb68d5403559535fcde1e01988135ffdd9e','https://github.com/alpine-wheels/google-crc32c/releases/download/1.1.5/google_crc32c-1.1.5-py3-none-any.whl');
 COMMIT;

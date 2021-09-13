@@ -317,4 +317,5 @@ INSERT INTO "packages" VALUES('Pillow','sha256','bb58a50a9bbecd6af7c5cf95cab0482
 INSERT INTO "packages" VALUES('elastic-apm','sha256','e837b71bd03c4a2221295f81f73e2d344dce07e16c886fec89026d791badcab4','https://github.com/alpine-wheels/elastic-apm/releases/download/6.4.0/elastic_apm-6.4.0-cp39-cp39-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('google-crc32c','sha256','a3f4411dbf3d2f290ebf9d44906f9bb68d5403559535fcde1e01988135ffdd9e','https://github.com/alpine-wheels/google-crc32c/releases/download/1.1.5/google_crc32c-1.1.5-py3-none-any.whl');
 INSERT INTO "packages" VALUES('websockets','sha256','1b53b3253f868b9611e71a81ad10646a54b8bae2aee03391f6a7a026b77fc2f9','https://github.com/alpine-wheels/websockets/releases/download/10.0/websockets-10.0-cp39-cp39-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('pandas','sha256','6740ee03f86501c3b19c86121239737c209b3d5464e34317647c47329b582fbe','https://github.com/alpine-wheels/pandas/releases/download/1.3.3/pandas-1.3.3-cp39-cp39-linux_x86_64.whl');
 COMMIT;

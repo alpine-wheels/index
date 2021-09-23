@@ -321,4 +321,5 @@ INSERT INTO "packages" VALUES('pandas','sha256','6740ee03f86501c3b19c86121239737
 INSERT INTO "packages" VALUES('jsmin','sha256','66d1193285fd4d944c4d40cc78168d53c13736740dced40beec69004dd843eaa','https://github.com/alpine-wheels/jsmin/releases/download/3.0.0/jsmin-3.0.0-py3-none-any.whl');
 INSERT INTO "packages" VALUES('google-crc32c','sha256','999c08d1906d10115ffce256606b465b5e50423fe647a45a4cc65c2db9a0e9db','https://github.com/alpine-wheels/google-crc32c/releases/download/1.2.0/google_crc32c-1.2.0-py3-none-any.whl');
 INSERT INTO "packages" VALUES('SQLAlchemy','sha256','27bb21090d7bfc01ce834848421198b62aead8caefcf5872f2b294d3acb10957','https://github.com/alpine-wheels/sqlalchemy/releases/download/1.4.25/SQLAlchemy-1.4.25-cp39-cp39-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('neo4j','sha256','5c58693cbae6dbe4af9a38a613b4655d418f594d7fcf7c2edefba9efbade599c','https://github.com/alpine-wheels/neo4j/releases/download/4.3.5/neo4j-4.3.5-py3-none-any.whl');
 COMMIT;

@@ -320,4 +320,5 @@ INSERT INTO "packages" VALUES('websockets','sha256','1b53b3253f868b9611e71a81ad1
 INSERT INTO "packages" VALUES('pandas','sha256','6740ee03f86501c3b19c86121239737c209b3d5464e34317647c47329b582fbe','https://github.com/alpine-wheels/pandas/releases/download/1.3.3/pandas-1.3.3-cp39-cp39-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('jsmin','sha256','66d1193285fd4d944c4d40cc78168d53c13736740dced40beec69004dd843eaa','https://github.com/alpine-wheels/jsmin/releases/download/3.0.0/jsmin-3.0.0-py3-none-any.whl');
 INSERT INTO "packages" VALUES('google-crc32c','sha256','999c08d1906d10115ffce256606b465b5e50423fe647a45a4cc65c2db9a0e9db','https://github.com/alpine-wheels/google-crc32c/releases/download/1.2.0/google_crc32c-1.2.0-py3-none-any.whl');
+INSERT INTO "packages" VALUES('SQLAlchemy','sha256','27bb21090d7bfc01ce834848421198b62aead8caefcf5872f2b294d3acb10957','https://github.com/alpine-wheels/sqlalchemy/releases/download/1.4.25/SQLAlchemy-1.4.25-cp39-cp39-linux_x86_64.whl');
 COMMIT;

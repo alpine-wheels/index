@@ -323,4 +323,5 @@ INSERT INTO "packages" VALUES('google-crc32c','sha256','999c08d1906d10115ffce256
 INSERT INTO "packages" VALUES('SQLAlchemy','sha256','27bb21090d7bfc01ce834848421198b62aead8caefcf5872f2b294d3acb10957','https://github.com/alpine-wheels/sqlalchemy/releases/download/1.4.25/SQLAlchemy-1.4.25-cp39-cp39-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('neo4j','sha256','5c58693cbae6dbe4af9a38a613b4655d418f594d7fcf7c2edefba9efbade599c','https://github.com/alpine-wheels/neo4j/releases/download/4.3.5/neo4j-4.3.5-py3-none-any.whl');
 INSERT INTO "packages" VALUES('pycryptodome','sha256','43ec3e243b6ec27d7f701a2682362d06bf691c08749744ef589439db8417be34','https://github.com/alpine-wheels/pycryptodome/releases/download/3.10.4/pycryptodome-3.10.4-cp35-abi3-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('regex','sha256','35fcb789c98656c80889815f9e015dba25b8bcdae2755b6ecf917a61cd5155f5','https://github.com/alpine-wheels/regex/releases/download/2021.9.24/regex-2021.9.24-cp39-cp39-linux_x86_64.whl');
 COMMIT;

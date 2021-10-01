@@ -325,4 +325,5 @@ INSERT INTO "packages" VALUES('neo4j','sha256','5c58693cbae6dbe4af9a38a613b4655d
 INSERT INTO "packages" VALUES('pycryptodome','sha256','43ec3e243b6ec27d7f701a2682362d06bf691c08749744ef589439db8417be34','https://github.com/alpine-wheels/pycryptodome/releases/download/3.10.4/pycryptodome-3.10.4-cp35-abi3-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('regex','sha256','35fcb789c98656c80889815f9e015dba25b8bcdae2755b6ecf917a61cd5155f5','https://github.com/alpine-wheels/regex/releases/download/2021.9.24/regex-2021.9.24-cp39-cp39-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('greenlet','sha256','c36d1360a1406f67c451c9ed92539c5fa97b724952641a4dfe07a18defe459e4','https://github.com/alpine-wheels/greenlet/releases/download/1.1.2/greenlet-1.1.2-cp39-cp39-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('regex','sha256','07c658282e1876751596c06ae1df669c6864a0ef020380301648c5d6e03d378e','https://github.com/alpine-wheels/regex/releases/download/2021.9.30/regex-2021.9.30-cp39-cp39-linux_x86_64.whl');
 COMMIT;

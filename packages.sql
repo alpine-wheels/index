@@ -327,4 +327,5 @@ INSERT INTO "packages" VALUES('regex','sha256','35fcb789c98656c80889815f9e015dba
 INSERT INTO "packages" VALUES('greenlet','sha256','c36d1360a1406f67c451c9ed92539c5fa97b724952641a4dfe07a18defe459e4','https://github.com/alpine-wheels/greenlet/releases/download/1.1.2/greenlet-1.1.2-cp39-cp39-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('regex','sha256','07c658282e1876751596c06ae1df669c6864a0ef020380301648c5d6e03d378e','https://github.com/alpine-wheels/regex/releases/download/2021.9.30/regex-2021.9.30-cp39-cp39-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('elastic-apm','sha256','3d06e5d1b6e5c26c50f03de30d78816b0956c15e8290508e4e7e18ed1e2e5136','https://github.com/alpine-wheels/elastic-apm/releases/download/6.5.0/elastic_apm-6.5.0-cp310-cp310-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('lxml','sha256','7639024fe04ca61fcb848974402257f2bb30356544af4c92f3326303537351fd','https://github.com/alpine-wheels/lxml/releases/download/4.6.3/lxml-4.6.3-cp310-cp310-linux_x86_64.whl');
 COMMIT;

@@ -331,4 +331,5 @@ INSERT INTO "packages" VALUES('lxml','sha256','7639024fe04ca61fcb848974402257f2b
 INSERT INTO "packages" VALUES('bcrypt','sha256','ddde62f40d96cef636e049e703961368e92ac8484262f2d2ea7c7d4231acfe3d','https://github.com/alpine-wheels/bcrypt/releases/download/3.2.0/bcrypt-3.2.0-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('numpy','sha256','4aec7e8c5ec6fbfc747883e59dfdd26882c3adffead7df8257641dd82f70ff14','https://github.com/alpine-wheels/numpy/releases/download/1.21.2/numpy-1.21.2-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('wrapt','sha256','28cc81ae97c2cd88a5b92fb13a65cde06848227a7a62db605a53dcbedf50936e','https://github.com/alpine-wheels/wrapt/releases/download/1.13.1/wrapt-1.13.1-cp310-cp310-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('neo4j','sha256','23bd62c58fff40d7bde8c181c921d7537148f111cd9b84f1a996051fa350ccae','https://github.com/alpine-wheels/neo4j/releases/download/4.3.6/neo4j-4.3.6-py3-none-any.whl');
 COMMIT;

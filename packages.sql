@@ -343,4 +343,5 @@ INSERT INTO "packages" VALUES('psutil','sha256','ab4d8e2893e26d0ada3c1fe8c427a45
 INSERT INTO "packages" VALUES('aiohttp','sha256','a3f65bf6587cef2cc53d29773674cf198e3a5ec04d5d920cce2d783998102e34','https://github.com/alpine-wheels/aiohttp/releases/download/3.7.4.post0/aiohttp-3.7.4.post0-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('multidict','sha256','4dc2b63a24a6ef09736d6063f6f2d9df02c3d48f0236c43ac4216d88f5abc805','https://github.com/alpine-wheels/multidict/releases/download/5.1.0/multidict-5.1.0-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('yarl','sha256','80e3bd3fda1b414ec822ab54d916d8f51f8f2d507a92ea61f34b64cf5a289a46','https://github.com/alpine-wheels/yarl/releases/download/1.6.3/yarl-1.6.3-cp310-cp310-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('Pillow','sha256','59829efeec9b41b92da8fadb611e40e958bbc82d52818f944670192722861006','https://github.com/alpine-wheels/pillow/releases/download/8.3.2/Pillow-8.3.2-cp310-cp310-linux_x86_64.whl');
 COMMIT;

@@ -340,4 +340,5 @@ INSERT INTO "packages" VALUES('PyNaCl','sha256','5cc09f079c75ac702617e0950630cc0
 INSERT INTO "packages" VALUES('cryptography','sha256','2ebe066535322e33153bdd35475e56608c28519e8af7002cf1b2cd847e475ccc','https://github.com/alpine-wheels/cryptography/releases/download/3.3.2/cryptography-3.3.2-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('PyYAML','sha256','02f4f7764a1233dfa315e7dcc846d8500bdfd39af5368363d3660c56400cdb7e','https://github.com/alpine-wheels/pyyaml/releases/download/5.4.1/PyYAML-5.4.1-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('psutil','sha256','ab4d8e2893e26d0ada3c1fe8c427a455bb1ed060e7bac564755d2cc24804b2e8','https://github.com/alpine-wheels/psutil/releases/download/5.8.0/psutil-5.8.0-cp310-cp310-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('aiohttp','sha256','a3f65bf6587cef2cc53d29773674cf198e3a5ec04d5d920cce2d783998102e34','https://github.com/alpine-wheels/aiohttp/releases/download/3.7.4.post0/aiohttp-3.7.4.post0-cp310-cp310-linux_x86_64.whl');
 COMMIT;

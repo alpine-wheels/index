@@ -335,4 +335,5 @@ INSERT INTO "packages" VALUES('neo4j','sha256','23bd62c58fff40d7bde8c181c921d753
 INSERT INTO "packages" VALUES('regex','sha256','1ef02ed2c105eb059441bdf589afe00e5446455b5e7c3980c7a6cf69d37d09f6','https://github.com/alpine-wheels/regex/releases/download/2021.10.8/regex-2021.10.8-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('pycryptodome','sha256','9a502216fa115871b27e951e9647970f1c8caf16bfda8c35ab98f13171979640','https://github.com/alpine-wheels/pycryptodome/releases/download/3.11.0/pycryptodome-3.11.0-cp35-abi3-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('google-crc32c','sha256','48e33b052798d6dcfd7bcec4239576b924db9621af2867f1139146030fea995b','https://github.com/alpine-wheels/google-crc32c/releases/download/1.3.0/google_crc32c-1.3.0-py3-none-any.whl');
+INSERT INTO "packages" VALUES('google-crc32c','sha256','c96fe34bb3e73f096c53418454d6e8659fdebdaf47e4b21b44fdc183ee919e3d','https://github.com/alpine-wheels/google-crc32c/releases/download/1.3.0/google_crc32c-1.3.0-cp310-cp310-linux_x86_64.whl');
 COMMIT;

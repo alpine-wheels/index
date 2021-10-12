@@ -338,4 +338,5 @@ INSERT INTO "packages" VALUES('google-crc32c','sha256','48e33b052798d6dcfd7bcec4
 INSERT INTO "packages" VALUES('google-crc32c','sha256','c96fe34bb3e73f096c53418454d6e8659fdebdaf47e4b21b44fdc183ee919e3d','https://github.com/alpine-wheels/google-crc32c/releases/download/1.3.0/google_crc32c-1.3.0-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('PyNaCl','sha256','5cc09f079c75ac702617e0950630cc0fe3263b47458984b54837b6b9e0fcf829','https://github.com/alpine-wheels/pynacl/releases/download/1.4.0/PyNaCl-1.4.0-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('cryptography','sha256','2ebe066535322e33153bdd35475e56608c28519e8af7002cf1b2cd847e475ccc','https://github.com/alpine-wheels/cryptography/releases/download/3.3.2/cryptography-3.3.2-cp310-cp310-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('PyYAML','sha256','02f4f7764a1233dfa315e7dcc846d8500bdfd39af5368363d3660c56400cdb7e','https://github.com/alpine-wheels/pyyaml/releases/download/5.4.1/PyYAML-5.4.1-cp310-cp310-linux_x86_64.whl');
 COMMIT;

@@ -341,4 +341,5 @@ INSERT INTO "packages" VALUES('cryptography','sha256','2ebe066535322e33153bdd354
 INSERT INTO "packages" VALUES('PyYAML','sha256','02f4f7764a1233dfa315e7dcc846d8500bdfd39af5368363d3660c56400cdb7e','https://github.com/alpine-wheels/pyyaml/releases/download/5.4.1/PyYAML-5.4.1-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('psutil','sha256','ab4d8e2893e26d0ada3c1fe8c427a455bb1ed060e7bac564755d2cc24804b2e8','https://github.com/alpine-wheels/psutil/releases/download/5.8.0/psutil-5.8.0-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('aiohttp','sha256','a3f65bf6587cef2cc53d29773674cf198e3a5ec04d5d920cce2d783998102e34','https://github.com/alpine-wheels/aiohttp/releases/download/3.7.4.post0/aiohttp-3.7.4.post0-cp310-cp310-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('multidict','sha256','4dc2b63a24a6ef09736d6063f6f2d9df02c3d48f0236c43ac4216d88f5abc805','https://github.com/alpine-wheels/multidict/releases/download/5.1.0/multidict-5.1.0-cp310-cp310-linux_x86_64.whl');
 COMMIT;

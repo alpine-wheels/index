@@ -345,4 +345,5 @@ INSERT INTO "packages" VALUES('multidict','sha256','4dc2b63a24a6ef09736d6063f6f2
 INSERT INTO "packages" VALUES('yarl','sha256','80e3bd3fda1b414ec822ab54d916d8f51f8f2d507a92ea61f34b64cf5a289a46','https://github.com/alpine-wheels/yarl/releases/download/1.6.3/yarl-1.6.3-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('Pillow','sha256','59829efeec9b41b92da8fadb611e40e958bbc82d52818f944670192722861006','https://github.com/alpine-wheels/pillow/releases/download/8.3.2/Pillow-8.3.2-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('greenlet','sha256','8bd7d683e1b3b1bbe908fc7273fc5a4bab5ea14b28fc5e8a206f56142261ef2d','https://github.com/alpine-wheels/greenlet/releases/download/1.1.2/greenlet-1.1.2-cp310-cp310-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('elastic-apm','sha256','d899a63aae0c3ac29f34e0bd6e03d14777256fb9aab06f0f01de3f7ddcf879d2','https://github.com/alpine-wheels/elastic-apm/releases/download/6.6.0/elastic_apm-6.6.0-cp310-cp310-linux_x86_64.whl');
 COMMIT;

@@ -15,6 +15,7 @@ on:
       - .github/workflows/build-helper-image.yaml
       - Dockerfile
       - requirements.txt
+  workflow_dispatch:
 
 jobs:
 

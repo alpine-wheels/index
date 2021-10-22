@@ -350,4 +350,5 @@ INSERT INTO "packages" VALUES('wrapt','sha256','6026a6bf79bb6ef1930d275ecc881fdb
 INSERT INTO "packages" VALUES('regex','sha256','507d50a53721ee9ce13bcb963cf47e6d0a22216b825448e39631a2616bfdbc9b','https://github.com/alpine-wheels/regex/releases/download/2021.10.21/regex-2021.10.21-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('SQLAlchemy','sha256','11408f105ea8a56233120ebbfb979093dde0536f2dabd5e98c0c864d10c4d00f','https://github.com/alpine-wheels/sqlalchemy/releases/download/1.4.26/SQLAlchemy-1.4.26-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('PyYAML','sha256','0b597efbae7d9eea725e8c5aa93d9c5b87eb71bd4d18c43cb2df8543c93207c1','https://github.com/alpine-wheels/pyyaml/releases/download/6.0/PyYAML-6.0-cp310-cp310-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('numpy','sha256','8dc4cde79a95879dc10490bb35b78de7238a90b04b7dd82812099c75e9912978','https://github.com/alpine-wheels/numpy/releases/download/1.21.3/numpy-1.21.3-cp310-cp310-linux_x86_64.whl');
 COMMIT;

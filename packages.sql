@@ -347,4 +347,5 @@ INSERT INTO "packages" VALUES('Pillow','sha256','59829efeec9b41b92da8fadb611e40e
 INSERT INTO "packages" VALUES('greenlet','sha256','8bd7d683e1b3b1bbe908fc7273fc5a4bab5ea14b28fc5e8a206f56142261ef2d','https://github.com/alpine-wheels/greenlet/releases/download/1.1.2/greenlet-1.1.2-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('elastic-apm','sha256','d899a63aae0c3ac29f34e0bd6e03d14777256fb9aab06f0f01de3f7ddcf879d2','https://github.com/alpine-wheels/elastic-apm/releases/download/6.6.0/elastic_apm-6.6.0-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('wrapt','sha256','6026a6bf79bb6ef1930d275ecc881fdb7535ba6c3932370e2b016407989b833e','https://github.com/alpine-wheels/wrapt/releases/download/1.13.2/wrapt-1.13.2-cp310-cp310-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('regex','sha256','507d50a53721ee9ce13bcb963cf47e6d0a22216b825448e39631a2616bfdbc9b','https://github.com/alpine-wheels/regex/releases/download/2021.10.21/regex-2021.10.21-cp310-cp310-linux_x86_64.whl');
 COMMIT;

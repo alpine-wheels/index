@@ -45,7 +45,7 @@ jobs:
         run: docker-compose run --user="$(id -u):$(id -g)" -T publish
 
       - name: Create pull request
-        uses: peter-evans/create-pull-request@v3.10.1
+        uses: peter-evans/create-pull-request@v3.11.0
         with:
           body: Add a file for ${{ env.PACKAGE_NAME }} to the index
           branch: add-file-to-index

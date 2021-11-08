@@ -359,4 +359,5 @@ INSERT INTO "packages" VALUES('pandas','sha256','669eea675162e3c0d3d1d38495fdf18
 INSERT INTO "packages" VALUES('regex','sha256','3b887170b36151dfa57742bc95e72e193a68203d2786c4d6074b7d1bc24dfb7f','https://github.com/alpine-wheels/regex/releases/download/2021.11.2/regex-2021.11.2-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('antlr4-python3-runtime','sha256','f65b6fdde75dad02ab74128c9424b89c041f614b445a404ebbabededfc943e44','https://github.com/alpine-wheels/antlr4-python3-runtime/releases/download/4.9.3/antlr4_python3_runtime-4.9.3-py3-none-any.whl');
 INSERT INTO "packages" VALUES('neo4j','sha256','ed1ebfea1d45d85e0b212a5a7d46d7bcbed8eb4faa23328564e5e3fcb100b19d','https://github.com/alpine-wheels/neo4j/releases/download/4.4.0/neo4j-4.4.0-py3-none-any.whl');
+INSERT INTO "packages" VALUES('numpy','sha256','33ebf461bfc01a1cfbefa1678af75a761913c5d49e7aed3c5b64ccc6ac2e8b8e','https://github.com/alpine-wheels/numpy/releases/download/1.21.4/numpy-1.21.4-cp310-cp310-linux_x86_64.whl');
 COMMIT;

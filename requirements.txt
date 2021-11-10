@@ -1,3 +1,3 @@
 --extra-index-url https://alpine-wheels.github.io/index
 
-Jinja2==3.0.2
+Jinja2==3.0.3

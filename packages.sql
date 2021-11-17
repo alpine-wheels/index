@@ -362,4 +362,5 @@ INSERT INTO "packages" VALUES('neo4j','sha256','ed1ebfea1d45d85e0b212a5a7d46d7bc
 INSERT INTO "packages" VALUES('numpy','sha256','33ebf461bfc01a1cfbefa1678af75a761913c5d49e7aed3c5b64ccc6ac2e8b8e','https://github.com/alpine-wheels/numpy/releases/download/1.21.4/numpy-1.21.4-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('regex','sha256','64359b8759f0b9eff9dda274187dc90a6f8bd96d96d9471a4ab1560324d2c7e9','https://github.com/alpine-wheels/regex/releases/download/2021.11.10/regex-2021.11.10-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('gevent','sha256','5402ed57615b9cb80f837d91d4f2cc0ce0efc5253bb2b36e7a8758f8bbc33a6f','https://github.com/alpine-wheels/gevent/releases/download/21.8.0/gevent-21.8.0-cp310-cp310-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('psycopg2','sha256','172e67c86c01ce4b4e136f712d1bff6d84e311eb60a034119179f9c0d757826b','https://github.com/alpine-wheels/psycopg2/releases/download/2.9.2/psycopg2-2.9.2-cp310-cp310-linux_x86_64.whl');
 COMMIT;

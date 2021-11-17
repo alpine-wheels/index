@@ -363,4 +363,5 @@ INSERT INTO "packages" VALUES('numpy','sha256','33ebf461bfc01a1cfbefa1678af75a76
 INSERT INTO "packages" VALUES('regex','sha256','64359b8759f0b9eff9dda274187dc90a6f8bd96d96d9471a4ab1560324d2c7e9','https://github.com/alpine-wheels/regex/releases/download/2021.11.10/regex-2021.11.10-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('gevent','sha256','5402ed57615b9cb80f837d91d4f2cc0ce0efc5253bb2b36e7a8758f8bbc33a6f','https://github.com/alpine-wheels/gevent/releases/download/21.8.0/gevent-21.8.0-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('psycopg2','sha256','172e67c86c01ce4b4e136f712d1bff6d84e311eb60a034119179f9c0d757826b','https://github.com/alpine-wheels/psycopg2/releases/download/2.9.2/psycopg2-2.9.2-cp310-cp310-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('typed-ast','sha256','0120b750f958a5ced11bf47cd36dd4a26d27ee21b3ec6b28be4a41d8e2cc00d0','https://github.com/alpine-wheels/typed-ast/releases/download/1.5.0/typed_ast-1.5.0-cp310-cp310-linux_x86_64.whl');
 COMMIT;

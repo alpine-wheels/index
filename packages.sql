@@ -366,4 +366,5 @@ INSERT INTO "packages" VALUES('psycopg2','sha256','172e67c86c01ce4b4e136f712d1bf
 INSERT INTO "packages" VALUES('typed-ast','sha256','0120b750f958a5ced11bf47cd36dd4a26d27ee21b3ec6b28be4a41d8e2cc00d0','https://github.com/alpine-wheels/typed-ast/releases/download/1.5.0/typed_ast-1.5.0-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('SQLAlchemy','sha256','d74cce355df3a9c9678ba923888d2f1d5a57982e48fb5b54786542f7da89be56','https://github.com/alpine-wheels/sqlalchemy/releases/download/1.4.27/SQLAlchemy-1.4.27-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('mysqlclient','sha256','5fc73373ec01c5a9ca9904f1201c4d6d65459b7555a1a3981b6645c6aaf433d9','https://github.com/alpine-wheels/mysqlclient/releases/download/2.1.0/mysqlclient-2.1.0-cp310-cp310-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('pycryptodome','sha256','f53228c7d83f19f864792106d056fae1c883a6a8a0e3453eea719373325083d2','https://github.com/alpine-wheels/pycryptodome/releases/download/3.12.0/pycryptodome-3.12.0-cp35-abi3-linux_x86_64.whl');
 COMMIT;

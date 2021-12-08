@@ -368,4 +368,5 @@ INSERT INTO "packages" VALUES('SQLAlchemy','sha256','d74cce355df3a9c9678ba923888
 INSERT INTO "packages" VALUES('mysqlclient','sha256','5fc73373ec01c5a9ca9904f1201c4d6d65459b7555a1a3981b6645c6aaf433d9','https://github.com/alpine-wheels/mysqlclient/releases/download/2.1.0/mysqlclient-2.1.0-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('pycryptodome','sha256','f53228c7d83f19f864792106d056fae1c883a6a8a0e3453eea719373325083d2','https://github.com/alpine-wheels/pycryptodome/releases/download/3.12.0/pycryptodome-3.12.0-cp35-abi3-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('typed-ast','sha256','afe9a557b53923b31e934bc6da286ba5422c468957288f1134d20695309caea1','https://github.com/alpine-wheels/typed-ast/releases/download/1.5.1/typed_ast-1.5.1-cp310-cp310-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('msgpack','sha256','711dde179cc804c6ed572e26cdadf9f6fee4a3d1ad05ab3a0f9fae37ee0a95e0','https://github.com/alpine-wheels/msgpack/releases/download/1.0.3/msgpack-1.0.3-cp310-cp310-linux_x86_64.whl');
 COMMIT;

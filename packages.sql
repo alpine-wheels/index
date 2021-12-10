@@ -372,4 +372,5 @@ INSERT INTO "packages" VALUES('msgpack','sha256','711dde179cc804c6ed572e26cdadf9
 INSERT INTO "packages" VALUES('ansible','sha256','3611b23145d284a0757dbf7f385a2a23b7cb6e4df13e39e02563cc19a3d9e78c','https://github.com/alpine-wheels/ansible/releases/download/5.0.1/ansible-5.0.1-py3-none-any.whl');
 INSERT INTO "packages" VALUES('ansible-core','sha256','8dd5d5420b7bd008e96d7820e9c28de9644f99b0c89b6690d7fee276a4f32d93','https://github.com/alpine-wheels/ansible-core/releases/download/2.12.1/ansible_core-2.12.1-py3-none-any.whl');
 INSERT INTO "packages" VALUES('SQLAlchemy','sha256','4bfd363298ac5aa8d43ead7909a26042322caa8a8ba2195472b9474fc2a24f9c','https://github.com/alpine-wheels/sqlalchemy/releases/download/1.4.28/SQLAlchemy-1.4.28-cp310-cp310-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('opencv-python','sha256','d43c6eca20012e54970184e1bcaa1aa92c5fbfd68f3d50c782e6fb3044fd6012','https://github.com/alpine-wheels/opencv-python/releases/download/3.4.16.59/opencv_python-3.4.16.59-cp310-cp310-linux_x86_64.whl');
 COMMIT;

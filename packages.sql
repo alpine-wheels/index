@@ -374,4 +374,5 @@ INSERT INTO "packages" VALUES('ansible-core','sha256','8dd5d5420b7bd008e96d7820e
 INSERT INTO "packages" VALUES('SQLAlchemy','sha256','4bfd363298ac5aa8d43ead7909a26042322caa8a8ba2195472b9474fc2a24f9c','https://github.com/alpine-wheels/sqlalchemy/releases/download/1.4.28/SQLAlchemy-1.4.28-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('opencv-python','sha256','d43c6eca20012e54970184e1bcaa1aa92c5fbfd68f3d50c782e6fb3044fd6012','https://github.com/alpine-wheels/opencv-python/releases/download/3.4.16.59/opencv_python-3.4.16.59-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('opencv-python','sha256','f4e06b07e1d7a7bf902a3707096f49aef57ad2f1c75abf3e61c060a9bab20226','https://github.com/alpine-wheels/opencv-python/releases/download/4.5.4.60/opencv_python-4.5.4.60-cp310-cp310-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('pandas','sha256','e5c65ccae9588d6ee0531a5a183c32f15773999ca4cf73635039025089b54422','https://github.com/alpine-wheels/pandas/releases/download/1.3.5/pandas-1.3.5-cp310-cp310-linux_x86_64.whl');
 COMMIT;

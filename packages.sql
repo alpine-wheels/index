@@ -376,4 +376,5 @@ INSERT INTO "packages" VALUES('opencv-python','sha256','d43c6eca20012e54970184e1
 INSERT INTO "packages" VALUES('opencv-python','sha256','f4e06b07e1d7a7bf902a3707096f49aef57ad2f1c75abf3e61c060a9bab20226','https://github.com/alpine-wheels/opencv-python/releases/download/4.5.4.60/opencv_python-4.5.4.60-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('pandas','sha256','e5c65ccae9588d6ee0531a5a183c32f15773999ca4cf73635039025089b54422','https://github.com/alpine-wheels/pandas/releases/download/1.3.5/pandas-1.3.5-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('neo4j','sha256','1457c7f892e51faff6770c07349ca672950adf8c7940c8d839b87c8c8779a98e','https://github.com/alpine-wheels/neo4j/releases/download/4.4.1/neo4j-4.4.1-py3-none-any.whl');
+INSERT INTO "packages" VALUES('numpy','sha256','9cda3d4d067d3a59026d7353b1067a323f634aa63777a3d4ef8a06ee9c36dadb','https://github.com/alpine-wheels/numpy/releases/download/1.21.5/numpy-1.21.5-cp310-cp310-linux_x86_64.whl');
 COMMIT;

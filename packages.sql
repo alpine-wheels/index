@@ -378,4 +378,5 @@ INSERT INTO "packages" VALUES('pandas','sha256','e5c65ccae9588d6ee0531a5a183c32f
 INSERT INTO "packages" VALUES('neo4j','sha256','1457c7f892e51faff6770c07349ca672950adf8c7940c8d839b87c8c8779a98e','https://github.com/alpine-wheels/neo4j/releases/download/4.4.1/neo4j-4.4.1-py3-none-any.whl');
 INSERT INTO "packages" VALUES('numpy','sha256','9cda3d4d067d3a59026d7353b1067a323f634aa63777a3d4ef8a06ee9c36dadb','https://github.com/alpine-wheels/numpy/releases/download/1.21.5/numpy-1.21.5-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('ansible','sha256','c92e71bb1e498f69247e37e3283dd26690ab95949534c68d0e1a3ced08b094ff','https://github.com/alpine-wheels/ansible/releases/download/5.1.0/ansible-5.1.0-py3-none-any.whl');
+INSERT INTO "packages" VALUES('SQLAlchemy','sha256','95ebe2e4b3ac9697b5be40fd5aa8638d1d354cfb75a364602da915ad1c84176b','https://github.com/alpine-wheels/sqlalchemy/releases/download/1.4.29/SQLAlchemy-1.4.29-cp310-cp310-linux_x86_64.whl');
 COMMIT;

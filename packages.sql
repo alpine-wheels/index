@@ -382,4 +382,5 @@ INSERT INTO "packages" VALUES('SQLAlchemy','sha256','95ebe2e4b3ac9697b5be40fd5aa
 INSERT INTO "packages" VALUES('ruamel.yaml.clib','sha256','1392a9bf488db5a6f5d2dbbe1bf37f817794bd71c4f41de91c5c708f4d8430fb','https://github.com/alpine-wheels/ruamel.yaml.clib/releases/download/0.2.6/ruamel.yaml.clib-0.2.6-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('psycopg2','sha256','a055d46df588757a8dd58273d05dc0dca6d99c5ab53db950baa508db712d9e18','https://github.com/alpine-wheels/psycopg2/releases/download/2.9.3/psycopg2-2.9.3-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('psutil','sha256','945669762c7f51ff0a859b1a196670ed616994c3891b9fae974ab2aa339b05c4','https://github.com/alpine-wheels/psutil/releases/download/5.9.0/psutil-5.9.0-cp310-cp310-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('Pillow','sha256','c2d7ac5cdc476fdbd3f03f965dd3cbefd066ee41ce7f7da3a634f7ecf5b27633','https://github.com/alpine-wheels/pillow/releases/download/9.0.0/Pillow-9.0.0-cp310-cp310-linux_x86_64.whl');
 COMMIT;

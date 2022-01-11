@@ -385,4 +385,5 @@ INSERT INTO "packages" VALUES('psutil','sha256','945669762c7f51ff0a859b1a196670e
 INSERT INTO "packages" VALUES('Pillow','sha256','c2d7ac5cdc476fdbd3f03f965dd3cbefd066ee41ce7f7da3a634f7ecf5b27633','https://github.com/alpine-wheels/pillow/releases/download/9.0.0/Pillow-9.0.0-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('numpy','sha256','17f1a79ac5ab5152f430e353cd598832b86ae3d16e799859531bb3b3444be649','https://github.com/alpine-wheels/numpy/releases/download/1.22.0/numpy-1.22.0-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('opencv-python','sha256','9a899e9a9637ab8b188a79db54acc2c94d4318478ca36ea2512835af8ab961e3','https://github.com/alpine-wheels/opencv-python/releases/download/3.4.17.61/opencv_python-3.4.17.61-cp310-cp310-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('opencv-python','sha256','e7b57ac17c728d9e53300a62278ee7869faf21633e5eb93f438385ef0331f770','https://github.com/alpine-wheels/opencv-python/releases/download/4.5.5.62/opencv_python-4.5.5.62-cp310-cp310-linux_x86_64.whl');
 COMMIT;

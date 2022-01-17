@@ -388,4 +388,5 @@ INSERT INTO "packages" VALUES('opencv-python','sha256','9a899e9a9637ab8b188a79db
 INSERT INTO "packages" VALUES('opencv-python','sha256','e7b57ac17c728d9e53300a62278ee7869faf21633e5eb93f438385ef0331f770','https://github.com/alpine-wheels/opencv-python/releases/download/4.5.5.62/opencv_python-4.5.5.62-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('click-default-group','sha256','4ed26358b05e05a7c68e9da426d14040b7b3e3393b1f988229cbf628205f2182','https://github.com/alpine-wheels/click-default-group/releases/download/1.2.2/click_default_group-1.2.2-py3-none-any.whl');
 INSERT INTO "packages" VALUES('ansible','sha256','95566f4a3e891c9eb411e477df946373b0a4d40e1d96de4b8f3a1d46ef96477d','https://github.com/alpine-wheels/ansible/releases/download/5.2.0/ansible-5.2.0-py3-none-any.whl');
+INSERT INTO "packages" VALUES('pyrsistent','sha256','abd8f4e1bb2a42ab9c00837dec3acb94ac1a0195691a292340e886ec6690e5d3','https://github.com/alpine-wheels/pyrsistent/releases/download/0.18.1/pyrsistent-0.18.1-cp310-cp310-linux_x86_64.whl');
 COMMIT;

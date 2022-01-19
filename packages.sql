@@ -390,4 +390,5 @@ INSERT INTO "packages" VALUES('click-default-group','sha256','4ed26358b05e05a7c6
 INSERT INTO "packages" VALUES('ansible','sha256','95566f4a3e891c9eb411e477df946373b0a4d40e1d96de4b8f3a1d46ef96477d','https://github.com/alpine-wheels/ansible/releases/download/5.2.0/ansible-5.2.0-py3-none-any.whl');
 INSERT INTO "packages" VALUES('pyrsistent','sha256','abd8f4e1bb2a42ab9c00837dec3acb94ac1a0195691a292340e886ec6690e5d3','https://github.com/alpine-wheels/pyrsistent/releases/download/0.18.1/pyrsistent-0.18.1-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('numpy','sha256','9b453afa096c4fc8f9df79693ee277ce9b26c4343609e2b3da1fe5e02c566784','https://github.com/alpine-wheels/numpy/releases/download/1.22.1/numpy-1.22.1-cp310-cp310-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('jsmin','sha256','ae2a8a20e48955945d060a8f6cda29b6604b9aecdfcd36625abf5683fa6420fe','https://github.com/alpine-wheels/jsmin/releases/download/3.0.1/jsmin-3.0.1-py3-none-any.whl');
 COMMIT;

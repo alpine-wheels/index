@@ -392,4 +392,5 @@ INSERT INTO "packages" VALUES('pyrsistent','sha256','abd8f4e1bb2a42ab9c00837dec3
 INSERT INTO "packages" VALUES('numpy','sha256','9b453afa096c4fc8f9df79693ee277ce9b26c4343609e2b3da1fe5e02c566784','https://github.com/alpine-wheels/numpy/releases/download/1.22.1/numpy-1.22.1-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('jsmin','sha256','ae2a8a20e48955945d060a8f6cda29b6604b9aecdfcd36625abf5683fa6420fe','https://github.com/alpine-wheels/jsmin/releases/download/3.0.1/jsmin-3.0.1-py3-none-any.whl');
 INSERT INTO "packages" VALUES('SQLAlchemy','sha256','34a0118b021b1b8f0c0e6046dd158338d172bcfc4918dc0565328d859e318e3f','https://github.com/alpine-wheels/sqlalchemy/releases/download/1.4.30/SQLAlchemy-1.4.30-cp310-cp310-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('SQLAlchemy','sha256','e51a7dc5671c3ade7f8fda0eb7a6efc15dc88e01ce97d7a9bc7e285b3365170b','https://github.com/alpine-wheels/sqlalchemy/releases/download/1.4.31/SQLAlchemy-1.4.31-cp310-cp310-linux_x86_64.whl');
 COMMIT;

@@ -16,3 +16,11 @@ services:
     volumes:
       - ./:/workspace
     working_dir: /workspace
+
+  shell:
+    entrypoint:
+      - /bin/sh
+    image: ghcr.io/alpine-wheels/index-helper
+    volumes:
+      - ./:/workspace
+    working_dir: /workspace

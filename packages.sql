@@ -394,4 +394,5 @@ INSERT INTO "packages" VALUES('jsmin','sha256','ae2a8a20e48955945d060a8f6cda29b6
 INSERT INTO "packages" VALUES('SQLAlchemy','sha256','34a0118b021b1b8f0c0e6046dd158338d172bcfc4918dc0565328d859e318e3f','https://github.com/alpine-wheels/sqlalchemy/releases/download/1.4.30/SQLAlchemy-1.4.30-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('SQLAlchemy','sha256','e51a7dc5671c3ade7f8fda0eb7a6efc15dc88e01ce97d7a9bc7e285b3365170b','https://github.com/alpine-wheels/sqlalchemy/releases/download/1.4.31/SQLAlchemy-1.4.31-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('pycryptodome','sha256','2e7434e020416cbfe5c3fedd6f21c8087c5f881c56eaa44b59f94dd5709fb4c8','https://github.com/alpine-wheels/pycryptodome/releases/download/3.13.0/pycryptodome-3.13.0-cp35-abi3-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('jsondiff','sha256','2f069e73d5b1fe8353de55dc409a373fee7f8e27d0e11eff4e35c3005ed1584c','https://github.com/alpine-wheels/jsondiff/releases/download/1.3.1/jsondiff-1.3.1-py3-none-any.whl');
 COMMIT;

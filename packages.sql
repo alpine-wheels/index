@@ -396,4 +396,5 @@ INSERT INTO "packages" VALUES('SQLAlchemy','sha256','e51a7dc5671c3ade7f8fda0eb7a
 INSERT INTO "packages" VALUES('pycryptodome','sha256','2e7434e020416cbfe5c3fedd6f21c8087c5f881c56eaa44b59f94dd5709fb4c8','https://github.com/alpine-wheels/pycryptodome/releases/download/3.13.0/pycryptodome-3.13.0-cp35-abi3-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('jsondiff','sha256','2f069e73d5b1fe8353de55dc409a373fee7f8e27d0e11eff4e35c3005ed1584c','https://github.com/alpine-wheels/jsondiff/releases/download/1.3.1/jsondiff-1.3.1-py3-none-any.whl');
 INSERT INTO "packages" VALUES('pandas','sha256','030bdb445c11726bd981192715dca797af0b1881627311246403c102596725db','https://github.com/alpine-wheels/pandas/releases/download/1.4.0/pandas-1.4.0-cp310-cp310-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('typed-ast','sha256','dd98cab44fb077bd83e22ba7c0af90f17034ac960f1693ad0e2dd5f4b8bfffef','https://github.com/alpine-wheels/typed-ast/releases/download/1.5.2/typed_ast-1.5.2-cp310-cp310-linux_x86_64.whl');
 COMMIT;

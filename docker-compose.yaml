@@ -1,26 +1,26 @@
 services:
   add-file:
     entrypoint:
-      - /usr/local/bin/python
-      - add-file.py
+      - /home/python/venv/bin/python
+      - /home/python/alpine-wheels/index/add-file.py
     image: ghcr.io/alpine-wheels/index-helper
     volumes:
-      - ./:/workspace
-    working_dir: /workspace
+      - ./:/home/python/alpine-wheels/index
+    working_dir: /home/python/alpine-wheels/index
 
   publish:
     entrypoint:
-      - /usr/local/bin/python
-      - publish.py
+      - /home/python/venv/bin/python
+      - /home/python/alpine-wheels/index/publish.py
     image: ghcr.io/alpine-wheels/index-helper
     volumes:
-      - ./:/workspace
-    working_dir: /workspace
+      - ./:/home/python/alpine-wheels/index
+    working_dir: /home/python/alpine-wheels/index
 
   shell:
     entrypoint:
       - /bin/sh
     image: ghcr.io/alpine-wheels/index-helper
     volumes:
-      - ./:/workspace
-    working_dir: /workspace
+      - ./:/home/python/alpine-wheels/index
+    working_dir: /home/python/alpine-wheels/index

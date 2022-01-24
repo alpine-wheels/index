@@ -1,0 +1,16 @@
+name: Start a tmate session
+
+on:
+  workflow_dispatch:
+
+jobs:
+  tmate:
+    name: Start a tmate session
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Check out the repository
+        uses: actions/checkout@v2.4.0
+
+      - name: Start a tmate session
+        uses: mxschmitt/action-tmate@v3.9

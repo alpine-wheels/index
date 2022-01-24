@@ -33,13 +33,13 @@ jobs:
         if: github.event_name == 'repository_dispatch'
         run: |
           echo "PACKAGE_NAME=${{ github.event.client_payload.package_name }}" >> $GITHUB_ENV
-          docker-compose run -T add-file ${{ github.event.client_payload.package_name }} ${{ github.event.client_payload.href }} ${{ github.event.client_payload.hash_name }} ${{ github.event.client_payload.hash_value }}
+          docker-compose run --user="$(id -u):$(id -g)" -T add-file ${{ github.event.client_payload.package_name }} ${{ github.event.client_payload.href }} ${{ github.event.client_payload.hash_name }} ${{ github.event.client_payload.hash_value }}
 
       - name: Add the new file (on workflow dispatch)
         if: github.event_name == 'workflow_dispatch'
         run: |
           echo "PACKAGE_NAME=${{ github.event.inputs.package_name }}" >> $GITHUB_ENV
-          docker-compose run -T add-file ${{ github.event.inputs.package_name }} ${{ github.event.inputs.href }} ${{ github.event.inputs.hash_name }} ${{ github.event.inputs.hash_value }}
+          docker-compose run --user="$(id -u):$(id -g)" -T add-file ${{ github.event.inputs.package_name }} ${{ github.event.inputs.href }} ${{ github.event.inputs.hash_name }} ${{ github.event.inputs.hash_value }}
 
       - name: Run build
         run: docker-compose run --user="$(id -u):$(id -g)" -T publish

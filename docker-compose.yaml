@@ -1,20 +1,18 @@
-version: '3.8'
-
 services:
-  publish:
-    image: ghcr.io/alpine-wheels/index-helper
-    working_dir: /workspace
-    volumes:
-      - ./:/workspace
-    entrypoint:
-      - /usr/local/bin/python
-      - publish.py
-
   add-file:
-    image: ghcr.io/alpine-wheels/index-helper
-    working_dir: /workspace
-    volumes:
-      - ./:/workspace
     entrypoint:
       - /usr/local/bin/python
       - add-file.py
+    image: ghcr.io/alpine-wheels/index-helper
+    volumes:
+      - ./:/workspace
+    working_dir: /workspace
+
+  publish:
+    entrypoint:
+      - /usr/local/bin/python
+      - publish.py
+    image: ghcr.io/alpine-wheels/index-helper
+    volumes:
+      - ./:/workspace
+    working_dir: /workspace

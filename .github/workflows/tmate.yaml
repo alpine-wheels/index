@@ -14,3 +14,5 @@ jobs:
 
       - name: Start a tmate session
         uses: mxschmitt/action-tmate@v3.9
+        with:
+          install-dependencies: false

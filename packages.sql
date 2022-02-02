@@ -399,4 +399,5 @@ INSERT INTO "packages" VALUES('pandas','sha256','030bdb445c11726bd981192715dca79
 INSERT INTO "packages" VALUES('typed-ast','sha256','dd98cab44fb077bd83e22ba7c0af90f17034ac960f1693ad0e2dd5f4b8bfffef','https://github.com/alpine-wheels/typed-ast/releases/download/1.5.2/typed_ast-1.5.2-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('pycryptodome','sha256','311d605ca416ab8d0ab7c1ea3a352fd520c86a8c80d6a8679b612e62ee061fd8','https://github.com/alpine-wheels/pycryptodome/releases/download/3.14.0/pycryptodome-3.14.0-cp35-abi3-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('ansible-core','sha256','2631e70669506f21e968ff91a7fca6f81b1604d09a11465d7e74b06f9b79ddea','https://github.com/alpine-wheels/ansible-core/releases/download/2.12.2/ansible_core-2.12.2-py3-none-any.whl');
+INSERT INTO "packages" VALUES('ansible','sha256','f15be8d8f3383b0066b0098283a0fd97e2cd077072549a98912b20a3e2f7637f','https://github.com/alpine-wheels/ansible/releases/download/5.3.0/ansible-5.3.0-py3-none-any.whl');
 COMMIT;

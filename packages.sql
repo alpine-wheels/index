@@ -401,4 +401,5 @@ INSERT INTO "packages" VALUES('pycryptodome','sha256','311d605ca416ab8d0ab7c1ea3
 INSERT INTO "packages" VALUES('ansible-core','sha256','2631e70669506f21e968ff91a7fca6f81b1604d09a11465d7e74b06f9b79ddea','https://github.com/alpine-wheels/ansible-core/releases/download/2.12.2/ansible_core-2.12.2-py3-none-any.whl');
 INSERT INTO "packages" VALUES('ansible','sha256','f15be8d8f3383b0066b0098283a0fd97e2cd077072549a98912b20a3e2f7637f','https://github.com/alpine-wheels/ansible/releases/download/5.3.0/ansible-5.3.0-py3-none-any.whl');
 INSERT INTO "packages" VALUES('scikit-image','sha256','0aa03a99f8d03d38bbd3839fa8e50f98bc860719dc130444a572ef0ac504f53e','https://github.com/alpine-wheels/scikit-image/releases/download/0.19.1/scikit_image-0.19.1-cp310-cp310-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('Pillow','sha256','674b9734a2674b0e054b8d385d5ceb0866933fd65c4f8b40be81bb2034adcb58','https://github.com/alpine-wheels/pillow/releases/download/9.0.1/Pillow-9.0.1-cp310-cp310-linux_x86_64.whl');
 COMMIT;

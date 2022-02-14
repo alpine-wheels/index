@@ -13,4 +13,4 @@ jobs:
         uses: actions/checkout@v2.4.0
 
       - name: Start a tmate session
-        uses: mxschmitt/action-tmate@v3.9
+        uses: mxschmitt/action-tmate@v3.11

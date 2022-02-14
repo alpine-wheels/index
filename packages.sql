@@ -405,4 +405,5 @@ INSERT INTO "packages" VALUES('Pillow','sha256','674b9734a2674b0e054b8d385d5ceb0
 INSERT INTO "packages" VALUES('numpy','sha256','b62fd3c933b0641bcd1baa15a3b63b91cf205d9e19d4a57e87640d3d1b3000c5','https://github.com/alpine-wheels/numpy/releases/download/1.22.2/numpy-1.22.2-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('pycryptodome','sha256','547157e6433baf55118ae2eb3eb676c1512429339f9528d36a03bbe768b1fa3f','https://github.com/alpine-wheels/pycryptodome/releases/download/3.14.1/pycryptodome-3.14.1-cp35-abi3-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('pandas','sha256','044a2cf3dbb6c754c4cbfeabc1014b6b8893a9c4369fbb31dff70e9b95a844a8','https://github.com/alpine-wheels/pandas/releases/download/1.4.1/pandas-1.4.1-cp310-cp310-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('vobject','sha256','46fcad3b323ab26d3624e70fabe416215475aff22271e09a5534ec96c55f4ef1','https://github.com/alpine-wheels/vobject/releases/download/0.9.6.1/vobject-0.9.6.1-py3-none-any.whl');
 COMMIT;

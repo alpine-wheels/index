@@ -404,4 +404,5 @@ INSERT INTO "packages" VALUES('scikit-image','sha256','0aa03a99f8d03d38bbd3839fa
 INSERT INTO "packages" VALUES('Pillow','sha256','674b9734a2674b0e054b8d385d5ceb0866933fd65c4f8b40be81bb2034adcb58','https://github.com/alpine-wheels/pillow/releases/download/9.0.1/Pillow-9.0.1-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('numpy','sha256','b62fd3c933b0641bcd1baa15a3b63b91cf205d9e19d4a57e87640d3d1b3000c5','https://github.com/alpine-wheels/numpy/releases/download/1.22.2/numpy-1.22.2-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('pycryptodome','sha256','547157e6433baf55118ae2eb3eb676c1512429339f9528d36a03bbe768b1fa3f','https://github.com/alpine-wheels/pycryptodome/releases/download/3.14.1/pycryptodome-3.14.1-cp35-abi3-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('pandas','sha256','044a2cf3dbb6c754c4cbfeabc1014b6b8893a9c4369fbb31dff70e9b95a844a8','https://github.com/alpine-wheels/pandas/releases/download/1.4.1/pandas-1.4.1-cp310-cp310-linux_x86_64.whl');
 COMMIT;

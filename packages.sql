@@ -408,4 +408,5 @@ INSERT INTO "packages" VALUES('pandas','sha256','044a2cf3dbb6c754c4cbfeabc1014b6
 INSERT INTO "packages" VALUES('vobject','sha256','46fcad3b323ab26d3624e70fabe416215475aff22271e09a5534ec96c55f4ef1','https://github.com/alpine-wheels/vobject/releases/download/0.9.6.1/vobject-0.9.6.1-py3-none-any.whl');
 INSERT INTO "packages" VALUES('ansible','sha256','0402a3d5fdcbdcef646bb589ce8d8356df860da046c497f483fc3f5f5a90ddbd','https://github.com/alpine-wheels/ansible/releases/download/5.4.0/ansible-5.4.0-py3-none-any.whl');
 INSERT INTO "packages" VALUES('scikit-image','sha256','72a5656cea64dc4968bc1cb9e24efd8e7f9143c8e3a2b30bf564074eb6e83f1e','https://github.com/alpine-wheels/scikit-image/releases/download/0.19.2/scikit_image-0.19.2-cp310-cp310-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('ansible-core','sha256','6cd20da2d45857eaa79fd50432a0d6ba00f15e8bd0a7e9d240a50bc3ea1e4f7d','https://github.com/alpine-wheels/ansible-core/releases/download/2.12.3/ansible_core-2.12.3-py3-none-any.whl');
 COMMIT;

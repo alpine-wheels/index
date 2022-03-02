@@ -409,4 +409,5 @@ INSERT INTO "packages" VALUES('vobject','sha256','46fcad3b323ab26d3624e70fabe416
 INSERT INTO "packages" VALUES('ansible','sha256','0402a3d5fdcbdcef646bb589ce8d8356df860da046c497f483fc3f5f5a90ddbd','https://github.com/alpine-wheels/ansible/releases/download/5.4.0/ansible-5.4.0-py3-none-any.whl');
 INSERT INTO "packages" VALUES('scikit-image','sha256','72a5656cea64dc4968bc1cb9e24efd8e7f9143c8e3a2b30bf564074eb6e83f1e','https://github.com/alpine-wheels/scikit-image/releases/download/0.19.2/scikit_image-0.19.2-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('ansible-core','sha256','6cd20da2d45857eaa79fd50432a0d6ba00f15e8bd0a7e9d240a50bc3ea1e4f7d','https://github.com/alpine-wheels/ansible-core/releases/download/2.12.3/ansible_core-2.12.3-py3-none-any.whl');
+INSERT INTO "packages" VALUES('uvloop','sha256','fd71ca0cd0df241ec27869b912a0efc7efbbe4ef2142c009da09ddc7652c562f','https://github.com/alpine-wheels/uvloop/releases/download/0.16.0/uvloop-0.16.0-cp310-cp310-linux_x86_64.whl');
 COMMIT;

@@ -411,4 +411,5 @@ INSERT INTO "packages" VALUES('scikit-image','sha256','72a5656cea64dc4968bc1cb9e
 INSERT INTO "packages" VALUES('ansible-core','sha256','6cd20da2d45857eaa79fd50432a0d6ba00f15e8bd0a7e9d240a50bc3ea1e4f7d','https://github.com/alpine-wheels/ansible-core/releases/download/2.12.3/ansible_core-2.12.3-py3-none-any.whl');
 INSERT INTO "packages" VALUES('uvloop','sha256','fd71ca0cd0df241ec27869b912a0efc7efbbe4ef2142c009da09ddc7652c562f','https://github.com/alpine-wheels/uvloop/releases/download/0.16.0/uvloop-0.16.0-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('SQLAlchemy','sha256','bc236d9eb6c4596c732fb9644de0a72dc2d2fcaf58c8f321bdeed01b3dbee69c','https://github.com/alpine-wheels/sqlalchemy/releases/download/1.4.32/SQLAlchemy-1.4.32-cp310-cp310-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('numpy','sha256','13166bb2c033e03aa9bb1ef34bc4dc8ffe725e89443e811f489b9f5ca1c50bc3','https://github.com/alpine-wheels/numpy/releases/download/1.22.3/numpy-1.22.3-cp310-cp310-linux_x86_64.whl');
 COMMIT;

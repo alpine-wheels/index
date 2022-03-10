@@ -413,4 +413,5 @@ INSERT INTO "packages" VALUES('uvloop','sha256','fd71ca0cd0df241ec27869b912a0efc
 INSERT INTO "packages" VALUES('SQLAlchemy','sha256','bc236d9eb6c4596c732fb9644de0a72dc2d2fcaf58c8f321bdeed01b3dbee69c','https://github.com/alpine-wheels/sqlalchemy/releases/download/1.4.32/SQLAlchemy-1.4.32-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('numpy','sha256','13166bb2c033e03aa9bb1ef34bc4dc8ffe725e89443e811f489b9f5ca1c50bc3','https://github.com/alpine-wheels/numpy/releases/download/1.22.3/numpy-1.22.3-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('opencv-python','sha256','c5cb81048b44375cd4d6f2359571cd5abfc05965668b01ca08f74f946367742a','https://github.com/alpine-wheels/opencv-python/releases/download/3.4.17.63/opencv_python-3.4.17.63-cp310-cp310-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('opencv-python','sha256','1703388531eea39ea94a042ab393cb3cf59d161143021fec9176a343aeab0aae','https://github.com/alpine-wheels/opencv-python/releases/download/4.5.5.64/opencv_python-4.5.5.64-cp310-cp310-linux_x86_64.whl');
 COMMIT;

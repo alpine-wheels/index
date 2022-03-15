@@ -416,4 +416,5 @@ INSERT INTO "packages" VALUES('opencv-python','sha256','c5cb81048b44375cd4d6f235
 INSERT INTO "packages" VALUES('opencv-python','sha256','1703388531eea39ea94a042ab393cb3cf59d161143021fec9176a343aeab0aae','https://github.com/alpine-wheels/opencv-python/releases/download/4.5.5.64/opencv_python-4.5.5.64-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('grpcio','sha256','01e305f1cc1f6b62fb7038885a4636e29ab8cd18953f69097f50904aae72fc59','https://github.com/alpine-wheels/grpcio/releases/download/1.44.0/grpcio-1.44.0-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('grpcio','sha256','ade979b12eae63e34b34aae019a43b9cca99d680aa56467f289d8fd3d9948e72','https://github.com/alpine-wheels/grpcio/releases/download/1.44.0/grpcio-1.44.0-cp39-cp39-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('scipy','sha256','67322e4344a5669730d32387b070d72983caccfa9a90f69e802293e0fb308ad2','https://github.com/alpine-wheels/scipy/releases/download/1.8.0/scipy-1.8.0-cp310-cp310-linux_x86_64.whl');
 COMMIT;

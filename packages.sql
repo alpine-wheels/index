@@ -421,4 +421,5 @@ INSERT INTO "packages" VALUES('neo4j','sha256','21dafcfdaa50b270ed0e89424cb34d73
 INSERT INTO "packages" VALUES('ansible','sha256','5a831fd2a52697805667f9be8f0d61a44577c4a78f7db5e0f31b2833bb01cf08','https://github.com/alpine-wheels/ansible/releases/download/5.5.0/ansible-5.5.0-py3-none-any.whl');
 INSERT INTO "packages" VALUES('ansible-core','sha256','da74e21082095e5653c303c88a49ba7a72da44ae28277b568e038f93eeb4030c','https://github.com/alpine-wheels/ansible-core/releases/download/2.12.4/ansible_core-2.12.4-py3-none-any.whl');
 INSERT INTO "packages" VALUES('pandas','sha256','3b82cd4b54cf3db8f842a093a5ddbcdc8a9f9c6372fe19459b1d2daeea380b7e','https://github.com/alpine-wheels/pandas/releases/download/1.4.1/pandas-1.4.1-cp39-cp39-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('numpy','sha256','73e5c50d4b8b6bd61b2433f5048de074ee031f9a5938e7f1dc428664e654e2b4','https://github.com/alpine-wheels/numpy/releases/download/1.22.3/numpy-1.22.3-cp39-cp39-linux_x86_64.whl');
 COMMIT;

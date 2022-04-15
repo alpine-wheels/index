@@ -429,4 +429,5 @@ INSERT INTO "packages" VALUES('ansible','sha256','71ebbb96e40df818f6ccecbcea4942
 INSERT INTO "packages" VALUES('SQLAlchemy','sha256','e2e97f570b286a0529ca3c698344d635e8c816d8e7170fe5cf3cf2dc63e6426a','https://github.com/alpine-wheels/sqlalchemy/releases/download/1.4.35/SQLAlchemy-1.4.35-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('antlr4-python3-runtime','sha256','d7868446660943c49705523bbbaa4b4b1a7a71d9c6617b703036ece711f6668f','https://github.com/alpine-wheels/antlr4-python3-runtime/releases/download/4.10/antlr4_python3_runtime-4.10-py3-none-any.whl');
 INSERT INTO "packages" VALUES('scikit-learn','sha256','c7b60d9793e6ef87c8b10aa4851829634b4d01f70191d4c51cfe86300edee703','https://github.com/alpine-wheels/scikit-learn/releases/download/1.0.2/scikit_learn-1.0.2-cp310-cp310-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('python-Levenshtein','sha256','4a045b823cfa721556c42a897777f6b0ce77dbe316e5f3ff2b3c33e064683a36','https://github.com/alpine-wheels/python-levenshtein/releases/download/0.12.2/python_Levenshtein-0.12.2-cp310-cp310-linux_x86_64.whl');
 COMMIT;

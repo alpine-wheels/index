@@ -427,4 +427,5 @@ INSERT INTO "packages" VALUES('pandas','sha256','af57b1c70021269da269cb80c2fb9bb
 INSERT INTO "packages" VALUES('pandas','sha256','af7c7b887c9ef18d0a3f6988cdba9190c03b07db11c8dae86e38a3b28693c27a','https://github.com/alpine-wheels/pandas/releases/download/1.4.2/pandas-1.4.2-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('ansible','sha256','71ebbb96e40df818f6ccecbcea4942108082c6073145396aed518d8aec4a644f','https://github.com/alpine-wheels/ansible/releases/download/5.6.0/ansible-5.6.0-py3-none-any.whl');
 INSERT INTO "packages" VALUES('SQLAlchemy','sha256','e2e97f570b286a0529ca3c698344d635e8c816d8e7170fe5cf3cf2dc63e6426a','https://github.com/alpine-wheels/sqlalchemy/releases/download/1.4.35/SQLAlchemy-1.4.35-cp310-cp310-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('antlr4-python3-runtime','sha256','d7868446660943c49705523bbbaa4b4b1a7a71d9c6617b703036ece711f6668f','https://github.com/alpine-wheels/antlr4-python3-runtime/releases/download/4.10/antlr4_python3_runtime-4.10-py3-none-any.whl');
 COMMIT;

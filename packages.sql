@@ -432,4 +432,5 @@ INSERT INTO "packages" VALUES('scikit-learn','sha256','c7b60d9793e6ef87c8b10aa48
 INSERT INTO "packages" VALUES('python-Levenshtein','sha256','4a045b823cfa721556c42a897777f6b0ce77dbe316e5f3ff2b3c33e064683a36','https://github.com/alpine-wheels/python-levenshtein/releases/download/0.12.2/python_Levenshtein-0.12.2-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('typed-ast','sha256','ddfe038e0ad51538d1c3bb51912b6ae989092c15b1fe39cf34b86c0eb425f9c6','https://github.com/alpine-wheels/typed-ast/releases/download/1.5.3/typed_ast-1.5.3-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('neo4j','sha256','349a5d73eeb12f918822f77a98c3e7776e1cf558b0296a0b1a11426d81a0f521','https://github.com/alpine-wheels/neo4j/releases/download/4.4.3/neo4j-4.4.3-py3-none-any.whl');
+INSERT INTO "packages" VALUES('ansible-core','sha256','b21c54035747f2741e8b7ef67c9d3168ce4823a9ed6aeeed1691b409ade8aab4','https://github.com/alpine-wheels/ansible-core/releases/download/2.12.5/ansible_core-2.12.5-py3-none-any.whl');
 COMMIT;

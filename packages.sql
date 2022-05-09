@@ -436,4 +436,5 @@ INSERT INTO "packages" VALUES('ansible-core','sha256','b21c54035747f2741e8b7ef67
 INSERT INTO "packages" VALUES('ansible','sha256','221c5946e9b305b6cc3dbc5b258667be6c349207ccc3ff4054277ae316ba4f4c','https://github.com/alpine-wheels/ansible/releases/download/5.7.0/ansible-5.7.0-py3-none-any.whl');
 INSERT INTO "packages" VALUES('SQLAlchemy','sha256','4646dd14c09beb9533a9bd49a0a85a03f26e43120f2ed29912c2fe15bf75c363','https://github.com/alpine-wheels/sqlalchemy/releases/download/1.4.36/SQLAlchemy-1.4.36-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('pyodbc','sha256','0ff0c0bdbca8466484beb50058e0b23bc271bef15d494c9b0e28cdef85cb529d','https://github.com/alpine-wheels/pyodbc/releases/download/4.0.32/pyodbc-4.0.32-cp310-cp310-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('ansible','sha256','4d0c7df15b8fac51351e67651c43c93b3adf83083fb9486b72504067ac316c77','https://github.com/alpine-wheels/ansible/releases/download/5.7.1/ansible-5.7.1-py3-none-any.whl');
 COMMIT;

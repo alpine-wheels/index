@@ -442,5 +442,6 @@ INSERT INTO "packages" VALUES('ansible','sha256','4818ce2f3de50d2c25730b7e8bc0cb
 INSERT INTO "packages" VALUES('psutil','sha256','4ef95a896437e098a5e3b691efc5a0ab86ec5380bef3c042c3ad6ad36a32db35','https://github.com/alpine-wheels/psutil/releases/download/5.9.1/psutil-5.9.1-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('scipy','sha256','ea99e5a145833a3c8f18b185b0ae073830b1283c1e692264a201ce4f9c7b53e3','https://github.com/alpine-wheels/scipy/releases/download/1.8.1/scipy-1.8.1-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('scikit-learn','sha256','611571df46121d62a08c9c60a63bd622a312196bf55853839218090b308647aa','https://github.com/alpine-wheels/scikit-learn/releases/download/1.1.1/scikit_learn-1.1.1-cp310-cp310-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('numpy','sha256','257fc93b9698eacff3f11e64c194122553863dce5b2761a27e78a5ccae027d97','https://github.com/alpine-wheels/numpy/releases/download/1.22.4/numpy-1.22.4-cp39-cp39-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('numpy','sha256','e8d3a78a60605e4e4e07f6183df20c5b1dc378ad585b273df15dbdbbbda576d6','https://github.com/alpine-wheels/numpy/releases/download/1.22.4/numpy-1.22.4-cp310-cp310-linux_x86_64.whl');
 COMMIT;

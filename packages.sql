@@ -439,4 +439,5 @@ INSERT INTO "packages" VALUES('pyodbc','sha256','0ff0c0bdbca8466484beb50058e0b23
 INSERT INTO "packages" VALUES('ansible','sha256','4d0c7df15b8fac51351e67651c43c93b3adf83083fb9486b72504067ac316c77','https://github.com/alpine-wheels/ansible/releases/download/5.7.1/ansible-5.7.1-py3-none-any.whl');
 INSERT INTO "packages" VALUES('scikit-learn','sha256','12b5dbc4458dc2eb3d4a703cd5fcd6d10c5a62091ef1c106b2b57c0798ce77df','https://github.com/alpine-wheels/scikit-learn/releases/download/1.1.0/scikit_learn-1.1.0-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('ansible','sha256','4818ce2f3de50d2c25730b7e8bc0cbb8b74d94423803f69516012fbc7dc3b4a8','https://github.com/alpine-wheels/ansible/releases/download/5.8.0/ansible-5.8.0-py3-none-any.whl');
+INSERT INTO "packages" VALUES('psutil','sha256','4ef95a896437e098a5e3b691efc5a0ab86ec5380bef3c042c3ad6ad36a32db35','https://github.com/alpine-wheels/psutil/releases/download/5.9.1/psutil-5.9.1-cp310-cp310-linux_x86_64.whl');
 COMMIT;

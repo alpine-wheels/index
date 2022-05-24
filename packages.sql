@@ -444,4 +444,5 @@ INSERT INTO "packages" VALUES('scipy','sha256','ea99e5a145833a3c8f18b185b0ae0738
 INSERT INTO "packages" VALUES('scikit-learn','sha256','611571df46121d62a08c9c60a63bd622a312196bf55853839218090b308647aa','https://github.com/alpine-wheels/scikit-learn/releases/download/1.1.1/scikit_learn-1.1.1-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('numpy','sha256','257fc93b9698eacff3f11e64c194122553863dce5b2761a27e78a5ccae027d97','https://github.com/alpine-wheels/numpy/releases/download/1.22.4/numpy-1.22.4-cp39-cp39-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('numpy','sha256','e8d3a78a60605e4e4e07f6183df20c5b1dc378ad585b273df15dbdbbbda576d6','https://github.com/alpine-wheels/numpy/releases/download/1.22.4/numpy-1.22.4-cp310-cp310-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('typed-ast','sha256','08d21ce5e9b4f55142047f80055ecc2e50ea4110aee3bfd8098103cc96259380','https://github.com/alpine-wheels/typed-ast/releases/download/1.5.4/typed_ast-1.5.4-cp310-cp310-linux_x86_64.whl');
 COMMIT;

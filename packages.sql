@@ -446,4 +446,5 @@ INSERT INTO "packages" VALUES('numpy','sha256','257fc93b9698eacff3f11e64c1941225
 INSERT INTO "packages" VALUES('numpy','sha256','e8d3a78a60605e4e4e07f6183df20c5b1dc378ad585b273df15dbdbbbda576d6','https://github.com/alpine-wheels/numpy/releases/download/1.22.4/numpy-1.22.4-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('typed-ast','sha256','08d21ce5e9b4f55142047f80055ecc2e50ea4110aee3bfd8098103cc96259380','https://github.com/alpine-wheels/typed-ast/releases/download/1.5.4/typed_ast-1.5.4-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('borgbackup','sha256','25a9ca85701435f0b593b7265bb8117560013d4a176ece5a9a61dcbc263695b8','https://github.com/alpine-wheels/borgbackup/releases/download/1.2.0/borgbackup-1.2.0-cp310-cp310-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('SQLAlchemy','sha256','f1297a7e3c94be792186ca6b01bf7b3ecafab063fde0143ac2b624d8a0da33c1','https://github.com/alpine-wheels/sqlalchemy/releases/download/1.4.37/SQLAlchemy-1.4.37-cp310-cp310-linux_x86_64.whl');
 COMMIT;

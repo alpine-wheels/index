@@ -448,4 +448,5 @@ INSERT INTO "packages" VALUES('typed-ast','sha256','08d21ce5e9b4f55142047f80055e
 INSERT INTO "packages" VALUES('borgbackup','sha256','25a9ca85701435f0b593b7265bb8117560013d4a176ece5a9a61dcbc263695b8','https://github.com/alpine-wheels/borgbackup/releases/download/1.2.0/borgbackup-1.2.0-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('SQLAlchemy','sha256','f1297a7e3c94be792186ca6b01bf7b3ecafab063fde0143ac2b624d8a0da33c1','https://github.com/alpine-wheels/sqlalchemy/releases/download/1.4.37/SQLAlchemy-1.4.37-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('llfuse','sha256','5f96736c332efd417e6eb3bdff8116362ee3a4376f2f8d66a5c0d0341378c3d2','https://github.com/alpine-wheels/llfuse/releases/download/1.4.2/llfuse-1.4.2-cp310-cp310-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('neo4j','sha256','dd15bce81eb948c2a4576743239118de1441b17c0e2d6319b7a06b9190c94d89','https://github.com/alpine-wheels/neo4j/releases/download/4.4.4/neo4j-4.4.4-py3-none-any.whl');
 COMMIT;

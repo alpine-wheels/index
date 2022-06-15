@@ -450,4 +450,5 @@ INSERT INTO "packages" VALUES('SQLAlchemy','sha256','f1297a7e3c94be792186ca6b01b
 INSERT INTO "packages" VALUES('llfuse','sha256','5f96736c332efd417e6eb3bdff8116362ee3a4376f2f8d66a5c0d0341378c3d2','https://github.com/alpine-wheels/llfuse/releases/download/1.4.2/llfuse-1.4.2-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('neo4j','sha256','dd15bce81eb948c2a4576743239118de1441b17c0e2d6319b7a06b9190c94d89','https://github.com/alpine-wheels/neo4j/releases/download/4.4.4/neo4j-4.4.4-py3-none-any.whl');
 INSERT INTO "packages" VALUES('borgbackup','sha256','63836be791f7970b29915b8897efb752af45251a6e78b99b35374cdd233b6a54','https://github.com/alpine-wheels/borgbackup/releases/download/1.2.1/borgbackup-1.2.1-cp310-cp310-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('ansible','sha256','5bd398f7f1ae7c87fa5944436133d92ee15aadbedf177588d812be2296ff85c1','https://github.com/alpine-wheels/ansible/releases/download/5.9.0/ansible-5.9.0-py3-none-any.whl');
 COMMIT;

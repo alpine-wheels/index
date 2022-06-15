@@ -453,4 +453,5 @@ INSERT INTO "packages" VALUES('borgbackup','sha256','63836be791f7970b29915b8897e
 INSERT INTO "packages" VALUES('ansible','sha256','5bd398f7f1ae7c87fa5944436133d92ee15aadbedf177588d812be2296ff85c1','https://github.com/alpine-wheels/ansible/releases/download/5.9.0/ansible-5.9.0-py3-none-any.whl');
 INSERT INTO "packages" VALUES('scikit-image','sha256','7a10362edf4732f11dcbedf21c8cf52bc2881d9eb8804a20430dbf85c84b6dc2','https://github.com/alpine-wheels/scikit-image/releases/download/0.19.3/scikit_image-0.19.3-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('opencv-python','sha256','060c4e2cae04419ae7d61c597eabccd9397c6ac8ef0f064eb295459b75de072f','https://github.com/alpine-wheels/opencv-python/releases/download/3.4.18.65/opencv_python-3.4.18.65-cp310-cp310-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('opencv-python','sha256','756fde16754fb6324ea4a6d65e578a477155ec201c03fdd879aaacc2be4a385a','https://github.com/alpine-wheels/opencv-python/releases/download/4.6.0.66/opencv_python-4.6.0.66-cp310-cp310-linux_x86_64.whl');
 COMMIT;

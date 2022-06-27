@@ -458,4 +458,5 @@ INSERT INTO "packages" VALUES('mysqlclient','sha256','86eb0a6919d4b93503fd965ece
 INSERT INTO "packages" VALUES('pycryptodome','sha256','eaa67b070ef230651af0c768e6328a688c1eeb49b8ff26853756234c30f28de4','https://github.com/alpine-wheels/pycryptodome/releases/download/3.15.0/pycryptodome-3.15.0-cp35-abi3-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('numpy','sha256','df12158ebdbb38af1dd0646b560e89ade907e2154a0016a1591be7cd343b585b','https://github.com/alpine-wheels/numpy/releases/download/1.23.0/numpy-1.23.0-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('numpy','sha256','a04859fa8046588a1e3798b6e00e32b74cf21efb58fd0ef1d8c774a3b1cba4ca','https://github.com/alpine-wheels/numpy/releases/download/1.23.0/numpy-1.23.0-cp39-cp39-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('pandas','sha256','9fbc339c82c492732c6c443d93c60bce5941a23ce844de8e966e92c97c118e5b','https://github.com/alpine-wheels/pandas/releases/download/1.4.3/pandas-1.4.3-cp310-cp310-linux_x86_64.whl');
 COMMIT;

@@ -456,4 +456,5 @@ INSERT INTO "packages" VALUES('opencv-python','sha256','060c4e2cae04419ae7d61c59
 INSERT INTO "packages" VALUES('opencv-python','sha256','756fde16754fb6324ea4a6d65e578a477155ec201c03fdd879aaacc2be4a385a','https://github.com/alpine-wheels/opencv-python/releases/download/4.6.0.66/opencv_python-4.6.0.66-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('mysqlclient','sha256','86eb0a6919d4b93503fd965ece2fb3ea988e617c133daf0ef417af3f921b5faa','https://github.com/alpine-wheels/mysqlclient/releases/download/2.1.1/mysqlclient-2.1.1-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('pycryptodome','sha256','eaa67b070ef230651af0c768e6328a688c1eeb49b8ff26853756234c30f28de4','https://github.com/alpine-wheels/pycryptodome/releases/download/3.15.0/pycryptodome-3.15.0-cp35-abi3-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('numpy','sha256','a04859fa8046588a1e3798b6e00e32b74cf21efb58fd0ef1d8c774a3b1cba4ca','https://github.com/alpine-wheels/numpy/releases/download/1.23.0/numpy-1.23.0-cp39-cp39-linux_x86_64.whl');
 COMMIT;

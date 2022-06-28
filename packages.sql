@@ -460,4 +460,5 @@ INSERT INTO "packages" VALUES('numpy','sha256','df12158ebdbb38af1dd0646b560e89ad
 INSERT INTO "packages" VALUES('numpy','sha256','a04859fa8046588a1e3798b6e00e32b74cf21efb58fd0ef1d8c774a3b1cba4ca','https://github.com/alpine-wheels/numpy/releases/download/1.23.0/numpy-1.23.0-cp39-cp39-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('pandas','sha256','e4be76034a38e8c692e8d79649dbc7153c0630564490a08feee44ae39f3d89da','https://github.com/alpine-wheels/pandas/releases/download/1.4.3/pandas-1.4.3-cp39-cp39-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('pandas','sha256','9fbc339c82c492732c6c443d93c60bce5941a23ce844de8e966e92c97c118e5b','https://github.com/alpine-wheels/pandas/releases/download/1.4.3/pandas-1.4.3-cp310-cp310-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('SQLAlchemy','sha256','8e7f1e35b06f5da0de81c7fd0617e80715350e1f9e8edb86a2122b17102315c3','https://github.com/alpine-wheels/sqlalchemy/releases/download/1.4.39/SQLAlchemy-1.4.39-cp310-cp310-linux_x86_64.whl');
 COMMIT;

@@ -467,4 +467,5 @@ INSERT INTO "packages" VALUES('numpy','sha256','3eae4d490193836249511d23f07bbcb6
 INSERT INTO "packages" VALUES('pyodbc','sha256','ca8efd70e4123814867c4de086f9bab5c42ca7266bfb696567bfe49281a93d8d','https://github.com/alpine-wheels/pyodbc/releases/download/4.0.33/pyodbc-4.0.33-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('pyodbc','sha256','90c3985fed18dbb4e1250704655f82da125db8dd831e403c0ae766d2a5f170bb','https://github.com/alpine-wheels/pyodbc/releases/download/4.0.34/pyodbc-4.0.34-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('numpy','sha256','573ce42ba913a62c5923fe555861a5254093ae8901d004dd622eba0f1e26dbaf','https://github.com/alpine-wheels/numpy/releases/download/1.21.5/numpy-1.21.6-cp310-cp310-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('scipy','sha256','504294e930d801207b84fa6b38461da3cc9cd984fae02bee1b7123eada7833bf','https://github.com/alpine-wheels/scipy/releases/download/1.9.0/scipy-1.9.0-cp310-cp310-linux_x86_64.whl');
 COMMIT;

@@ -1,4 +1,4 @@
-FROM python:3.10.5-alpine3.15
+FROM python:3.10.6-alpine3.16
 
 RUN /usr/sbin/adduser -g python -D python
 

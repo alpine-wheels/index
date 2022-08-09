@@ -469,4 +469,5 @@ INSERT INTO "packages" VALUES('pyodbc','sha256','90c3985fed18dbb4e1250704655f82d
 INSERT INTO "packages" VALUES('numpy','sha256','573ce42ba913a62c5923fe555861a5254093ae8901d004dd622eba0f1e26dbaf','https://github.com/alpine-wheels/numpy/releases/download/1.21.5/numpy-1.21.6-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('scipy','sha256','504294e930d801207b84fa6b38461da3cc9cd984fae02bee1b7123eada7833bf','https://github.com/alpine-wheels/scipy/releases/download/1.9.0/scipy-1.9.0-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('scikit-learn','sha256','5ab0196b4afb84df6f8f441e816c411866fe5ea246425e9bd71a850eab1df9c4','https://github.com/alpine-wheels/scikit-learn/releases/download/1.1.2/scikit_learn-1.1.2-cp310-cp310-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('SQLAlchemy','sha256','527a56dfb92efd764c365ef438b65992a42401f46a874a010636680645e3c61f','https://github.com/alpine-wheels/sqlalchemy/releases/download/1.4.40/SQLAlchemy-1.4.40-cp310-cp310-linux_x86_64.whl');
 COMMIT;

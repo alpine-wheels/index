@@ -472,4 +472,5 @@ INSERT INTO "packages" VALUES('scikit-learn','sha256','5ab0196b4afb84df6f8f441e8
 INSERT INTO "packages" VALUES('SQLAlchemy','sha256','527a56dfb92efd764c365ef438b65992a42401f46a874a010636680645e3c61f','https://github.com/alpine-wheels/sqlalchemy/releases/download/1.4.40/SQLAlchemy-1.4.40-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('borgbackup','sha256','3b82a27c0c9796b0240cf3148ec38cb0c222febcb541253ae3f766a875c85948','https://github.com/alpine-wheels/borgbackup/releases/download/1.2.2/borgbackup-1.2.2-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('greenlet','sha256','ee604dc160af4df42d99d4198dd9f9d2320280e9196df985ecfa17507340780a','https://github.com/alpine-wheels/greenlet/releases/download/1.1.3/greenlet-1.1.3-cp310-cp310-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('scipy','sha256','b9e0f1df491f8becc186597a9046a5fdcde8688a214300680050e7ce393bc9eb','https://github.com/alpine-wheels/scipy/releases/download/1.9.1/scipy-1.9.1-cp310-cp310-linux_x86_64.whl');
 COMMIT;

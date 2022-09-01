@@ -474,4 +474,5 @@ INSERT INTO "packages" VALUES('borgbackup','sha256','3b82a27c0c9796b0240cf3148ec
 INSERT INTO "packages" VALUES('greenlet','sha256','ee604dc160af4df42d99d4198dd9f9d2320280e9196df985ecfa17507340780a','https://github.com/alpine-wheels/greenlet/releases/download/1.1.3/greenlet-1.1.3-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('scipy','sha256','b9e0f1df491f8becc186597a9046a5fdcde8688a214300680050e7ce393bc9eb','https://github.com/alpine-wheels/scipy/releases/download/1.9.1/scipy-1.9.1-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('neo4j','sha256','bf7aae507df0f09795e43aeae296ede3bcb5d7688e70548357d29908a6ce1e34','https://github.com/alpine-wheels/neo4j/releases/download/4.4.6/neo4j-4.4.6-py3-none-any.whl');
+INSERT INTO "packages" VALUES('pandas','sha256','96a4b061e6a4bcbd67600b956a59633998ab9edd0f2a44ba96c68cbb040bb5d6','https://github.com/alpine-wheels/pandas/releases/download/1.4.4/pandas-1.4.4-cp310-cp310-linux_x86_64.whl');
 COMMIT;

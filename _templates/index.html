@@ -9,9 +9,7 @@
 <hr>
 <ul>
 {% for package in packages %}
-    <li>
-    <a href="{{ package | normalize }}/">{{ package }}</a>
-    </li>
+    <li><a href="{{ package | normalize }}/">{{ package }}</a></li>
 {% endfor %}
 </ul>
 

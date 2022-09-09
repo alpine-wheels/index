@@ -476,4 +476,5 @@ INSERT INTO "packages" VALUES('scipy','sha256','b9e0f1df491f8becc186597a9046a5fd
 INSERT INTO "packages" VALUES('neo4j','sha256','bf7aae507df0f09795e43aeae296ede3bcb5d7688e70548357d29908a6ce1e34','https://github.com/alpine-wheels/neo4j/releases/download/4.4.6/neo4j-4.4.6-py3-none-any.whl');
 INSERT INTO "packages" VALUES('pandas','sha256','96a4b061e6a4bcbd67600b956a59633998ab9edd0f2a44ba96c68cbb040bb5d6','https://github.com/alpine-wheels/pandas/releases/download/1.4.4/pandas-1.4.4-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('pandas','sha256','4ccc78b4b7100df408a2bf06b07c870461c8b6e25c1fb5d34b1c062e7ed0df10','https://github.com/alpine-wheels/pandas/releases/download/1.4.4/pandas-1.4.4-cp39-cp39-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('psutil','sha256','7cdb6f1c8bea95c704b87fd58790db2b168574e11f72d714052673451aa292d9','https://github.com/alpine-wheels/psutil/releases/download/5.9.2/psutil-5.9.2-cp310-cp310-linux_x86_64.whl');
 COMMIT;

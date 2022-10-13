@@ -489,4 +489,5 @@ INSERT INTO "packages" VALUES('grpclib','sha256','9592dc0908beef1355fe17aecd2bcc
 INSERT INTO "packages" VALUES('scipy','sha256','8db616c5b9f39bf23dadc574716189720021eeae98e7a31a0ffc4a78c9669115','https://github.com/alpine-wheels/scipy/releases/download/1.9.2/scipy-1.9.2-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('neo4j','sha256','f5ea02ab575d9e958ce8f0814b71b82d0d232b052c7f7eb96569e86022a41f4f','https://github.com/alpine-wheels/neo4j/releases/download/5.1.0/neo4j-5.1.0-py3-none-any.whl');
 INSERT INTO "packages" VALUES('numpy','sha256','ae32dfc83cfe7f5fa07847d627570fc4fc55dc80963c448105e34998daacebc2','https://github.com/alpine-wheels/numpy/releases/download/1.23.4/numpy-1.23.4-cp310-cp310-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('numpy','sha256','6fc1da6b02d5bfb2e5c8a71d2080b0aaf03e3c2901b79521a1bfc4d20844f327','https://github.com/alpine-wheels/numpy/releases/download/1.23.4/numpy-1.23.4-cp39-cp39-linux_x86_64.whl');
 COMMIT;

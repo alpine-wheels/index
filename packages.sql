@@ -491,4 +491,5 @@ INSERT INTO "packages" VALUES('neo4j','sha256','f5ea02ab575d9e958ce8f0814b71b82d
 INSERT INTO "packages" VALUES('numpy','sha256','ae32dfc83cfe7f5fa07847d627570fc4fc55dc80963c448105e34998daacebc2','https://github.com/alpine-wheels/numpy/releases/download/1.23.4/numpy-1.23.4-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('numpy','sha256','6fc1da6b02d5bfb2e5c8a71d2080b0aaf03e3c2901b79521a1bfc4d20844f327','https://github.com/alpine-wheels/numpy/releases/download/1.23.4/numpy-1.23.4-cp39-cp39-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('SQLAlchemy','sha256','284ededfa556f33c2edea6bd2fa63bb8b569f5dadb2ff227d821d3e22683b86b','https://github.com/alpine-wheels/sqlalchemy/releases/download/1.4.42/SQLAlchemy-1.4.42-cp310-cp310-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('psycopg2','sha256','03049218b695590bc3fbd06c5ecdaf9b1e744857ef704923ab5da4337aecc779','https://github.com/alpine-wheels/psycopg2/releases/download/2.9.4/psycopg2-2.9.4-cp311-cp311-linux_x86_64.whl');
 COMMIT;

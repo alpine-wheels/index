@@ -495,4 +495,5 @@ INSERT INTO "packages" VALUES('psycopg2','sha256','03049218b695590bc3fbd06c5ecda
 INSERT INTO "packages" VALUES('psutil','sha256','2b8c90296ad7c8913c577888a289ffdb3fcdf898538632cbe2704b0b6e7d5267','https://github.com/alpine-wheels/psutil/releases/download/5.9.3/psutil-5.9.3-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('ruamel.yaml.clib','sha256','f6b2ebd0f5314cb88e8fbdf4757e4b39fa78d534e103943fa4c19afcc51ba7bb','https://github.com/alpine-wheels/ruamel.yaml.clib/releases/download/0.2.7/ruamel.yaml.clib-0.2.7-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('pandas','sha256','22e0f700fe24d952688f998133b585a8957474bf0f43db5452c4009b764e7e7d','https://github.com/alpine-wheels/pandas/releases/download/1.5.1/pandas-1.5.1-cp310-cp310-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('pandas','sha256','fd4b55bba797c3e26c62675979ac8ee34e784d78db0a8dd3c2e5d7498011121d','https://github.com/alpine-wheels/pandas/releases/download/1.5.1/pandas-1.5.1-cp39-cp39-linux_x86_64.whl');
 COMMIT;

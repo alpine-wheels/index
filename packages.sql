@@ -493,4 +493,5 @@ INSERT INTO "packages" VALUES('numpy','sha256','6fc1da6b02d5bfb2e5c8a71d2080b0aa
 INSERT INTO "packages" VALUES('SQLAlchemy','sha256','284ededfa556f33c2edea6bd2fa63bb8b569f5dadb2ff227d821d3e22683b86b','https://github.com/alpine-wheels/sqlalchemy/releases/download/1.4.42/SQLAlchemy-1.4.42-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('psycopg2','sha256','03049218b695590bc3fbd06c5ecdaf9b1e744857ef704923ab5da4337aecc779','https://github.com/alpine-wheels/psycopg2/releases/download/2.9.4/psycopg2-2.9.4-cp311-cp311-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('psutil','sha256','2b8c90296ad7c8913c577888a289ffdb3fcdf898538632cbe2704b0b6e7d5267','https://github.com/alpine-wheels/psutil/releases/download/5.9.3/psutil-5.9.3-cp310-cp310-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('ruamel.yaml.clib','sha256','f6b2ebd0f5314cb88e8fbdf4757e4b39fa78d534e103943fa4c19afcc51ba7bb','https://github.com/alpine-wheels/ruamel.yaml.clib/releases/download/0.2.7/ruamel.yaml.clib-0.2.7-cp310-cp310-linux_x86_64.whl');
 COMMIT;

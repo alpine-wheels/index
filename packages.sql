@@ -497,4 +497,5 @@ INSERT INTO "packages" VALUES('ruamel.yaml.clib','sha256','f6b2ebd0f5314cb88e8fb
 INSERT INTO "packages" VALUES('pandas','sha256','22e0f700fe24d952688f998133b585a8957474bf0f43db5452c4009b764e7e7d','https://github.com/alpine-wheels/pandas/releases/download/1.5.1/pandas-1.5.1-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('pandas','sha256','fd4b55bba797c3e26c62675979ac8ee34e784d78db0a8dd3c2e5d7498011121d','https://github.com/alpine-wheels/pandas/releases/download/1.5.1/pandas-1.5.1-cp39-cp39-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('scipy','sha256','aa0c7ff50c0a51f0a6d249eb9f839ec30863caad761ef00c2639aed5b9a2dfa8','https://github.com/alpine-wheels/scipy/releases/download/1.9.3/scipy-1.9.3-cp310-cp310-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('pendulum','sha256','4832c28d9d0615cd6084312f59d38c6266c94be4b815ba3a8b547ecf1368acec','https://github.com/alpine-wheels/pendulum/releases/download/2.1.2/pendulum-2.1.2-cp311-cp311-musllinux_1_2_x86_64.whl');
 COMMIT;

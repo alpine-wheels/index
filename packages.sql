@@ -500,4 +500,5 @@ INSERT INTO "packages" VALUES('scipy','sha256','aa0c7ff50c0a51f0a6d249eb9f839ec3
 INSERT INTO "packages" VALUES('pendulum','sha256','4832c28d9d0615cd6084312f59d38c6266c94be4b815ba3a8b547ecf1368acec','https://github.com/alpine-wheels/pendulum/releases/download/2.1.2/pendulum-2.1.2-cp311-cp311-musllinux_1_2_x86_64.whl');
 INSERT INTO "packages" VALUES('psycopg2','sha256','dd0148a2fc423175c8c980ace6543238f7242789d1b0613939ef5a9bc762eb34','https://github.com/alpine-wheels/psycopg2/releases/download/2.9.5/psycopg2-2.9.5-cp311-cp311-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('pyodbc','sha256','145e688ef0cdc756a132a05fc88b0c9b9b06a9e522a4af2dfac2e8e5369718bb','https://github.com/alpine-wheels/pyodbc/releases/download/4.0.34/pyodbc-4.0.34-cp311-cp311-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('pyyaml','sha256','3854aa2f6aaf5bcae9be79bb1a3da5dd8a111c4c970f0e2a83c91987c16f334f','https://github.com/alpine-wheels/pyyaml/releases/download/6.0/PyYAML-6.0-cp311-cp311-linux_x86_64.whl');
 COMMIT;

@@ -499,4 +499,5 @@ INSERT INTO "packages" VALUES('pandas','sha256','fd4b55bba797c3e26c62675979ac8ee
 INSERT INTO "packages" VALUES('scipy','sha256','aa0c7ff50c0a51f0a6d249eb9f839ec30863caad761ef00c2639aed5b9a2dfa8','https://github.com/alpine-wheels/scipy/releases/download/1.9.3/scipy-1.9.3-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('pendulum','sha256','4832c28d9d0615cd6084312f59d38c6266c94be4b815ba3a8b547ecf1368acec','https://github.com/alpine-wheels/pendulum/releases/download/2.1.2/pendulum-2.1.2-cp311-cp311-musllinux_1_2_x86_64.whl');
 INSERT INTO "packages" VALUES('psycopg2','sha256','dd0148a2fc423175c8c980ace6543238f7242789d1b0613939ef5a9bc762eb34','https://github.com/alpine-wheels/psycopg2/releases/download/2.9.5/psycopg2-2.9.5-cp311-cp311-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('pyodbc','sha256','145e688ef0cdc756a132a05fc88b0c9b9b06a9e522a4af2dfac2e8e5369718bb','https://github.com/alpine-wheels/pyodbc/releases/download/4.0.34/pyodbc-4.0.34-cp311-cp311-linux_x86_64.whl');
 COMMIT;

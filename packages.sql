@@ -501,4 +501,5 @@ INSERT INTO "packages" VALUES('pendulum','sha256','4832c28d9d0615cd6084312f59d38
 INSERT INTO "packages" VALUES('psycopg2','sha256','dd0148a2fc423175c8c980ace6543238f7242789d1b0613939ef5a9bc762eb34','https://github.com/alpine-wheels/psycopg2/releases/download/2.9.5/psycopg2-2.9.5-cp311-cp311-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('pyodbc','sha256','145e688ef0cdc756a132a05fc88b0c9b9b06a9e522a4af2dfac2e8e5369718bb','https://github.com/alpine-wheels/pyodbc/releases/download/4.0.34/pyodbc-4.0.34-cp311-cp311-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('PyYAML','sha256','3854aa2f6aaf5bcae9be79bb1a3da5dd8a111c4c970f0e2a83c91987c16f334f','https://github.com/alpine-wheels/pyyaml/releases/download/6.0/PyYAML-6.0-cp311-cp311-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('neo4j','sha256','ddc0cfd9d8275d736b057ebbdf14a74a868f8d0256e17eac4797914075b43c74','https://github.com/alpine-wheels/neo4j/releases/download/5.2.0/neo4j-5.2.0-py3-none-any.whl');
 COMMIT;

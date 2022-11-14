@@ -504,4 +504,5 @@ INSERT INTO "packages" VALUES('PyYAML','sha256','3854aa2f6aaf5bcae9be79bb1a3da5d
 INSERT INTO "packages" VALUES('neo4j','sha256','ddc0cfd9d8275d736b057ebbdf14a74a868f8d0256e17eac4797914075b43c74','https://github.com/alpine-wheels/neo4j/releases/download/5.2.0/neo4j-5.2.0-py3-none-any.whl');
 INSERT INTO "packages" VALUES('scipy','sha256','f681d7bb518f962d270929f77637daac8ca251fe90668a453e7d7a4e0d3541aa','https://github.com/alpine-wheels/scipy/releases/download/1.9.3/scipy-1.9.3-cp311-cp311-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('scikit-learn','sha256','671538dd274c1c96c273f9987cbb966235e76dcb8159caf89776ea0cc35ec9d6','https://github.com/alpine-wheels/scikit-learn/releases/download/1.1.3/scikit_learn-1.1.3-cp311-cp311-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('psutil','sha256','dc4d61b2a9ba33c52ca02f6836728c34fd48c55ac0f0d966a180869f6f7695b1','https://github.com/alpine-wheels/psutil/releases/download/5.9.4/psutil-5.9.4-cp311-abi3-linux_x86_64.whl');
 COMMIT;

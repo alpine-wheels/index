@@ -505,4 +505,5 @@ INSERT INTO "packages" VALUES('neo4j','sha256','ddc0cfd9d8275d736b057ebbdf14a74a
 INSERT INTO "packages" VALUES('scipy','sha256','f681d7bb518f962d270929f77637daac8ca251fe90668a453e7d7a4e0d3541aa','https://github.com/alpine-wheels/scipy/releases/download/1.9.3/scipy-1.9.3-cp311-cp311-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('scikit-learn','sha256','671538dd274c1c96c273f9987cbb966235e76dcb8159caf89776ea0cc35ec9d6','https://github.com/alpine-wheels/scikit-learn/releases/download/1.1.3/scikit_learn-1.1.3-cp311-cp311-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('psutil','sha256','dc4d61b2a9ba33c52ca02f6836728c34fd48c55ac0f0d966a180869f6f7695b1','https://github.com/alpine-wheels/psutil/releases/download/5.9.4/psutil-5.9.4-cp311-abi3-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('SQLAlchemy','sha256','683d962d135ea73d32cce1f815e4a354e0fd7d71dd0fc7869e09bd1ae103ec8d','https://github.com/alpine-wheels/sqlalchemy/releases/download/1.4.44/SQLAlchemy-1.4.44-cp311-cp311-linux_x86_64.whl');
 COMMIT;

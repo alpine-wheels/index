@@ -519,4 +519,5 @@ INSERT INTO "packages" VALUES('numpy','sha256','187c06a3563aa3502a4e98d8c3b6b905
 INSERT INTO "packages" VALUES('numpy','sha256','86688b49ef9bac2ab27b179f93744d8b16a324d4e6feb57fd8cafacebb70cb75','https://github.com/alpine-wheels/numpy/releases/download/1.24.1/numpy-1.24.1-cp311-cp311-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('SQLAlchemy','sha256','d10abb0dbf8cc27fa72bfec9ff50945dd146727c22ee50bc524df811a247cab9','https://github.com/alpine-wheels/sqlalchemy/releases/download/1.4.45/SQLAlchemy-1.4.45-cp311-cp311-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('scikit-learn','sha256','75adf244c010750847bb3fbc703185e696c53590da7bfbf8c0beae172b6cb79a','https://github.com/alpine-wheels/scikit-learn/releases/download/1.2.0/scikit_learn-1.2.0-cp311-cp311-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('borgbackup','sha256','8961cb015f09f36e9ef2a2afe46ac9fdaea2dd771ed2f7df8211816bede473d3','https://github.com/alpine-wheels/borgbackup/releases/download/1.2.3/borgbackup-1.2.3-cp311-cp311-linux_x86_64.whl');
 COMMIT;

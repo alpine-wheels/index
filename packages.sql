@@ -523,4 +523,5 @@ INSERT INTO "packages" VALUES('borgbackup','sha256','8961cb015f09f36e9ef2a2afe46
 INSERT INTO "packages" VALUES('SQLAlchemy','sha256','97c33ed7daafbb5b4858d65b291a16985af5004848307e11f5964ab3e7a4b440','https://github.com/alpine-wheels/sqlalchemy/releases/download/1.4.46/SQLAlchemy-1.4.46-cp311-cp311-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('scipy','sha256','2155ef2e692b19f68f29550c983a03e8d9f01a8daa5bc0e7cfeaa2c37f454eea','https://github.com/alpine-wheels/scipy/releases/download/1.10.0/scipy-1.10.0-cp311-cp311-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('matplotlib','sha256','8071167a0777f6644f9c22a0b36cb57f76eb35383f731bb3bd48b847f37d84a7','https://github.com/alpine-wheels/matplotlib/releases/download/3.6.2/matplotlib-3.6.2-cp311-cp311-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('matplotlib','sha256','5ccefe4d99166539bb669b434b57ab89de533f46c3b397827e42c617f6f0db07','https://github.com/alpine-wheels/matplotlib/releases/download/3.6.2/matplotlib-3.6.2-cp310-cp310-linux_x86_64.whl');
 COMMIT;

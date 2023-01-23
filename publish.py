@@ -2,6 +2,7 @@ import itertools
 import jinja2
 import pathlib
 import re
+import shutil
 import sqlite3
 
 
@@ -31,6 +32,7 @@ def main():
     cur = cnx.execute('select name, hash_name, hash_value, href from packages order by name, href')
     packages = cur.fetchall()
     package_names = []
+    simple_dir = pathlib.Path('-/simple')
     for name, packages in itertools.groupby(packages, get_name):
         package_names.append(name)
         package_template = jinja_env.get_template('package.html')
@@ -40,11 +42,14 @@ def main():
         out_file = out_dir / 'index.html'
         with out_file.open('w') as f:
             f.write(package_rendered)
+        (simple_dir / out_file).parent.mkdir(exist_ok=True, parents=True)
+        shutil.copy(out_file, simple_dir / out_file)
     index_template = jinja_env.get_template('index.html')
     index_rendered = index_template.render(packages=package_names)
     out_file = pathlib.Path('index.html')
     with out_file.open('w') as f:
         f.write(index_rendered)
+    shutil.copy(out_file, simple_dir / out_file)
 
 
 if __name__ == '__main__':

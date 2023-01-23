@@ -70,6 +70,15 @@ verify_ssl = true
 $ pipenv install pandas
 ```
 
+## Tools that require `/simple`
+
+Some tools require a simple index URL to end with `/simple`. For this case, the index content is also available at
+`https://alpine-wheels.github.io/index/-/simple`.
+
+*   [Sonatype Nexus][s]
+
+[s]: https://community.sonatype.com/t/how-would-i-create-a-proxy-for-a-pypi-that-uses-simple-instead-of-simple/7378/2
+
 ## Contributing
 
 Is there a package you need that is missing from the index? [Open an issue][c] to suggest it. We only support packages that are available on [PyPI][d] but do not already have a wheel that is compatible with Alpine Linux.

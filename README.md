@@ -75,9 +75,10 @@ $ pipenv install pandas
 Some tools require a simple index URL to end with `/simple`. For this case, the index content is also available at
 `https://alpine-wheels.github.io/index/-/simple`.
 
-*   [Sonatype Nexus][s]
+*   Sonatype Nexus [1][s1] [2][s2]
 
-[s]: https://community.sonatype.com/t/how-would-i-create-a-proxy-for-a-pypi-that-uses-simple-instead-of-simple/7378/2
+[s1]: https://community.sonatype.com/t/how-would-i-create-a-proxy-for-a-pypi-that-uses-simple-instead-of-simple/7378/2
+[s2]: https://issues.sonatype.org/browse/NEXUS-29223
 
 ## Contributing
 

@@ -526,6 +526,7 @@ INSERT INTO "packages" VALUES('matplotlib','sha256','8071167a0777f6644f9c22a0b36
 INSERT INTO "packages" VALUES('matplotlib','sha256','5ccefe4d99166539bb669b434b57ab89de533f46c3b397827e42c617f6f0db07','https://github.com/alpine-wheels/matplotlib/releases/download/3.6.2/matplotlib-3.6.2-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('neo4j','sha256','0a09fafe507ac6201c89fc635b0ad6712d516b56f0fed2326061a37f22893d9b','https://github.com/alpine-wheels/neo4j/releases/download/5.4.0/neo4j-5.4.0-py3-none-any.whl');
 INSERT INTO "packages" VALUES('future','sha256','cc340ec555a53d4ca7f5bcd3c59217b59d790e1c697869f75f54f4694c55bd8a','https://github.com/alpine-wheels/future/releases/download/0.18.3/future-0.18.3-py3-none-any.whl');
+INSERT INTO "packages" VALUES('pandas','sha256','c99b451431f72e1f39f01cc3f6e8ec3207642983b1a180aac13df15ad4e7f144','https://github.com/alpine-wheels/pandas/releases/download/1.5.3/pandas-1.5.3-cp39-cp39-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('pandas','sha256','db66f70c2412d18bf008157be298a5b331e501a3a6c53a3f6a046f0e0336e4c3','https://github.com/alpine-wheels/pandas/releases/download/1.5.3/pandas-1.5.3-cp311-cp311-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('pandas','sha256','ccf34d9a36af2fd0db00533c7dbb52448b6b333ef7aa8089926c4cda2227061d','https://github.com/alpine-wheels/pandas/releases/download/1.5.3/pandas-1.5.3-cp310-cp310-linux_x86_64.whl');
 COMMIT;

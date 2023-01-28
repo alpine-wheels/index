@@ -530,4 +530,5 @@ INSERT INTO "packages" VALUES('pandas','sha256','c99b451431f72e1f39f01cc3f6e8ec3
 INSERT INTO "packages" VALUES('pandas','sha256','db66f70c2412d18bf008157be298a5b331e501a3a6c53a3f6a046f0e0336e4c3','https://github.com/alpine-wheels/pandas/releases/download/1.5.3/pandas-1.5.3-cp311-cp311-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('pandas','sha256','ccf34d9a36af2fd0db00533c7dbb52448b6b333ef7aa8089926c4cda2227061d','https://github.com/alpine-wheels/pandas/releases/download/1.5.3/pandas-1.5.3-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('scikit-learn','sha256','91d1d3d15d1a651593b37648e9dc3738e0857be0c677d945908ee821dbf2e1df','https://github.com/alpine-wheels/scikit-learn/releases/download/1.2.1/scikit_learn-1.2.1-cp311-cp311-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('neo4j','sha256','2bbbca11052ad750047971e6fc8bebb6228df8c0d153116fcbf1b08bef1b0688','https://github.com/alpine-wheels/neo4j/releases/download/5.5.0/neo4j-5.5.0-py3-none-any.whl');
 COMMIT;

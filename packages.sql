@@ -532,6 +532,7 @@ INSERT INTO "packages" VALUES('pandas','sha256','ccf34d9a36af2fd0db00533c7dbb524
 INSERT INTO "packages" VALUES('scikit-learn','sha256','91d1d3d15d1a651593b37648e9dc3738e0857be0c677d945908ee821dbf2e1df','https://github.com/alpine-wheels/scikit-learn/releases/download/1.2.1/scikit_learn-1.2.1-cp311-cp311-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('neo4j','sha256','2bbbca11052ad750047971e6fc8bebb6228df8c0d153116fcbf1b08bef1b0688','https://github.com/alpine-wheels/neo4j/releases/download/5.5.0/neo4j-5.5.0-py3-none-any.whl');
 INSERT INTO "packages" VALUES('opencv-python','sha256','5751968e6a054194bc310a97ef4cfa5ea366b7aad3480cab737db1350f0f943d','https://github.com/alpine-wheels/opencv-python/releases/download/4.7.0.68/opencv_python-4.7.0.68-cp310-cp310-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('numpy','sha256','02ea35c26c91a9751df70d1e667334161a69253700197b76d3290c151319d757','https://github.com/alpine-wheels/numpy/releases/download/1.24.2/numpy-1.24.2-cp39-cp39-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('numpy','sha256','a08d996635010763e7b11367c11c0d39a988e744a3eb3d90783e2b6d82d596ce','https://github.com/alpine-wheels/numpy/releases/download/1.24.2/numpy-1.24.2-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('numpy','sha256','ad6d6c765f80f6f3ce38125271cb0386546c95b4ff585b6707295ecefea36a8e','https://github.com/alpine-wheels/numpy/releases/download/1.24.2/numpy-1.24.2-cp311-cp311-linux_x86_64.whl');
 COMMIT;

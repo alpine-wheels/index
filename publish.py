@@ -32,12 +32,14 @@ def main():
     cur = cnx.execute('select name, hash_name, hash_value, href from packages order by name, href')
     packages = cur.fetchall()
     package_names = []
-    simple_dir = pathlib.Path('-/simple')
+    output_base_dir = pathlib.Path('_output')
+    output_base_dir.mkdir(exist_ok=True, parents=True)
+    simple_dir = output_base_dir / '-/simple'
     for name, packages in itertools.groupby(packages, get_name):
         package_names.append(name)
         package_template = jinja_env.get_template('package.html')
         package_rendered = package_template.render(name=name, packages=packages)
-        out_dir = pathlib.Path(normalize(name))
+        out_dir = output_base_dir / normalize(name)
         out_dir.mkdir(exist_ok=True)
         out_file = out_dir / 'index.html'
         with out_file.open('w') as f:
@@ -46,7 +48,7 @@ def main():
         shutil.copy(out_file, simple_dir / out_file)
     index_template = jinja_env.get_template('index.html')
     index_rendered = index_template.render(packages=package_names)
-    out_file = pathlib.Path('index.html')
+    out_file = output_base_dir / 'index.html'
     with out_file.open('w') as f:
         f.write(index_rendered)
     shutil.copy(out_file, simple_dir / out_file)

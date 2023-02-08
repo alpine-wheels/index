@@ -1,0 +1,46 @@
+name: 'Build index html and deploy to GitHub Pages'
+
+on:
+  push:
+    branches:
+      - 'master'
+  workflow_dispatch:
+
+permissions:
+  contents: 'read'
+  pages: 'write'
+  id-token: 'write'
+
+concurrency:
+  cancel-in-progress: true
+  group: 'github-pages'
+
+jobs:
+  build:
+    runs-on: 'ubuntu-latest'
+    steps:
+
+      - name: 'Checkout'
+        uses: 'actions/checkout@v3'
+
+      - name: 'Configure Pages'
+        uses: 'actions/configure-pages@v3'
+
+      - name: 'Build index'
+        run: docker compose run --no-TTY --user="$(id -u):$(id -g)" publish
+
+      - name: 'Upload artifact'
+        uses: 'actions/upload-pages-artifact@v1'
+        with:
+          path: '_output/'
+
+  deploy:
+    environment:
+      name: 'github-pages'
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: 'ubuntu-latest'
+    needs: 'build'
+    steps:
+      - name: 'Deploy to GitHub Pages'
+        id: 'deployment'
+        uses: 'actions/deploy-pages@v1'

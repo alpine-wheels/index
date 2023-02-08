@@ -41,9 +41,6 @@ jobs:
           echo "PACKAGE_NAME=${{ github.event.inputs.package_name }}" >> $GITHUB_ENV
           docker compose run --user="$(id -u):$(id -g)" --no-TTY add-file ${{ github.event.inputs.package_name }} ${{ github.event.inputs.href }} ${{ github.event.inputs.hash_name }} ${{ github.event.inputs.hash_value }}
 
-      - name: Run build
-        run: docker compose run --user="$(id -u):$(id -g)" --no-TTY publish
-
       - name: Create pull request
         uses: peter-evans/create-pull-request@v4
         with:

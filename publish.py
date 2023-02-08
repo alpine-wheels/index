@@ -2,7 +2,6 @@ import itertools
 import jinja2
 import pathlib
 import re
-import shutil
 import sqlite3
 
 
@@ -33,25 +32,34 @@ def main():
     packages = cur.fetchall()
     package_names = []
     output_base_dir = pathlib.Path('_output')
-    output_base_dir.mkdir(exist_ok=True, parents=True)
-    simple_dir = output_base_dir / '-/simple'
+    simple_base_dir = output_base_dir / '-/simple'
     for name, packages in itertools.groupby(packages, get_name):
         package_names.append(name)
         package_template = jinja_env.get_template('package.html')
         package_rendered = package_template.render(name=name, packages=packages)
-        out_dir = output_base_dir / normalize(name)
-        out_dir.mkdir(exist_ok=True)
-        out_file = out_dir / 'index.html'
+
+        package_dir = output_base_dir / normalize(name)
+        package_dir.mkdir(exist_ok=True, parents=True)
+        out_file = package_dir / 'index.html'
         with out_file.open('w') as f:
             f.write(package_rendered)
-        (simple_dir / out_file).parent.mkdir(exist_ok=True, parents=True)
-        shutil.copy(out_file, simple_dir / out_file)
+
+        package_dir_simple = simple_base_dir / normalize(name)
+        package_dir_simple.mkdir(exist_ok=True, parents=True)
+        out_file_simple = package_dir_simple / 'index.html'
+        with out_file_simple.open('w') as f:
+            f.write(package_rendered)
+
     index_template = jinja_env.get_template('index.html')
     index_rendered = index_template.render(packages=package_names)
+
     out_file = output_base_dir / 'index.html'
     with out_file.open('w') as f:
         f.write(index_rendered)
-    shutil.copy(out_file, simple_dir / out_file)
+
+    out_file_simple = simple_base_dir / 'index.html'
+    with out_file_simple.open('w') as f:
+        f.write(index_rendered)
 
 
 if __name__ == '__main__':

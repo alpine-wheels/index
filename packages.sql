@@ -536,4 +536,5 @@ INSERT INTO "packages" VALUES('numpy','sha256','02ea35c26c91a9751df70d1e66733416
 INSERT INTO "packages" VALUES('numpy','sha256','a08d996635010763e7b11367c11c0d39a988e744a3eb3d90783e2b6d82d596ce','https://github.com/alpine-wheels/numpy/releases/download/1.24.2/numpy-1.24.2-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('numpy','sha256','ad6d6c765f80f6f3ce38125271cb0386546c95b4ff585b6707295ecefea36a8e','https://github.com/alpine-wheels/numpy/releases/download/1.24.2/numpy-1.24.2-cp311-cp311-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('scipy','sha256','ad6891fb08bf688a6655873abfc5b10b81389a2deb5b706c6e70c645ef79f108','https://github.com/alpine-wheels/scipy/releases/download/1.10.1/scipy-1.10.1-cp311-cp311-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('cryptg','sha256','f662c1fd7a712542a87751e42bc3c685c1581da679c553736c2e755eada71b6c','https://github.com/alpine-wheels/cryptg/releases/download/0.4.0/cryptg-0.4.0-cp311-cp311-linux_x86_64.whl');
 COMMIT;

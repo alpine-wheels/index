@@ -538,4 +538,5 @@ INSERT INTO "packages" VALUES('numpy','sha256','ad6d6c765f80f6f3ce38125271cb0386
 INSERT INTO "packages" VALUES('scipy','sha256','ad6891fb08bf688a6655873abfc5b10b81389a2deb5b706c6e70c645ef79f108','https://github.com/alpine-wheels/scipy/releases/download/1.10.1/scipy-1.10.1-cp311-cp311-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('cryptg','sha256','f662c1fd7a712542a87751e42bc3c685c1581da679c553736c2e755eada71b6c','https://github.com/alpine-wheels/cryptg/releases/download/0.4.0/cryptg-0.4.0-cp311-cp311-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('cryptg','sha256','abff666e7f82d2bb08333eb8a14d8eb6794490ae6aa17f5481eaeb7a910afb43','https://github.com/alpine-wheels/cryptg/releases/download/0.4.0/cryptg-0.4.0-cp310-cp310-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('opencv-python','sha256','7f26aa981639b0e4611d97b9cc8d3be8b9dd85f3b7e813454451b2028c6f8369','https://github.com/alpine-wheels/opencv-python/releases/download/4.7.0.72/opencv_python-4.7.0.72-cp311-cp311-linux_x86_64.whl');
 COMMIT;

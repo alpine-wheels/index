@@ -540,4 +540,5 @@ INSERT INTO "packages" VALUES('cryptg','sha256','f662c1fd7a712542a87751e42bc3c68
 INSERT INTO "packages" VALUES('cryptg','sha256','abff666e7f82d2bb08333eb8a14d8eb6794490ae6aa17f5481eaeb7a910afb43','https://github.com/alpine-wheels/cryptg/releases/download/0.4.0/cryptg-0.4.0-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('opencv-python','sha256','7f26aa981639b0e4611d97b9cc8d3be8b9dd85f3b7e813454451b2028c6f8369','https://github.com/alpine-wheels/opencv-python/releases/download/4.7.0.72/opencv_python-4.7.0.72-cp311-cp311-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('neo4j','sha256','21107812433f552ab7e281268f9e490cdd8582c5f2030a5f65446d92ec6fc17a','https://github.com/alpine-wheels/neo4j/releases/download/5.6.0/neo4j-5.6.0-py3-none-any.whl');
+INSERT INTO "packages" VALUES('scikit-image','sha256','16f79fc90e2fed46cc9b4bb1b6a11829ae59796537db7ef80947751425bf72ec','https://github.com/alpine-wheels/scikit-image/releases/download/0.20.0/scikit_image-0.20.0-cp311-cp311-linux_x86_64.whl');
 COMMIT;

@@ -542,4 +542,5 @@ INSERT INTO "packages" VALUES('opencv-python','sha256','7f26aa981639b0e4611d97b9
 INSERT INTO "packages" VALUES('neo4j','sha256','21107812433f552ab7e281268f9e490cdd8582c5f2030a5f65446d92ec6fc17a','https://github.com/alpine-wheels/neo4j/releases/download/5.6.0/neo4j-5.6.0-py3-none-any.whl');
 INSERT INTO "packages" VALUES('scikit-image','sha256','16f79fc90e2fed46cc9b4bb1b6a11829ae59796537db7ef80947751425bf72ec','https://github.com/alpine-wheels/scikit-image/releases/download/0.20.0/scikit_image-0.20.0-cp311-cp311-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('scikit-learn','sha256','2e784e135184639bc1ee62d526684e9d4b5175eab2dc0df513c1bb0bc6a19c5b','https://github.com/alpine-wheels/scikit-learn/releases/download/1.2.2/scikit_learn-1.2.2-cp311-cp311-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('psycopg2','sha256','368bfab3c3d6be85a74dfdb5ecec0b6d3acdd82187ba0de9f976659fa0151149','https://github.com/alpine-wheels/psycopg2/releases/download/2.9.5/psycopg2-2.9.5-cp310-cp310-linux_x86_64.whl');
 COMMIT;

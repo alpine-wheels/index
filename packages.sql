@@ -548,4 +548,5 @@ INSERT INTO "packages" VALUES('neo4j','sha256','7f43c020ae0fe4985bd57d9f25e175d1
 INSERT INTO "packages" VALUES('psycopg2','sha256','2dd0cf328dc309f6e4da0c6dd8dc6b5972d1150deaa74169d8b371fa8da0b098','https://github.com/alpine-wheels/psycopg2/releases/download/2.9.6/psycopg2-2.9.6-cp311-cp311-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('pandas','sha256','523db07c031c076a7cd63cdf43c9250ed0c5cbfba368250724ddde2334c50aee','https://github.com/alpine-wheels/pandas/releases/download/2.0.0/pandas-2.0.0-cp39-cp39-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('pandas','sha256','57bf9265898c3396bd07a2771a3c2308ab2a0e88e06a9f10f4fc54647634c8de','https://github.com/alpine-wheels/pandas/releases/download/2.0.0/pandas-2.0.0-cp310-cp310-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('pandas','sha256','613474e91782c480c115b104db25aeecfebb413af9b6c47016a2c4017ca03efe','https://github.com/alpine-wheels/pandas/releases/download/2.0.0/pandas-2.0.0-cp311-cp311-linux_x86_64.whl');
 COMMIT;

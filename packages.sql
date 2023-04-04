@@ -545,4 +545,5 @@ INSERT INTO "packages" VALUES('scikit-learn','sha256','2e784e135184639bc1ee62d52
 INSERT INTO "packages" VALUES('psycopg2','sha256','368bfab3c3d6be85a74dfdb5ecec0b6d3acdd82187ba0de9f976659fa0151149','https://github.com/alpine-wheels/psycopg2/releases/download/2.9.5/psycopg2-2.9.5-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('borgbackup','sha256','2b378fb4ce934632649b7e11e6400a4aa0b271766e00980e27f6f6c207575d6f','https://github.com/alpine-wheels/borgbackup/releases/download/1.2.4/borgbackup-1.2.4-cp311-cp311-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('neo4j','sha256','7f43c020ae0fe4985bd57d9f25e175d1960e9502bd41433024877293c4ce7737','https://github.com/alpine-wheels/neo4j/releases/download/5.7.0/neo4j-5.7.0-py3-none-any.whl');
+INSERT INTO "packages" VALUES('psycopg2','sha256','2dd0cf328dc309f6e4da0c6dd8dc6b5972d1150deaa74169d8b371fa8da0b098','https://github.com/alpine-wheels/psycopg2/releases/download/2.9.6/psycopg2-2.9.6-cp311-cp311-linux_x86_64.whl');
 COMMIT;

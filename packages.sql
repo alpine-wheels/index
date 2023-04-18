@@ -553,4 +553,5 @@ INSERT INTO "packages" VALUES('pyodbc','sha256','7086b3a4455276564b26621442b729f
 INSERT INTO "packages" VALUES('matplotlib','sha256','3f5a7c9ed5d077b182cb45b9e0d53ea382ca015d6bda13994e480195fa35c032','https://github.com/alpine-wheels/matplotlib/releases/download/3.7.1/matplotlib-3.7.1-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('matplotlib','sha256','39eea200495b2d4204b75b0275e4f4f00f7b859a87e9576e7197c0416188594d','https://github.com/alpine-wheels/matplotlib/releases/download/3.7.1/matplotlib-3.7.1-cp311-cp311-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('pyodbc','sha256','4174e8862d8def5740e685a527d4473ed0e9e98b51bb64a527c44f8c82543e8a','https://github.com/alpine-wheels/pyodbc/releases/download/4.0.39/pyodbc-4.0.39-cp311-cp311-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('psutil','sha256','c9c7ba948d5013bc27d99a7ac4c1d34025dfa1da804c004abe6f0843585587c8','https://github.com/alpine-wheels/psutil/releases/download/5.9.5/psutil-5.9.5-cp311-abi3-linux_x86_64.whl');
 COMMIT;

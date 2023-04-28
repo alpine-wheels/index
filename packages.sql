@@ -555,4 +555,5 @@ INSERT INTO "packages" VALUES('matplotlib','sha256','39eea200495b2d4204b75b0275e
 INSERT INTO "packages" VALUES('pyodbc','sha256','4174e8862d8def5740e685a527d4473ed0e9e98b51bb64a527c44f8c82543e8a','https://github.com/alpine-wheels/pyodbc/releases/download/4.0.39/pyodbc-4.0.39-cp311-cp311-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('psutil','sha256','c9c7ba948d5013bc27d99a7ac4c1d34025dfa1da804c004abe6f0843585587c8','https://github.com/alpine-wheels/psutil/releases/download/5.9.5/psutil-5.9.5-cp311-abi3-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('numpy','sha256','2f9cb6b2c8b7770872df5f63050621f631a573b90fa4e4ef5828617a2553f538','https://github.com/alpine-wheels/numpy/releases/download/1.24.3/numpy-1.24.3-cp310-cp310-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('numpy','sha256','5205e8774a2b05efac4f9f36f3a75314f8353743102aba14daf23199d60824ee','https://github.com/alpine-wheels/numpy/releases/download/1.24.3/numpy-1.24.3-cp311-cp311-linux_x86_64.whl');
 COMMIT;

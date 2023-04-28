@@ -558,4 +558,5 @@ INSERT INTO "packages" VALUES('numpy','sha256','2b51486ac94e32874716c47225710a4e
 INSERT INTO "packages" VALUES('numpy','sha256','2f9cb6b2c8b7770872df5f63050621f631a573b90fa4e4ef5828617a2553f538','https://github.com/alpine-wheels/numpy/releases/download/1.24.3/numpy-1.24.3-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('numpy','sha256','5205e8774a2b05efac4f9f36f3a75314f8353743102aba14daf23199d60824ee','https://github.com/alpine-wheels/numpy/releases/download/1.24.3/numpy-1.24.3-cp311-cp311-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('pandas','sha256','f1f4cf3fe8814da7aaef4a4f8e38829126724a9454a28112f068127ae6893413','https://github.com/alpine-wheels/pandas/releases/download/2.0.1/pandas-2.0.1-cp39-cp39-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('pandas','sha256','50cb8ded23de4cea0b23fdd44ab837c1385d251cc7a807cd58e9e8ba1982490b','https://github.com/alpine-wheels/pandas/releases/download/2.0.1/pandas-2.0.1-cp310-cp310-linux_x86_64.whl');
 COMMIT;

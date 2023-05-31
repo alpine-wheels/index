@@ -567,4 +567,5 @@ INSERT INTO "packages" VALUES('neo4j','sha256','e292c87d90283aece13bb0ac35d6ffff
 INSERT INTO "packages" VALUES('llfuse','sha256','a4a5652bd27493e520f5acf029938db411646769cb85943d2850064638897813','https://github.com/alpine-wheels/llfuse/releases/download/1.4.4/llfuse-1.4.4-cp311-cp311-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('neo4j','sha256','9b16283a119c108513d3a6cb1a72d34e083da73c11ecf84bc47bc3b1af2e7f97','https://github.com/alpine-wheels/neo4j/releases/download/5.9.0/neo4j-5.9.0-py3-none-any.whl');
 INSERT INTO "packages" VALUES('pandas','sha256','372b01cfd1e058467d6d9ff5c5d37ce4740acaa29b933504f9573ffeb1faa12c','https://github.com/alpine-wheels/pandas/releases/download/2.0.2/pandas-2.0.2-cp39-cp39-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('pandas','sha256','dafeac13842223341c8e8b43acef64bb8248291405aed4921a6c6ef9d9325006','https://github.com/alpine-wheels/pandas/releases/download/2.0.2/pandas-2.0.2-cp310-cp310-linux_x86_64.whl');
 COMMIT;

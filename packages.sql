@@ -573,4 +573,5 @@ INSERT INTO "packages" VALUES('scikit-image','sha256','60a7ee2eb04fb4e3492606c91
 INSERT INTO "packages" VALUES('numpy','sha256','bd82dd8fd4e9767ac3c76a38eef9cb82e201f3b5d2910837759d95a303c97574','https://github.com/alpine-wheels/numpy/releases/download/1.23.2/numpy-1.23.2-cp39-cp39-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('numpy','sha256','84497324728438e8c1c3c3f282222d928384be78a118377fd5099f8ff445e15d','https://github.com/alpine-wheels/numpy/releases/download/1.23.2/numpy-1.23.2-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('numpy','sha256','a31f1645a816a84b786671c2b5db46712fcb613ba8f82736c5c435d4ac6280b4','https://github.com/alpine-wheels/numpy/releases/download/1.23.2/numpy-1.23.2-cp311-cp311-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('pandas','sha256','e6cfcab5603458da7f1d7cd22e210b7bc2295268fb24561a5c87b483a20cc446','https://github.com/alpine-wheels/pandas/releases/download/2.0.3/pandas-2.0.3-cp39-cp39-linux_x86_64.whl');
 COMMIT;

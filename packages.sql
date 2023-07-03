@@ -576,4 +576,5 @@ INSERT INTO "packages" VALUES('numpy','sha256','a31f1645a816a84b786671c2b5db4671
 INSERT INTO "packages" VALUES('pandas','sha256','e6cfcab5603458da7f1d7cd22e210b7bc2295268fb24561a5c87b483a20cc446','https://github.com/alpine-wheels/pandas/releases/download/2.0.3/pandas-2.0.3-cp39-cp39-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('pandas','sha256','30cdfecaf33f4bba6ec2172fc55bb4a5996073ade93db1b8cb71309844f4c4e5','https://github.com/alpine-wheels/pandas/releases/download/2.0.3/pandas-2.0.3-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('pandas','sha256','28aa752ee616b93a15586dccc46cb58f453bfed721fca6a8ab2cee97e85fd6f5','https://github.com/alpine-wheels/pandas/releases/download/2.0.3/pandas-2.0.3-cp311-cp311-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('mysqlclient','sha256','3628cf7195dacfd0945ed0f0e759f02b4b9d4952aedc6e930821dcc1ba428c92','https://github.com/alpine-wheels/mysqlclient/releases/download/2.2.0/mysqlclient-2.2.0-cp311-cp311-linux_x86_64.whl');
 COMMIT;

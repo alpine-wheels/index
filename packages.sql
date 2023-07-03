@@ -579,4 +579,5 @@ INSERT INTO "packages" VALUES('pandas','sha256','28aa752ee616b93a15586dccc46cb58
 INSERT INTO "packages" VALUES('mysqlclient','sha256','3628cf7195dacfd0945ed0f0e759f02b4b9d4952aedc6e930821dcc1ba428c92','https://github.com/alpine-wheels/mysqlclient/releases/download/2.2.0/mysqlclient-2.2.0-cp311-cp311-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('grpclib','sha256','29511061cbe342dee484a84018714a8840557b51132b901a5ef6ae4db54e423e','https://github.com/alpine-wheels/grpclib/releases/download/0.4.5/grpclib-0.4.5-py3-none-any.whl');
 INSERT INTO "packages" VALUES('neo4j','sha256','389ee582139e30fd13f180ea6b380b261896533ccf6672c822eaa966dd0ce466','https://github.com/alpine-wheels/neo4j/releases/download/5.10.0/neo4j-5.10.0-py3-none-any.whl');
+INSERT INTO "packages" VALUES('scikit-learn','sha256','3fe7f633c4b1d6f9b97fc71f1b81c91d8d0c758e3cc0651a310a15555e90fbeb','https://github.com/alpine-wheels/scikit-learn/releases/download/1.3.0/scikit_learn-1.3.0-cp311-cp311-linux_x86_64.whl');
 COMMIT;

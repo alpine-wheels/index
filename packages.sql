@@ -581,4 +581,5 @@ INSERT INTO "packages" VALUES('grpclib','sha256','29511061cbe342dee484a84018714a
 INSERT INTO "packages" VALUES('neo4j','sha256','389ee582139e30fd13f180ea6b380b261896533ccf6672c822eaa966dd0ce466','https://github.com/alpine-wheels/neo4j/releases/download/5.10.0/neo4j-5.10.0-py3-none-any.whl');
 INSERT INTO "packages" VALUES('scikit-learn','sha256','3fe7f633c4b1d6f9b97fc71f1b81c91d8d0c758e3cc0651a310a15555e90fbeb','https://github.com/alpine-wheels/scikit-learn/releases/download/1.3.0/scikit_learn-1.3.0-cp311-cp311-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('opencv-python','sha256','75c1dfd1bf83988c83fa4a293915bc47a56fbbc70d6e151b7fedfd0b9fc9b1b5','https://github.com/alpine-wheels/opencv-python/releases/download/4.8.0.74/opencv_python-4.8.0.74-cp311-cp311-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('PyYAML','sha256','1fffbf51a6c1e9997614d10ffbea16365d7f7a2fe710de39fd2ce26930f7022d','https://github.com/alpine-wheels/pyyaml/releases/download/6.0.1/PyYAML-6.0.1-cp311-cp311-linux_x86_64.whl');
 COMMIT;

@@ -584,4 +584,5 @@ INSERT INTO "packages" VALUES('opencv-python','sha256','75c1dfd1bf83988c83fa4a29
 INSERT INTO "packages" VALUES('PyYAML','sha256','1fffbf51a6c1e9997614d10ffbea16365d7f7a2fe710de39fd2ce26930f7022d','https://github.com/alpine-wheels/pyyaml/releases/download/6.0.1/PyYAML-6.0.1-cp311-cp311-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('psycopg2','sha256','f1825efef7936b5fca33d80b1f1b8066048dc0409aaca20925069ade5ca0c03c','https://github.com/alpine-wheels/psycopg2/releases/download/2.9.6/psycopg2-2.9.6-cp311-cp311-linux_aarch64.whl');
 INSERT INTO "packages" VALUES('cffi','sha256','31f27a9e6fe4e1190d5f34b12edc432fda350e9847f5a49feb0ce07bd82f3e42','https://github.com/alpine-wheels/cffi/releases/download/1.15.1/cffi-1.15.1-cp311-cp311-linux_aarch64.whl');
+INSERT INTO "packages" VALUES('pendulum','sha256','1ed1c672c3c08ffa6011994501e7fbb5f3b923ea2c4ba2e2a444f4bf52aa5a69','https://github.com/alpine-wheels/pendulum/releases/download/2.1.2/pendulum-2.1.2-cp311-cp311-musllinux_1_2_aarch64.whl');
 COMMIT;

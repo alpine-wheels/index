@@ -589,4 +589,5 @@ INSERT INTO "packages" VALUES('neo4j','sha256','44abb425745ccf466f71f24d86eb2ef1
 INSERT INTO "packages" VALUES('psycopg2','sha256','0deb06d78df5d4bd5020f171142fb65ca8f760d353f6900fc996e59183687635','https://github.com/alpine-wheels/psycopg2/releases/download/2.9.7/psycopg2-2.9.7-cp311-cp311-linux_aarch64.whl');
 INSERT INTO "packages" VALUES('psycopg2','sha256','a0e7df7abc627fd5e822a0ec383582891945c7ed37fe7760550c0f2f72d8cc1e','https://github.com/alpine-wheels/psycopg2/releases/download/2.9.7/psycopg2-2.9.7-cp311-cp311-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('zope.interface','sha256','ff3043150f888c6d4d342c6a8ba5db8167103a868b40f072197dce39d19ab5da','https://github.com/alpine-wheels/zope.interface/releases/download/6.0/zope.interface-6.0-cp311-cp311-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('zodbpickle','sha256','c30e1f9491c9671b15e7704040c1ed0509f5fc5353ae509cf6bf2a0dc2a4fc45','https://github.com/alpine-wheels/zodbpickle/releases/download/3.0.1/zodbpickle-3.0.1-cp311-cp311-linux_x86_64.whl');
 COMMIT;

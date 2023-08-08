@@ -591,4 +591,5 @@ INSERT INTO "packages" VALUES('psycopg2','sha256','a0e7df7abc627fd5e822a0ec38358
 INSERT INTO "packages" VALUES('zope.interface','sha256','ff3043150f888c6d4d342c6a8ba5db8167103a868b40f072197dce39d19ab5da','https://github.com/alpine-wheels/zope.interface/releases/download/6.0/zope.interface-6.0-cp311-cp311-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('zodbpickle','sha256','c30e1f9491c9671b15e7704040c1ed0509f5fc5353ae509cf6bf2a0dc2a4fc45','https://github.com/alpine-wheels/zodbpickle/releases/download/3.0.1/zodbpickle-3.0.1-cp311-cp311-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('persistent','sha256','eb49037ffcdf0b01c0ca98d7e6a748415960c86cb49617938e1f77a358ef9b2b','https://github.com/alpine-wheels/persistent/releases/download/5.0/persistent-5.0-cp311-cp311-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('btrees','sha256','bca6d73a1d975899278f5c90ee43390beb4bb6aa63ab33477946ee0e90f2c7ea','https://github.com/alpine-wheels/btrees/releases/download/5.0/BTrees-5.0-cp311-cp311-linux_x86_64.whl');
 COMMIT;

@@ -586,4 +586,5 @@ INSERT INTO "packages" VALUES('psycopg2','sha256','f1825efef7936b5fca33d80b1f1b8
 INSERT INTO "packages" VALUES('cffi','sha256','31f27a9e6fe4e1190d5f34b12edc432fda350e9847f5a49feb0ce07bd82f3e42','https://github.com/alpine-wheels/cffi/releases/download/1.15.1/cffi-1.15.1-cp311-cp311-linux_aarch64.whl');
 INSERT INTO "packages" VALUES('pendulum','sha256','1ed1c672c3c08ffa6011994501e7fbb5f3b923ea2c4ba2e2a444f4bf52aa5a69','https://github.com/alpine-wheels/pendulum/releases/download/2.1.2/pendulum-2.1.2-cp311-cp311-musllinux_1_2_aarch64.whl');
 INSERT INTO "packages" VALUES('neo4j','sha256','44abb425745ccf466f71f24d86eb2ef1dfe17f0d47eebd236635e6ed16686d59','https://github.com/alpine-wheels/neo4j/releases/download/5.11.0/neo4j-5.11.0-py3-none-any.whl');
+INSERT INTO "packages" VALUES('psycopg2','sha256','a0e7df7abc627fd5e822a0ec383582891945c7ed37fe7760550c0f2f72d8cc1e','https://github.com/alpine-wheels/psycopg2/releases/download/2.9.7/psycopg2-2.9.7-cp311-cp311-linux_x86_64.whl');
 COMMIT;

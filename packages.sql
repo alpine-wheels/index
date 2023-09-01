@@ -593,4 +593,5 @@ INSERT INTO "packages" VALUES('zodbpickle','sha256','c30e1f9491c9671b15e7704040c
 INSERT INTO "packages" VALUES('persistent','sha256','eb49037ffcdf0b01c0ca98d7e6a748415960c86cb49617938e1f77a358ef9b2b','https://github.com/alpine-wheels/persistent/releases/download/5.0/persistent-5.0-cp311-cp311-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('btrees','sha256','bca6d73a1d975899278f5c90ee43390beb4bb6aa63ab33477946ee0e90f2c7ea','https://github.com/alpine-wheels/btrees/releases/download/5.0/BTrees-5.0-cp311-cp311-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('llfuse','sha256','d02d43a4926b60cc9a10512a2c8092897bb5060487244e28f63ff9d0cb619884','https://github.com/alpine-wheels/llfuse/releases/download/1.5.0/llfuse-1.5.0-cp311-cp311-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('opencv-python','sha256','c0fd7882525c1c134ff0bf83a88a1919e39a475c15f0f0d00243724d0a7a50bf','https://github.com/alpine-wheels/opencv-python/releases/download/4.8.0.76/opencv_python-4.8.0.76-cp311-cp311-linux_x86_64.whl');
 COMMIT;

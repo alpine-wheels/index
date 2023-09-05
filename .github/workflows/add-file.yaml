@@ -27,7 +27,7 @@ jobs:
     steps:
 
       - name: Check out the repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Add the new file (on repository dispatch)
         if: github.event_name == 'repository_dispatch'

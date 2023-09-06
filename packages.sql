@@ -597,4 +597,5 @@ INSERT INTO "packages" VALUES('opencv-python','sha256','c0fd7882525c1c134ff0bf83
 INSERT INTO "packages" VALUES('borgbackup','sha256','f82c49b50cf1225b5a4ea99350ce298d1a3e1d04a4f42a3cc379bd8f08a2b252','https://github.com/alpine-wheels/borgbackup/releases/download/1.2.5/borgbackup-1.2.5-cp311-cp311-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('neo4j','sha256','6399d2298d6556aeb30559731b84a1e29e96e3d92a50b0483a68ff65649a3f53','https://github.com/alpine-wheels/neo4j/releases/download/5.12.0/neo4j-5.12.0-py3-none-any.whl');
 INSERT INTO "packages" VALUES('pymupdf','sha256','69be7f3997d6ba080b629aa9caf6257963a93e74b056ebb9278908b6e9f02e22','https://github.com/alpine-wheels/pymupdf/releases/download/1.23.3/PyMuPDF-1.23.3-cp311-none-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('borgbackup','sha256','e1071490d2b0358969bf4b2db01d32ceb4753080d2d0f99469e8fe1f267084fe','https://github.com/alpine-wheels/borgbackup/releases/download/1.2.6/borgbackup-1.2.6-cp311-cp311-linux_x86_64.whl');
 COMMIT;

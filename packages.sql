@@ -600,4 +600,5 @@ INSERT INTO "packages" VALUES('pymupdf','sha256','69be7f3997d6ba080b629aa9caf625
 INSERT INTO "packages" VALUES('borgbackup','sha256','e1071490d2b0358969bf4b2db01d32ceb4753080d2d0f99469e8fe1f267084fe','https://github.com/alpine-wheels/borgbackup/releases/download/1.2.6/borgbackup-1.2.6-cp311-cp311-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('scikit-learn','sha256','da8b3c5276bf3a2200cc8dd83ae660f9b2bbb8a73f3cdc8d0858e72a663631da','https://github.com/alpine-wheels/scikit-learn/releases/download/1.3.1/scikit_learn-1.3.1-cp311-cp311-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('psycopg2','sha256','6f984d223e4ed666e36b31d934e2093889e2e7572db1a6705cf427403f0d8ca6','https://github.com/alpine-wheels/psycopg2/releases/download/2.9.8/psycopg2-2.9.8-cp311-cp311-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('psycopg2','sha256','33a6ffbfd758755ba79ab4e5cf239d3c65680e43310440dce4605acec945090e','https://github.com/alpine-wheels/psycopg2/releases/download/2.9.8/psycopg2-2.9.8-cp311-cp311-linux_aarch64.whl');
 COMMIT;

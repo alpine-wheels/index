@@ -604,4 +604,5 @@ INSERT INTO "packages" VALUES('psycopg2','sha256','33a6ffbfd758755ba79ab4e5cf239
 INSERT INTO "packages" VALUES('shapely','sha256','e2de07f80f5bee57cc6867f02c7da633787a6193312c532a76acc021773ee61e','https://github.com/alpine-wheels/shapely/releases/download/2.0.1/shapely-2.0.1-cp311-cp311-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('pymupdf','sha256','44160f394373fed915adab9a4acd4d2bff32482b9e6a33f084bc8d63218b2d15','https://github.com/alpine-wheels/pymupdf/releases/download/1.23.4/PyMuPDF-1.23.4-cp311-none-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('zxing-cpp','sha256','c99a1c121002e11392b1eb213eb40f4af8839f39aef23407bf5633b70e195b10','https://github.com/alpine-wheels/zxing-cpp/releases/download/2.1.0/zxing_cpp-2.1.0-cp311-cp311-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('neo4j','sha256','d75dac2a0af13f6ba3fbf9c2a9cb08fcb009e2c96388c48e42124f8e0bef1b5a','https://github.com/alpine-wheels/neo4j/releases/download/5.13.0/neo4j-5.13.0-py3-none-any.whl');
 COMMIT;

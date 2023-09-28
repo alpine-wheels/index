@@ -601,4 +601,5 @@ INSERT INTO "packages" VALUES('borgbackup','sha256','e1071490d2b0358969bf4b2db01
 INSERT INTO "packages" VALUES('scikit-learn','sha256','da8b3c5276bf3a2200cc8dd83ae660f9b2bbb8a73f3cdc8d0858e72a663631da','https://github.com/alpine-wheels/scikit-learn/releases/download/1.3.1/scikit_learn-1.3.1-cp311-cp311-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('psycopg2','sha256','6f984d223e4ed666e36b31d934e2093889e2e7572db1a6705cf427403f0d8ca6','https://github.com/alpine-wheels/psycopg2/releases/download/2.9.8/psycopg2-2.9.8-cp311-cp311-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('psycopg2','sha256','33a6ffbfd758755ba79ab4e5cf239d3c65680e43310440dce4605acec945090e','https://github.com/alpine-wheels/psycopg2/releases/download/2.9.8/psycopg2-2.9.8-cp311-cp311-linux_aarch64.whl');
+INSERT INTO "packages" VALUES('shapely','sha256','e2de07f80f5bee57cc6867f02c7da633787a6193312c532a76acc021773ee61e','https://github.com/alpine-wheels/shapely/releases/download/2.0.1/shapely-2.0.1-cp311-cp311-linux_x86_64.whl');
 COMMIT;

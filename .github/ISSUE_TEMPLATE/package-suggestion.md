@@ -11,3 +11,4 @@ assignees: ''
 
 - [ ] Please add a version of the package that is not the latest.
 - [ ] Please add a package for a version of Python that is not the latest.
+- [ ] Please add a package for a platform other than linux/amd64

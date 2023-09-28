@@ -602,4 +602,5 @@ INSERT INTO "packages" VALUES('scikit-learn','sha256','da8b3c5276bf3a2200cc8dd83
 INSERT INTO "packages" VALUES('psycopg2','sha256','6f984d223e4ed666e36b31d934e2093889e2e7572db1a6705cf427403f0d8ca6','https://github.com/alpine-wheels/psycopg2/releases/download/2.9.8/psycopg2-2.9.8-cp311-cp311-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('psycopg2','sha256','33a6ffbfd758755ba79ab4e5cf239d3c65680e43310440dce4605acec945090e','https://github.com/alpine-wheels/psycopg2/releases/download/2.9.8/psycopg2-2.9.8-cp311-cp311-linux_aarch64.whl');
 INSERT INTO "packages" VALUES('shapely','sha256','e2de07f80f5bee57cc6867f02c7da633787a6193312c532a76acc021773ee61e','https://github.com/alpine-wheels/shapely/releases/download/2.0.1/shapely-2.0.1-cp311-cp311-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('pymupdf','sha256','44160f394373fed915adab9a4acd4d2bff32482b9e6a33f084bc8d63218b2d15','https://github.com/alpine-wheels/pymupdf/releases/download/1.23.4/PyMuPDF-1.23.4-cp311-none-linux_x86_64.whl');
 COMMIT;

@@ -610,4 +610,5 @@ INSERT INTO "packages" VALUES('cffi','sha256','9b28d3960504a4af22f1c8a6834df285f
 INSERT INTO "packages" VALUES('psycopg2','sha256','a2e6aafb649120596a864e061c011384c24d639224f00b067578856bb4d197a4','https://github.com/alpine-wheels/psycopg2/releases/download/2.9.9/psycopg2-2.9.9-cp311-cp311-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('psycopg2','sha256','7daecbb639a785dcd1312a04198df08503268d2e56e28d931d527a29d4e9195f','https://github.com/alpine-wheels/psycopg2/releases/download/2.9.9/psycopg2-2.9.9-cp312-cp312-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('psycopg2','sha256','9003991e77b9817e380f84bc4c86b9c76107bba062fd2d4b20524cbb51d9602c','https://github.com/alpine-wheels/psycopg2/releases/download/2.9.9/psycopg2-2.9.9-cp312-cp312-linux_aarch64.whl');
+INSERT INTO "packages" VALUES('psycopg2','sha256','cae335bf7d48ff941154de965d00a5f55bb140cba9f79e8e26eb0defe5f75c89','https://github.com/alpine-wheels/psycopg2/releases/download/2.9.9/psycopg2-2.9.9-cp311-cp311-linux_aarch64.whl');
 COMMIT;

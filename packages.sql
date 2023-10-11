@@ -607,5 +607,6 @@ INSERT INTO "packages" VALUES('zxing-cpp','sha256','c99a1c121002e11392b1eb213eb4
 INSERT INTO "packages" VALUES('neo4j','sha256','d75dac2a0af13f6ba3fbf9c2a9cb08fcb009e2c96388c48e42124f8e0bef1b5a','https://github.com/alpine-wheels/neo4j/releases/download/5.13.0/neo4j-5.13.0-py3-none-any.whl');
 INSERT INTO "packages" VALUES('opencv-python','sha256','e9d62eceaa13b12fff30f05d8d5d0b1ba83ebf2d726da42b8df7878e8b979548','https://github.com/alpine-wheels/opencv-python/releases/download/4.8.1.78/opencv_python-4.8.1.78-cp311-cp311-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('cffi','sha256','9b28d3960504a4af22f1c8a6834df285f977427dfc951f0a7f6f36bfd75df52f','https://github.com/alpine-wheels/cffi/releases/download/1.16.0/cffi-1.16.0-cp311-cp311-linux_aarch64.whl');
+INSERT INTO "packages" VALUES('psycopg2','sha256','a2e6aafb649120596a864e061c011384c24d639224f00b067578856bb4d197a4','https://github.com/alpine-wheels/psycopg2/releases/download/2.9.9/psycopg2-2.9.9-cp311-cp311-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('psycopg2','sha256','7daecbb639a785dcd1312a04198df08503268d2e56e28d931d527a29d4e9195f','https://github.com/alpine-wheels/psycopg2/releases/download/2.9.9/psycopg2-2.9.9-cp312-cp312-linux_x86_64.whl');
 COMMIT;

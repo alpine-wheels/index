@@ -614,4 +614,5 @@ INSERT INTO "packages" VALUES('psycopg2','sha256','cae335bf7d48ff941154de965d00a
 INSERT INTO "packages" VALUES('cffi','sha256','5ac3743901fbea3b31f122086cceee765fe55d3fc10c92528c356d28612df552','https://github.com/alpine-wheels/cffi/releases/download/1.16.0/cffi-1.16.0-cp312-cp312-linux_aarch64.whl');
 INSERT INTO "packages" VALUES('zope.interface','sha256','a8483be35f526dde256e043897547fa2e29e46409a56952570ab564775a2950c','https://github.com/alpine-wheels/zope.interface/releases/download/6.1/zope.interface-6.1-cp312-cp312-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('zodbpickle','sha256','38fca654cc8dee447e31bb631a005749278158b3c60b1b67d42ddff8f1f69bb8','https://github.com/alpine-wheels/zodbpickle/releases/download/3.1/zodbpickle-3.1-cp312-cp312-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('grpclib','sha256','c932b3818168e743e1ac50724014e91959625652ba5cf31de8a1addcdf74b3cb','https://github.com/alpine-wheels/grpclib/releases/download/0.4.6/grpclib-0.4.6-py3-none-any.whl');
 COMMIT;

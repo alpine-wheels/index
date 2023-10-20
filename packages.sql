@@ -616,4 +616,5 @@ INSERT INTO "packages" VALUES('zope.interface','sha256','a8483be35f526dde256e043
 INSERT INTO "packages" VALUES('zodbpickle','sha256','38fca654cc8dee447e31bb631a005749278158b3c60b1b67d42ddff8f1f69bb8','https://github.com/alpine-wheels/zodbpickle/releases/download/3.1/zodbpickle-3.1-cp312-cp312-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('grpclib','sha256','c932b3818168e743e1ac50724014e91959625652ba5cf31de8a1addcdf74b3cb','https://github.com/alpine-wheels/grpclib/releases/download/0.4.6/grpclib-0.4.6-py3-none-any.whl');
 INSERT INTO "packages" VALUES('ruamel.yaml.clib','sha256','c55a862ec968e6ed5c96ebe07ebbd51e8cd99ebd724709776eb8c8214a0709cf','https://github.com/alpine-wheels/ruamel.yaml.clib/releases/download/0.2.8/ruamel.yaml.clib-0.2.8-cp312-cp312-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('scikit-image','sha256','e0f7d615c8130d55eb50190080751bd4f5cb295bfafabc2b6583f4275d36bb16','https://github.com/alpine-wheels/scikit-image/releases/download/0.22.0/scikit_image-0.22.0-cp311-cp311-linux_x86_64.whl');
 COMMIT;

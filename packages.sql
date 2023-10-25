@@ -619,4 +619,5 @@ INSERT INTO "packages" VALUES('ruamel.yaml.clib','sha256','c55a862ec968e6ed5c96e
 INSERT INTO "packages" VALUES('scikit-image','sha256','e0f7d615c8130d55eb50190080751bd4f5cb295bfafabc2b6583f4275d36bb16','https://github.com/alpine-wheels/scikit-image/releases/download/0.22.0/scikit_image-0.22.0-cp311-cp311-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('scikit-image','sha256','eb5ec4d9664da7e7318041f2c7cdac3ae3bb9fa2c740475cae2600f7b71277b2','https://github.com/alpine-wheels/scikit-image/releases/download/0.22.0/scikit_image-0.22.0-cp312-cp312-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('persistent','sha256','a6b172c5ee78ea71531d6a1ac71d4317c813461679ef6532b83457338b06bb69','https://github.com/alpine-wheels/persistent/releases/download/5.1/persistent-5.1-cp311-cp311-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('persistent','sha256','35d60114cff6cc63702a8c5d927d261095cc1426908c4c4cef240ea9fde7277d','https://github.com/alpine-wheels/persistent/releases/download/5.1/persistent-5.1-cp312-cp312-linux_x86_64.whl');
 COMMIT;

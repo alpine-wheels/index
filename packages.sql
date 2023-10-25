@@ -628,4 +628,5 @@ INSERT INTO "packages" VALUES('shapely','sha256','e59891d41f96d0213f03607c2c4d5d
 INSERT INTO "packages" VALUES('shapely','sha256','e84cdeed038e6e70c42230e651672623f543ff84690050a6bff7421b29c3fea2','https://github.com/alpine-wheels/shapely/releases/download/2.0.2/shapely-2.0.2-cp311-cp311-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('psutil','sha256','cb687161e544cb12211524f362c9f07920c5117bccdbe2930de879d2b64f0cf1','https://github.com/alpine-wheels/psutil/releases/download/5.9.6/psutil-5.9.6-cp312-abi3-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('psutil','sha256','55564d22645bfaf3d3eb261bdabfea126799ce258bbf9a9b4bb6cf4224fb6257','https://github.com/alpine-wheels/psutil/releases/download/5.9.6/psutil-5.9.6-cp311-abi3-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('scikit-learn','sha256','f68b549e64461e5852427bfebfcf6fc74e2da0d35db944af8ec570e08a067957','https://github.com/alpine-wheels/scikit-learn/releases/download/1.3.2/scikit_learn-1.3.2-cp312-cp312-linux_x86_64.whl');
 COMMIT;

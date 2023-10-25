@@ -622,5 +622,6 @@ INSERT INTO "packages" VALUES('persistent','sha256','a6b172c5ee78ea71531d6a1ac71
 INSERT INTO "packages" VALUES('persistent','sha256','35d60114cff6cc63702a8c5d927d261095cc1426908c4c4cef240ea9fde7277d','https://github.com/alpine-wheels/persistent/releases/download/5.1/persistent-5.1-cp312-cp312-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('btrees','sha256','200ecb226bd3d5870c4feaff425410c8b63578db2c746a560a2de2dab4259738','https://github.com/alpine-wheels/btrees/releases/download/5.1/BTrees-5.1-cp312-cp312-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('btrees','sha256','19951ae071d57148bf522051628c99de40d390385034882ecd10fd4b3df77685','https://github.com/alpine-wheels/btrees/releases/download/5.1/BTrees-5.1-cp311-cp311-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('pyodbc','sha256','d2f028b325bd59b8c16b5e1d1cae8cfed8e5e5c1b197781eafd3f0eee13c26f7','https://github.com/alpine-wheels/pyodbc/releases/download/5.0.1/pyodbc-5.0.1-cp312-cp312-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('pyodbc','sha256','e340379f08a796235cd3b6c5fd76c5d3c57678a108d3477d7116d9c5403685df','https://github.com/alpine-wheels/pyodbc/releases/download/5.0.1/pyodbc-5.0.1-cp311-cp311-linux_x86_64.whl');
 COMMIT;

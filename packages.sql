@@ -625,4 +625,5 @@ INSERT INTO "packages" VALUES('btrees','sha256','19951ae071d57148bf522051628c99d
 INSERT INTO "packages" VALUES('pyodbc','sha256','d2f028b325bd59b8c16b5e1d1cae8cfed8e5e5c1b197781eafd3f0eee13c26f7','https://github.com/alpine-wheels/pyodbc/releases/download/5.0.1/pyodbc-5.0.1-cp312-cp312-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('pyodbc','sha256','e340379f08a796235cd3b6c5fd76c5d3c57678a108d3477d7116d9c5403685df','https://github.com/alpine-wheels/pyodbc/releases/download/5.0.1/pyodbc-5.0.1-cp311-cp311-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('shapely','sha256','e59891d41f96d0213f03607c2c4d5d3fb6ce4ee6272352497c50505e43ca83b5','https://github.com/alpine-wheels/shapely/releases/download/2.0.2/shapely-2.0.2-cp312-cp312-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('shapely','sha256','e84cdeed038e6e70c42230e651672623f543ff84690050a6bff7421b29c3fea2','https://github.com/alpine-wheels/shapely/releases/download/2.0.2/shapely-2.0.2-cp311-cp311-linux_x86_64.whl');
 COMMIT;

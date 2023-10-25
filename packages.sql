@@ -621,4 +621,5 @@ INSERT INTO "packages" VALUES('scikit-image','sha256','eb5ec4d9664da7e7318041f2c
 INSERT INTO "packages" VALUES('persistent','sha256','a6b172c5ee78ea71531d6a1ac71d4317c813461679ef6532b83457338b06bb69','https://github.com/alpine-wheels/persistent/releases/download/5.1/persistent-5.1-cp311-cp311-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('persistent','sha256','35d60114cff6cc63702a8c5d927d261095cc1426908c4c4cef240ea9fde7277d','https://github.com/alpine-wheels/persistent/releases/download/5.1/persistent-5.1-cp312-cp312-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('btrees','sha256','200ecb226bd3d5870c4feaff425410c8b63578db2c746a560a2de2dab4259738','https://github.com/alpine-wheels/btrees/releases/download/5.1/BTrees-5.1-cp312-cp312-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('btrees','sha256','19951ae071d57148bf522051628c99de40d390385034882ecd10fd4b3df77685','https://github.com/alpine-wheels/btrees/releases/download/5.1/BTrees-5.1-cp311-cp311-linux_x86_64.whl');
 COMMIT;

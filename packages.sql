@@ -635,4 +635,5 @@ INSERT INTO "packages" VALUES('scikit-learn','sha256','2c420dcfe08c2cfc77971f9c5
 INSERT INTO "packages" VALUES('neo4j','sha256','b3ab2c5e27e2fe4682f78d5c2bd96c14f01a3e2691e8159e4533c6968860808f','https://github.com/alpine-wheels/neo4j/releases/download/5.14.1/neo4j-5.14.1-py3-none-any.whl');
 INSERT INTO "packages" VALUES('pymupdf','sha256','a3c27014018bf56b95cdeda17c1e50f1c45c301cd1a4248c5358f4565c666cfa','https://github.com/alpine-wheels/pymupdf/releases/download/1.23.6/PyMuPDF-1.23.6-cp312-none-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('borgbackup','sha256','ecdec26234a7fcd6c938e9d8b64b4fa728b633f4e7d5477bfb8aa83bef4382e8','https://github.com/alpine-wheels/borgbackup/releases/download/1.2.7/borgbackup-1.2.7-cp311-cp311-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('neo4j','sha256','feb9f552a873d2b88824be2b8c1bc67239896255bb36da785ca4fbcba0eb45e6','https://github.com/alpine-wheels/neo4j/releases/download/5.15.0/neo4j-5.15.0-py3-none-any.whl');
 COMMIT;

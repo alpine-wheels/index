@@ -638,4 +638,5 @@ INSERT INTO "packages" VALUES('borgbackup','sha256','ecdec26234a7fcd6c938e9d8b64
 INSERT INTO "packages" VALUES('neo4j','sha256','feb9f552a873d2b88824be2b8c1bc67239896255bb36da785ca4fbcba0eb45e6','https://github.com/alpine-wheels/neo4j/releases/download/5.15.0/neo4j-5.15.0-py3-none-any.whl');
 INSERT INTO "packages" VALUES('pymupdf','sha256','d959962ae8829373bfbedbfb27fc4d19112bb584d8340f8fec2b3357883fc5ca','https://github.com/alpine-wheels/pymupdf/releases/download/1.23.7/PyMuPDF-1.23.7-cp312-none-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('zxing-cpp','sha256','48bc2fd772fe4ef39d214ff281516c4dd03f9975e2c614ff0cf10c04ae64c093','https://github.com/alpine-wheels/zxing-cpp/releases/download/2.2.0/zxing_cpp-2.2.0-cp311-cp311-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('psutil','sha256','ebf44bb46a7def128eab25a671e4a0eca91d39545c056bb4b5bfc3ac24613629','https://github.com/alpine-wheels/psutil/releases/download/5.9.7/psutil-5.9.7-cp312-abi3-linux_x86_64.whl');
 COMMIT;

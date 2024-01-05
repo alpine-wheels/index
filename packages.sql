@@ -642,4 +642,5 @@ INSERT INTO "packages" VALUES('psutil','sha256','ebf44bb46a7def128eab25a671e4a0e
 INSERT INTO "packages" VALUES('grpclib','sha256','c41e5e2634d485f659357708185cfe3f0dd8a5982877c56f3a91c10643e9392b','https://github.com/alpine-wheels/grpclib/releases/download/0.4.7/grpclib-0.4.7-py3-none-any.whl');
 INSERT INTO "packages" VALUES('neo4j','sha256','96e01225eff3f60e005506f4e2f54eb2c2ab15002b40f78f74b26ef758d5c2ad','https://github.com/alpine-wheels/neo4j/releases/download/5.16.0/neo4j-5.16.0-py3-none-any.whl');
 INSERT INTO "packages" VALUES('opencv-python','sha256','f5d817939693bed1af6757213a27b843460e92de51d8389cdbc47075c6629295','https://github.com/alpine-wheels/opencv-python/releases/download/4.9.0.80/opencv_python-4.9.0.80-cp311-cp311-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('pymupdf','sha256','bd7f61e7f9582948891f992d07489cc21692f3bed3d583f6d1999c4b2bfcdc48','https://github.com/alpine-wheels/pymupdf/releases/download/1.23.8/PyMuPDF-1.23.8-cp312-none-linux_x86_64.whl');
 COMMIT;

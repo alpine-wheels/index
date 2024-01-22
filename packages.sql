@@ -644,4 +644,5 @@ INSERT INTO "packages" VALUES('neo4j','sha256','96e01225eff3f60e005506f4e2f54eb2
 INSERT INTO "packages" VALUES('opencv-python','sha256','f5d817939693bed1af6757213a27b843460e92de51d8389cdbc47075c6629295','https://github.com/alpine-wheels/opencv-python/releases/download/4.9.0.80/opencv_python-4.9.0.80-cp311-cp311-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('pymupdf','sha256','bd7f61e7f9582948891f992d07489cc21692f3bed3d583f6d1999c4b2bfcdc48','https://github.com/alpine-wheels/pymupdf/releases/download/1.23.8/PyMuPDF-1.23.8-cp312-none-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('pymupdf','sha256','8df51056bf38ebeac521c7a3b0491b5e90a141eaf8d35785c3bc8ad5b764dfd2','https://github.com/alpine-wheels/pymupdf/releases/download/1.23.16/PyMuPDF-1.23.16-cp312-none-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('scikit-learn','sha256','489a3790e97af08f70f9d1e83ab45ff9334985f8c6b63e2e40fd670c0a2e56c1','https://github.com/alpine-wheels/scikit-learn/releases/download/1.4.0/scikit_learn-1.4.0-cp312-cp312-linux_x86_64.whl');
 COMMIT;

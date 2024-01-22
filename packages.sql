@@ -644,4 +644,5 @@ INSERT INTO "packages" VALUES('neo4j','sha256','96e01225eff3f60e005506f4e2f54eb2
 INSERT INTO "packages" VALUES('opencv-python','sha256','f5d817939693bed1af6757213a27b843460e92de51d8389cdbc47075c6629295','https://github.com/alpine-wheels/opencv-python/releases/download/4.9.0.80/opencv_python-4.9.0.80-cp311-cp311-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('pymupdf','sha256','bd7f61e7f9582948891f992d07489cc21692f3bed3d583f6d1999c4b2bfcdc48','https://github.com/alpine-wheels/pymupdf/releases/download/1.23.8/PyMuPDF-1.23.8-cp312-none-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('pymupdf','sha256','8df51056bf38ebeac521c7a3b0491b5e90a141eaf8d35785c3bc8ad5b764dfd2','https://github.com/alpine-wheels/pymupdf/releases/download/1.23.16/PyMuPDF-1.23.16-cp312-none-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('psutil','sha256','e7283edb1aff69c355d9f50a56e6b11df9098eb3a231c23a65c1d200e6808885','https://github.com/alpine-wheels/psutil/releases/download/5.9.8/psutil-5.9.8-cp312-abi3-linux_x86_64.whl');
 COMMIT;

@@ -650,4 +650,5 @@ INSERT INTO "packages" VALUES('pymupdf','sha256','aa5cbccfad8f68b4202613de3c3c04
 INSERT INTO "packages" VALUES('neo4j','sha256','7f92887e7b28f682b80163761d273a356f81bacd07710bf1ed5c2a0a5689d5e6','https://github.com/alpine-wheels/neo4j/releases/download/5.17.0/neo4j-5.17.0-py3-none-any.whl');
 INSERT INTO "packages" VALUES('pymupdf','sha256','aa28a7562273d79b2ecc6a9560f0f192eed45d7b814b6f28feb8cfe2ed80d9dc','https://github.com/alpine-wheels/pymupdf/releases/download/1.23.20/PyMuPDF-1.23.20-cp312-none-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('pyodbc','sha256','4116f0341ae367e56c80f6b87f7affc85d35b2ed7712987229a0b659a3ccfe54','https://github.com/alpine-wheels/pyodbc/releases/download/5.1.0/pyodbc-5.1.0-cp312-cp312-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('btrees','sha256','8eba92c662ecf747a176a8d9569a6d5b93cc97007fc8db4517784901af468b24','https://github.com/alpine-wheels/btrees/releases/download/5.2/BTrees-5.2-cp312-cp312-linux_x86_64.whl');
 COMMIT;

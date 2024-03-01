@@ -656,4 +656,5 @@ INSERT INTO "packages" VALUES('persistent','sha256','283a6de29cbdaef1c44feac91b8
 INSERT INTO "packages" VALUES('neo4j','sha256','5ec6cfa614deffe680e642f98c00ba03c49a60a598e827309c6e37b0d6dddebf','https://github.com/alpine-wheels/neo4j/releases/download/5.18.0/neo4j-5.18.0-py3-none-any.whl');
 INSERT INTO "packages" VALUES('zope.interface','sha256','c344a25cddbda35b7c3ba479b4e71e563c9f7fe67161e70fa6860579f2279785','https://github.com/alpine-wheels/zope.interface/releases/download/6.2/zope.interface-6.2-cp312-cp312-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('scikit-learn','sha256','3e054f65bfb23e95f7997694aa89027a7e659d545e46af73456fd5dfe86c1cda','https://github.com/alpine-wheels/scikit-learn/releases/download/1.4.1.post1/scikit_learn-1.4.1.post1-cp312-cp312-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('pymupdf','sha256','8a13f1b5405dc5487f548bf9e6edb997b35f00eaa886f86155448b4f37157787','https://github.com/alpine-wheels/pymupdf/releases/download/1.23.26/PyMuPDF-1.23.26-cp312-none-linux_x86_64.whl');
 COMMIT;

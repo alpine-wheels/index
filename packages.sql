@@ -652,4 +652,5 @@ INSERT INTO "packages" VALUES('pymupdf','sha256','aa28a7562273d79b2ecc6a9560f0f1
 INSERT INTO "packages" VALUES('pyodbc','sha256','4116f0341ae367e56c80f6b87f7affc85d35b2ed7712987229a0b659a3ccfe54','https://github.com/alpine-wheels/pyodbc/releases/download/5.1.0/pyodbc-5.1.0-cp312-cp312-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('btrees','sha256','8eba92c662ecf747a176a8d9569a6d5b93cc97007fc8db4517784901af468b24','https://github.com/alpine-wheels/btrees/releases/download/5.2/BTrees-5.2-cp312-cp312-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('zodbpickle','sha256','8e308e4ed543a1eda749e4096c083b181d2065cc7284b4c6d1a586b6f717d632','https://github.com/alpine-wheels/zodbpickle/releases/download/3.2/zodbpickle-3.2-cp312-cp312-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('persistent','sha256','283a6de29cbdaef1c44feac91b88ff95475f8d28dd9d7c009aeb31c0f665caa8','https://github.com/alpine-wheels/persistent/releases/download/5.2/persistent-5.2-cp312-cp312-linux_x86_64.whl');
 COMMIT;

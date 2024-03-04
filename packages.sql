@@ -658,4 +658,5 @@ INSERT INTO "packages" VALUES('zope.interface','sha256','c344a25cddbda35b7c3ba47
 INSERT INTO "packages" VALUES('scikit-learn','sha256','3e054f65bfb23e95f7997694aa89027a7e659d545e46af73456fd5dfe86c1cda','https://github.com/alpine-wheels/scikit-learn/releases/download/1.4.1.post1/scikit_learn-1.4.1.post1-cp312-cp312-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('pymupdf','sha256','8a13f1b5405dc5487f548bf9e6edb997b35f00eaa886f86155448b4f37157787','https://github.com/alpine-wheels/pymupdf/releases/download/1.23.26/PyMuPDF-1.23.26-cp312-none-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('reportlab','sha256','59bfdaa1cd43aaacd4f639b3f3ad53f0b57a9d881633e7bdbc332b53641e8560','https://github.com/alpine-wheels/reportlab/releases/download/3.6.12/reportlab-3.6.12-cp311-cp311-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('reportlab','sha256','055fa58da27a6a4e7721cec247f6f33bb946497c1c68d4632e0efe8cfd0f4fce','https://github.com/alpine-wheels/reportlab/releases/download/3.6.13/reportlab-3.6.13-cp311-cp311-linux_x86_64.whl');
 COMMIT;

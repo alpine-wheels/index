@@ -661,4 +661,5 @@ INSERT INTO "packages" VALUES('reportlab','sha256','59bfdaa1cd43aaacd4f639b3f3ad
 INSERT INTO "packages" VALUES('reportlab','sha256','055fa58da27a6a4e7721cec247f6f33bb946497c1c68d4632e0efe8cfd0f4fce','https://github.com/alpine-wheels/reportlab/releases/download/3.6.13/reportlab-3.6.13-cp311-cp311-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('mysqlclient','sha256','22150dbb187845b83e39e5427fcd14a43fcfac8fc6bc2bf82361e4acafa587ca','https://github.com/alpine-wheels/mysqlclient/releases/download/2.2.4/mysqlclient-2.2.4-cp311-cp311-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('shapely','sha256','3272d89f82c2c601879d46cb92733e9931d8139db130e9822055dbeb01900abb','https://github.com/alpine-wheels/shapely/releases/download/2.0.3/shapely-2.0.3-cp312-cp312-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('reportlab','sha256','a1433a24cee3119fdc142487c6594d72621dd1d5d33df2d032c559aa0bb8b115','https://github.com/alpine-wheels/reportlab/releases/download/4.0.0/reportlab-4.0.0-py3-none-any.whl');
 COMMIT;

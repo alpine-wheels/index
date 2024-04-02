@@ -664,4 +664,5 @@ INSERT INTO "packages" VALUES('shapely','sha256','3272d89f82c2c601879d46cb92733e
 INSERT INTO "packages" VALUES('reportlab','sha256','a1433a24cee3119fdc142487c6594d72621dd1d5d33df2d032c559aa0bb8b115','https://github.com/alpine-wheels/reportlab/releases/download/4.0.0/reportlab-4.0.0-py3-none-any.whl');
 INSERT INTO "packages" VALUES('pymupdf','sha256','ff148e0208340f87bbd53490736847760c1333c16d82d921f50c9f20de8ec8d2','https://github.com/alpine-wheels/pymupdf/releases/download/1.24.0/PyMuPDF-1.24.0-cp312-none-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('borgbackup','sha256','332db44421424ae94eec3e4fee42731362158346a2b780292f46e5cd9ad33408','https://github.com/alpine-wheels/borgbackup/releases/download/1.2.8/borgbackup-1.2.8-cp311-cp311-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('neo4j','sha256','2362c1731cce75031d00680497ccbaf06680845a5b5806506b249f6b73404ff7','https://github.com/alpine-wheels/neo4j/releases/download/5.19.0/neo4j-5.19.0-py3-none-any.whl');
 COMMIT;

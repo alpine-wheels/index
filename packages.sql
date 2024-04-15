@@ -666,5 +666,6 @@ INSERT INTO "packages" VALUES('pymupdf','sha256','ff148e0208340f87bbd53490736847
 INSERT INTO "packages" VALUES('borgbackup','sha256','332db44421424ae94eec3e4fee42731362158346a2b780292f46e5cd9ad33408','https://github.com/alpine-wheels/borgbackup/releases/download/1.2.8/borgbackup-1.2.8-cp311-cp311-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('neo4j','sha256','2362c1731cce75031d00680497ccbaf06680845a5b5806506b249f6b73404ff7','https://github.com/alpine-wheels/neo4j/releases/download/5.19.0/neo4j-5.19.0-py3-none-any.whl');
 INSERT INTO "packages" VALUES('pymupdf','sha256','9afae04b1a635866c569621c2832ed2e9753687554a31c1cbadbd675eda83385','https://github.com/alpine-wheels/pymupdf/releases/download/1.24.1/PyMuPDF-1.24.1-cp312-none-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('scikit-image','sha256','3e414819e019341c7727c777b713470656dbb4dbe5f48c2f237a9a685473d284','https://github.com/alpine-wheels/scikit-image/releases/download/0.23.1/scikit_image-0.23.1-cp312-cp312-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('zope.interface','sha256','548f5ebbadb8278b61eaaa71c709a61f2abddbe92fe3b2f99fd27ad07a9a0ca0','https://github.com/alpine-wheels/zope.interface/releases/download/6.3/zope.interface-6.3-cp312-cp312-linux_x86_64.whl');
 COMMIT;

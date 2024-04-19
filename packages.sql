@@ -671,4 +671,5 @@ INSERT INTO "packages" VALUES('zope.interface','sha256','548f5ebbadb8278b61eaaa7
 INSERT INTO "packages" VALUES('scikit-learn','sha256','26c0ea26e54f79c5f3b3c8f341d1e08d2edfcbdec2cb91581b564847b979b6b9','https://github.com/alpine-wheels/scikit-learn/releases/download/1.4.2/scikit_learn-1.4.2-cp312-cp312-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('zodbpickle','sha256','65b1fafa3e9331f281de379ce137b7619af9c07debc53b5a23b8763ee32d3fcb','https://github.com/alpine-wheels/zodbpickle/releases/download/3.3/zodbpickle-3.3-cp312-cp312-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('shapely','sha256','080e73ba09783a5c14683e3c963e9c49dd531bbbe500369d7a81ccf8b90d07e6','https://github.com/alpine-wheels/shapely/releases/download/2.0.4/shapely-2.0.4-cp312-cp312-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('pymupdf','sha256','6a2e97ee45deda41154a286bdbea746ed233ba9554624bcd4e79fa5acd7df658','https://github.com/alpine-wheels/pymupdf/releases/download/1.24.2/PyMuPDF-1.24.2-cp312-none-linux_x86_64.whl');
 COMMIT;

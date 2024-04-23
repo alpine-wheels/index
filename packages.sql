@@ -672,4 +672,5 @@ INSERT INTO "packages" VALUES('scikit-learn','sha256','26c0ea26e54f79c5f3b3c8f34
 INSERT INTO "packages" VALUES('zodbpickle','sha256','65b1fafa3e9331f281de379ce137b7619af9c07debc53b5a23b8763ee32d3fcb','https://github.com/alpine-wheels/zodbpickle/releases/download/3.3/zodbpickle-3.3-cp312-cp312-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('shapely','sha256','080e73ba09783a5c14683e3c963e9c49dd531bbbe500369d7a81ccf8b90d07e6','https://github.com/alpine-wheels/shapely/releases/download/2.0.4/shapely-2.0.4-cp312-cp312-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('pymupdf','sha256','6a2e97ee45deda41154a286bdbea746ed233ba9554624bcd4e79fa5acd7df658','https://github.com/alpine-wheels/pymupdf/releases/download/1.24.2/PyMuPDF-1.24.2-cp312-none-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('scikit-image','sha256','8a68c9115a0f7d12a213ceb3850ac48e692f0b7ab4b0921c15550517fc5c0cd7','https://github.com/alpine-wheels/scikit-image/releases/download/0.23.2/scikit_image-0.23.2-cp312-cp312-linux_x86_64.whl');
 COMMIT;

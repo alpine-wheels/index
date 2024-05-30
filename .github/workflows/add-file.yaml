@@ -24,6 +24,8 @@ jobs:
   add-file:
     name: Add a new file to the package index
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
 
       - name: Check out the repository

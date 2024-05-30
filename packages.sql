@@ -678,4 +678,5 @@ INSERT INTO "packages" VALUES('pymupdf','sha256','3ee3dc1ef17d9c8423f06389bd8638
 INSERT INTO "packages" VALUES('zope.interface','sha256','d4761ce5bda5af6398ce0c9505dbb3e90eb8e93415507cc1a2af089a0e0b2b1e','https://github.com/alpine-wheels/zope.interface/releases/download/6.4/zope.interface-6.4-cp312-cp312-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('pymupdf','sha256','26902ae08eb81a3bac1ffe09838a874fa5a46b824b8f41b8b12785ca63373fd9','https://github.com/alpine-wheels/pymupdf/releases/download/1.24.4/PyMuPDF-1.24.4-cp312-none-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('scikit-learn','sha256','a77b9eac2b28429f1e38a3c4a651a8153b1fbadefc7527e87393623b44abb1b6','https://github.com/alpine-wheels/scikit-learn/releases/download/1.5.0/scikit_learn-1.5.0-cp312-cp312-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('btrees','sha256','35ec0dbcdd31c50479b1f3ab5389fdf83abeaf356b13c408995c10395985aff5','https://github.com/alpine-wheels/btrees/releases/download/6.0/BTrees-6.0-cp312-cp312-linux_x86_64.whl');
 COMMIT;

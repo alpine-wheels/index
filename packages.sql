@@ -680,4 +680,5 @@ INSERT INTO "packages" VALUES('pymupdf','sha256','26902ae08eb81a3bac1ffe09838a87
 INSERT INTO "packages" VALUES('scikit-learn','sha256','a77b9eac2b28429f1e38a3c4a651a8153b1fbadefc7527e87393623b44abb1b6','https://github.com/alpine-wheels/scikit-learn/releases/download/1.5.0/scikit_learn-1.5.0-cp312-cp312-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('btrees','sha256','35ec0dbcdd31c50479b1f3ab5389fdf83abeaf356b13c408995c10395985aff5','https://github.com/alpine-wheels/btrees/releases/download/6.0/BTrees-6.0-cp312-cp312-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('zodbpickle','sha256','d06cbdaa591418d464d7d8ed13289b62b7824ac180befd3a62737c9fa38fdda5','https://github.com/alpine-wheels/zodbpickle/releases/download/4.0/zodbpickle-4.0-cp312-cp312-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('pymupdf','sha256','b732a8307a04072d7d03e024677a21ef69ca3320579a436ccccecc397bf70ee8','https://github.com/alpine-wheels/pymupdf/releases/download/1.24.5/PyMuPDF-1.24.5-cp312-none-linux_x86_64.whl');
 COMMIT;

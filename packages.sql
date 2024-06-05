@@ -684,4 +684,5 @@ INSERT INTO "packages" VALUES('pymupdf','sha256','b732a8307a04072d7d03e024677a21
 INSERT INTO "packages" VALUES('opencv-python','sha256','c0e248e27400c617c7cbaa2ef20932f0a03acbca12d9794b3640ca05f08690cd','https://github.com/alpine-wheels/opencv-python/releases/download/4.10.0.82/opencv_python-4.10.0.82-cp311-cp311-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('ninja','sha256','37712b7a519cb1ab84cc773ae45cca9d908c80c68155b8b2f12aab6bba89e238','https://github.com/alpine-wheels/ninja/releases/download/1.11.1.1/ninja-1.11.1.1-cp312-cp312-linux_armv7l.whl');
 INSERT INTO "packages" VALUES('numpy','sha256','e09282f99f9043f9280aa85d73f744b04c478b57758521d55524779b0355a924','https://github.com/alpine-wheels/numpy/releases/download/2.0.0rc2/numpy-2.0.0rc2-cp312-cp312-linux_armv7l.whl');
+INSERT INTO "packages" VALUES('scipy','sha256','9413c1e6eed9d2c237df0c5eb1fbe8000374a4066c50f66dcd6bf9b8d58b89ee','https://github.com/alpine-wheels/scipy/releases/download/1.13.1/scipy-1.13.1-cp312-cp312-linux_armv7l.whl');
 COMMIT;

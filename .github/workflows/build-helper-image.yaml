@@ -24,6 +24,8 @@ jobs:
 
   build:
     name: Build the helper container image
+    permissions:
+      packages: write
     runs-on: ubuntu-latest
     steps:
 
@@ -33,21 +35,22 @@ jobs:
       - name: Build the container image
         uses: docker/build-push-action@v2
         with:
-          build-args: |
-            BUILDKIT_INLINE_CACHE=1
-          cache-from: |
-            ${{ env.image_name }}
-          load: true
-          tags: ${{ env.image_name }}
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+          tags: ${{ env.image_name }}:latest
 
       - name: Log in to GitHub container registry
-        if: github.event_name == 'push' || github.event_name == 'release'
+        if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
         uses: docker/login-action@v3
         with:
-          registry: ghcr.io
           password: ${{ github.token }}
+          registry: ghcr.io
           username: ${{ github.actor }}
 
       - name: Push latest image to registry
-        if: github.event_name == 'push'
-        run: docker image push ${{ env.image_name }}
+        if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
+        uses: docker/build-push-action@v5
+        with:
+          cache-from: type=gha
+          push: true
+          tags: ${{ env.image_name }}:latest

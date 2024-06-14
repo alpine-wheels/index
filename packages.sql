@@ -694,4 +694,5 @@ INSERT INTO "packages" VALUES('ninja','sha256','f6fff3d18c17cf6f34c864d26773fe7c
 INSERT INTO "packages" VALUES('scipy','sha256','0fe01a556915be86d4e38f8054710e630393c6c1beca4e8fb3fe4caa1ea7307b','https://github.com/alpine-wheels/scipy/releases/download/1.13.1/scipy-1.13.1-cp311-cp311-linux_armv7l.whl');
 INSERT INTO "packages" VALUES('scikit-learn','sha256','9e2074508ee22d916ef1cac585c733c5c799c83d576e9ea64626c5d521a4038e','https://github.com/alpine-wheels/scikit-learn/releases/download/1.5.0/scikit_learn-1.5.0-cp311-cp311-linux_armv7l.whl');
 INSERT INTO "packages" VALUES('scikit-learn','sha256','2095e7def04b045a4ef55dc1cff9faf370a3ab200c1c2aba4273cacbe2fb57b9','https://github.com/alpine-wheels/scikit-learn/releases/download/1.5.0/scikit_learn-1.5.0-cp310-cp310-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('scikit-learn','sha256','9faf49716761dd12f81c1afdcb51be0294e0d29ed6dc1dc5087238cdbd993f57','https://github.com/alpine-wheels/scikit-learn/releases/download/1.5.0/scikit_learn-1.5.0-cp311-cp311-linux_x86_64.whl');
 COMMIT;

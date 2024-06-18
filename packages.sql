@@ -698,4 +698,5 @@ INSERT INTO "packages" VALUES('scikit-learn','sha256','9faf49716761dd12f81c1afdc
 INSERT INTO "packages" VALUES('numpy','sha256','7d689ad2a1b707dcc94904ff74af722dfaaea1e4bd4c33e3d9709c58c4a00fa7','https://github.com/alpine-wheels/numpy/releases/download/2.0.0/numpy-2.0.0-cp310-cp310-linux_armv7l.whl');
 INSERT INTO "packages" VALUES('numpy','sha256','99a253c48be8792d0026c9ee6afa15e19355f2356804d4e3a2ac81f588d13658','https://github.com/alpine-wheels/numpy/releases/download/2.0.0/numpy-2.0.0-cp311-cp311-linux_armv7l.whl');
 INSERT INTO "packages" VALUES('numpy','sha256','d6bdd18b3e76727fd07579defb1993c9abb04f8556011177d8b25cafcae32b9b','https://github.com/alpine-wheels/numpy/releases/download/2.0.0/numpy-2.0.0-cp312-cp312-linux_armv7l.whl');
+INSERT INTO "packages" VALUES('opencv-python','sha256','7e995672e373dcbeb4d1cfaf2cbdc085761d5df7187872d7dcdd6c8a5c60b117','https://github.com/alpine-wheels/opencv-python/releases/download/4.10.0.84/opencv_python-4.10.0.84-cp311-cp311-linux_x86_64.whl');
 COMMIT;

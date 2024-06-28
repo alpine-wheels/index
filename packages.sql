@@ -700,4 +700,5 @@ INSERT INTO "packages" VALUES('numpy','sha256','99a253c48be8792d0026c9ee6afa15e1
 INSERT INTO "packages" VALUES('numpy','sha256','d6bdd18b3e76727fd07579defb1993c9abb04f8556011177d8b25cafcae32b9b','https://github.com/alpine-wheels/numpy/releases/download/2.0.0/numpy-2.0.0-cp312-cp312-linux_armv7l.whl');
 INSERT INTO "packages" VALUES('opencv-python','sha256','7e995672e373dcbeb4d1cfaf2cbdc085761d5df7187872d7dcdd6c8a5c60b117','https://github.com/alpine-wheels/opencv-python/releases/download/4.10.0.84/opencv_python-4.10.0.84-cp311-cp311-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('scikit-image','sha256','6dd8fdd71df91825a984ff0332d5174ba0584d8736aed38fa2b0cb5b6403dcf6','https://github.com/alpine-wheels/scikit-image/releases/download/0.24.0/scikit_image-0.24.0-cp312-cp312-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('scipy','sha256','2e30a916af66ebb1e7ff4e637e3f18f71bce7bfd536f66bda156eae1ef32646d','https://github.com/alpine-wheels/scipy/releases/download/1.14.0/scipy-1.14.0-cp311-cp311-linux_armv7l.whl');
 COMMIT;

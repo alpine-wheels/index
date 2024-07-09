@@ -705,4 +705,5 @@ INSERT INTO "packages" VALUES('scipy','sha256','2e30a916af66ebb1e7ff4e637e3f18f7
 INSERT INTO "packages" VALUES('scipy','sha256','d92b5e9eef3c8c25bc0946d85553efc34e7494021fa0f2a2776248a51458cc0b','https://github.com/alpine-wheels/scipy/releases/download/1.14.0/scipy-1.14.0-cp312-cp312-linux_armv7l.whl');
 INSERT INTO "packages" VALUES('borgbackup','sha256','5c82939291e7a554acc36436b15ba6aaf20de91cfdf6c2c04e27a425b308a25a','https://github.com/alpine-wheels/borgbackup/releases/download/1.4.0/borgbackup-1.4.0-cp311-cp311-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('scipy','sha256','442a74c0ebe251935691e942d444ea3f40f457921ad443381aa29e7aaddf3d2d','https://github.com/alpine-wheels/scipy/releases/download/1.14.0/scipy-1.14.0-cp310-cp310-linux_aarch64.whl');
+INSERT INTO "packages" VALUES('scipy','sha256','66f827cd525084dbc8b3d32d9841b7d07009a420d54d2942a3f3bfa537223d8d','https://github.com/alpine-wheels/scipy/releases/download/1.14.0/scipy-1.14.0-cp311-cp311-linux_aarch64.whl');
 COMMIT;

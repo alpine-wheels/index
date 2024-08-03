@@ -719,4 +719,5 @@ INSERT INTO "packages" VALUES('scikit-learn','sha256','5f6c5ebece877330d67c17b33
 INSERT INTO "packages" VALUES('shapely','sha256','feed59ecbf3a1a631d6e685cdb64bbf9471666cfebc875d9ebc3ae91eb393ccc','https://github.com/alpine-wheels/shapely/releases/download/2.0.5/shapely-2.0.5-cp312-cp312-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('numpy','sha256','31420e59a4ff86f0a300913547e9a5771d6b4ea9bd64bea49ad496ec8eeceaf3','https://github.com/alpine-wheels/numpy/releases/download/2.0.1/numpy-2.0.1-cp310-cp310-linux_armv7l.whl');
 INSERT INTO "packages" VALUES('numpy','sha256','a1d02f69d3f27d1f06e2ec02cb10786a6c456f6cce29d8c57e544cd0bc32205a','https://github.com/alpine-wheels/numpy/releases/download/2.0.1/numpy-2.0.1-cp311-cp311-linux_armv7l.whl');
+INSERT INTO "packages" VALUES('numpy','sha256','206e747dbed1d670ee616354d6b1997b30a36dc809e27c69894628f90ef92b02','https://github.com/alpine-wheels/numpy/releases/download/2.0.1/numpy-2.0.1-cp312-cp312-linux_armv7l.whl');
 COMMIT;

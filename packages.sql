@@ -717,4 +717,5 @@ INSERT INTO "packages" VALUES('scikit-learn','sha256','74246a62bc8c93feb1f7cc94f
 INSERT INTO "packages" VALUES('scikit-learn','sha256','a5dc92ed822a72521de4143df9407b7e7b90b658b94f4d4a87b17c878fe25231','https://github.com/alpine-wheels/scikit-learn/releases/download/1.5.1/scikit_learn-1.5.1-cp311-cp311-linux_armv7l.whl');
 INSERT INTO "packages" VALUES('scikit-learn','sha256','5f6c5ebece877330d67c17b33406bda655edf0402a77856873051f173bbde0a8','https://github.com/alpine-wheels/scikit-learn/releases/download/1.5.1/scikit_learn-1.5.1-cp312-cp312-linux_armv7l.whl');
 INSERT INTO "packages" VALUES('shapely','sha256','feed59ecbf3a1a631d6e685cdb64bbf9471666cfebc875d9ebc3ae91eb393ccc','https://github.com/alpine-wheels/shapely/releases/download/2.0.5/shapely-2.0.5-cp312-cp312-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('numpy','sha256','31420e59a4ff86f0a300913547e9a5771d6b4ea9bd64bea49ad496ec8eeceaf3','https://github.com/alpine-wheels/numpy/releases/download/2.0.1/numpy-2.0.1-cp310-cp310-linux_armv7l.whl');
 COMMIT;

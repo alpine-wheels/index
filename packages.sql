@@ -721,4 +721,5 @@ INSERT INTO "packages" VALUES('numpy','sha256','31420e59a4ff86f0a300913547e9a577
 INSERT INTO "packages" VALUES('numpy','sha256','a1d02f69d3f27d1f06e2ec02cb10786a6c456f6cce29d8c57e544cd0bc32205a','https://github.com/alpine-wheels/numpy/releases/download/2.0.1/numpy-2.0.1-cp311-cp311-linux_armv7l.whl');
 INSERT INTO "packages" VALUES('numpy','sha256','206e747dbed1d670ee616354d6b1997b30a36dc809e27c69894628f90ef92b02','https://github.com/alpine-wheels/numpy/releases/download/2.0.1/numpy-2.0.1-cp312-cp312-linux_armv7l.whl');
 INSERT INTO "packages" VALUES('zope.interface','sha256','7e38f583cdc55f0e9bf9cb4d060802a9f83eb40c4c7f68ed9c7b2ccfdc537763','https://github.com/alpine-wheels/zope.interface/releases/download/7.0.1/zope.interface-7.0.1-cp312-cp312-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('shapely','sha256','eec6263affb2d737f27a52929423a605ea0415fe534f88dc9b2ea2a7f9e1cfae','https://github.com/alpine-wheels/shapely/releases/download/2.0.6/shapely-2.0.6-cp312-cp312-linux_x86_64.whl');
 COMMIT;

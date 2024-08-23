@@ -726,4 +726,9 @@ INSERT INTO "packages" VALUES('numpy','sha256','40d0149f970b9df7653fc3d2dabd15ba
 INSERT INTO "packages" VALUES('numpy','sha256','526f6c11ed1ce93c2355ff7b7ca83af4a37b64d703b7bf100c4bbbb1eaa72538','https://github.com/alpine-wheels/numpy/releases/download/2.1.0/numpy-2.1.0-cp310-cp310-linux_armv7l.whl');
 INSERT INTO "packages" VALUES('numpy','sha256','336d339eaa0770ba7fb048fa3769f7fa685e790409a91a2c9cfd205dd5079c6d','https://github.com/alpine-wheels/numpy/releases/download/2.1.0/numpy-2.1.0-cp312-cp312-linux_armv7l.whl');
 INSERT INTO "packages" VALUES('scipy','sha256','bf30ee986fcd167cd3a011c7bcdec0cc86bbe3c9c4044e5310c0a5f642ef2839','https://github.com/alpine-wheels/scipy/releases/download/1.14.1/scipy-1.14.1-cp310-cp310-linux_armv7l.whl');
+INSERT INTO "packages" VALUES('scipy','sha256','097feae21161e88a5ce6e1639a57e046d6783e45e0c4f2237cb339f9b65771de','https://github.com/alpine-wheels/scipy/releases/download/1.14.1/scipy-1.14.1-cp312-cp312-linux_armv7l.whl');
+INSERT INTO "packages" VALUES('scipy','sha256','64574198fe8e224718ea4b04ac166a7b236eeb4d1baafefcf6037952cbc1831d','https://github.com/alpine-wheels/scipy/releases/download/1.14.1/scipy-1.14.1-cp311-cp311-linux_armv7l.whl');
+INSERT INTO "packages" VALUES('scipy','sha256','79eaa84b24103f8a4bff29c7a8eb09f49e604a5b4240e22d04bb89fc402b7588','https://github.com/alpine-wheels/scipy/releases/download/1.14.1/scipy-1.14.1-cp312-cp312-linux_aarch64.whl');
+INSERT INTO "packages" VALUES('scipy','sha256','e725e1c7017d71f160b98ecf882e2e2608722133024fcf03045748930af6eeae','https://github.com/alpine-wheels/scipy/releases/download/1.14.1/scipy-1.14.1-cp311-cp311-linux_aarch64.whl');
+INSERT INTO "packages" VALUES('scipy','sha256','44cebafce680d24bba44ff65a14d7316d40ee5f697dfd4b977ae0d25c7b4a5c5','https://github.com/alpine-wheels/scipy/releases/download/1.14.1/scipy-1.14.1-cp310-cp310-linux_aarch64.whl');
 COMMIT;

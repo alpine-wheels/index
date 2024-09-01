@@ -731,4 +731,5 @@ INSERT INTO "packages" VALUES('scipy','sha256','64574198fe8e224718ea4b04ac166a7b
 INSERT INTO "packages" VALUES('scipy','sha256','79eaa84b24103f8a4bff29c7a8eb09f49e604a5b4240e22d04bb89fc402b7588','https://github.com/alpine-wheels/scipy/releases/download/1.14.1/scipy-1.14.1-cp312-cp312-linux_aarch64.whl');
 INSERT INTO "packages" VALUES('scipy','sha256','e725e1c7017d71f160b98ecf882e2e2608722133024fcf03045748930af6eeae','https://github.com/alpine-wheels/scipy/releases/download/1.14.1/scipy-1.14.1-cp311-cp311-linux_aarch64.whl');
 INSERT INTO "packages" VALUES('scipy','sha256','44cebafce680d24bba44ff65a14d7316d40ee5f697dfd4b977ae0d25c7b4a5c5','https://github.com/alpine-wheels/scipy/releases/download/1.14.1/scipy-1.14.1-cp310-cp310-linux_aarch64.whl');
+INSERT INTO "packages" VALUES('zope.interface','sha256','8d0231db84faa27c63b22cb4395bc0e42ff540b82f08f5615adf0fde72598e24','https://github.com/alpine-wheels/zope.interface/releases/download/7.0.3/zope.interface-7.0.3-cp312-cp312-linux_x86_64.whl');
 COMMIT;

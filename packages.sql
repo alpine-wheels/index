@@ -734,4 +734,5 @@ INSERT INTO "packages" VALUES('scipy','sha256','44cebafce680d24bba44ff65a14d7316
 INSERT INTO "packages" VALUES('zope.interface','sha256','8d0231db84faa27c63b22cb4395bc0e42ff540b82f08f5615adf0fde72598e24','https://github.com/alpine-wheels/zope.interface/releases/download/7.0.3/zope.interface-7.0.3-cp312-cp312-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('shapely','sha256','baffdfc76f2062bd3cd535823ef93e83e43bda4fb824308398ae3aba70755d15','https://github.com/alpine-wheels/shapely/releases/download/2.0.6/shapely-2.0.6-cp312-cp312-linux_aarch64.whl');
 INSERT INTO "packages" VALUES('llfuse','sha256','29ee27b3446692dc1cd704bd83790c22c068f53d63ac1c460295460b2df4d20d','https://github.com/alpine-wheels/llfuse/releases/download/1.5.1/llfuse-1.5.1-cp311-cp311-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('numpy','sha256','aecc532ad7028b1edeb5ed15deeaf7d834f303160197a08aec74cb82a00e3d75','https://github.com/alpine-wheels/numpy/releases/download/2.1.1/numpy-2.1.1-cp310-cp310-linux_armv7l.whl');
 COMMIT;

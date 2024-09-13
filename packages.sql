@@ -737,4 +737,5 @@ INSERT INTO "packages" VALUES('llfuse','sha256','29ee27b3446692dc1cd704bd83790c2
 INSERT INTO "packages" VALUES('numpy','sha256','aecc532ad7028b1edeb5ed15deeaf7d834f303160197a08aec74cb82a00e3d75','https://github.com/alpine-wheels/numpy/releases/download/2.1.1/numpy-2.1.1-cp310-cp310-linux_armv7l.whl');
 INSERT INTO "packages" VALUES('numpy','sha256','8483ab583637c5f65a9c692374afdadce04d06c49d90c6b5ea624ed78a34ee68','https://github.com/alpine-wheels/numpy/releases/download/2.1.1/numpy-2.1.1-cp312-cp312-linux_armv7l.whl');
 INSERT INTO "packages" VALUES('numpy','sha256','c5e6f52fea346a2f6d83d962e93d21052102d969ee5d0d1d604d4668d932a1f6','https://github.com/alpine-wheels/numpy/releases/download/2.1.1/numpy-2.1.1-cp311-cp311-linux_armv7l.whl');
+INSERT INTO "packages" VALUES('scikit-learn','sha256','63256def6d9c006757d2df3bb5febbf4c2f35fe6b8dadb936484dc4b9073c520','https://github.com/alpine-wheels/scikit-learn/releases/download/1.5.2/scikit_learn-1.5.2-cp310-cp310-linux_x86_64.whl');
 COMMIT;

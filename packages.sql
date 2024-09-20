@@ -746,4 +746,5 @@ INSERT INTO "packages" VALUES('scikit-learn','sha256','8fb200cacdd11db46c5b34038
 INSERT INTO "packages" VALUES('scikit-learn','sha256','5a6db7e4a2c2528bea325039e04584a5a48cb03598a23cee4db8b7db9ad5845e','https://github.com/alpine-wheels/scikit-learn/releases/download/1.5.2/scikit_learn-1.5.2-cp310-cp310-linux_armv7l.whl');
 INSERT INTO "packages" VALUES('scikit-learn','sha256','20548753d2628b07afe50a02cb26e769af703cc043b5221545b4ad7aed192be7','https://github.com/alpine-wheels/scikit-learn/releases/download/1.5.2/scikit_learn-1.5.2-cp312-cp312-linux_armv7l.whl');
 INSERT INTO "packages" VALUES('scikit-learn','sha256','6a3edd6c61a960dd2c5249aa48cb13864bab65ef8e45777166c9c7eeb87ec507','https://github.com/alpine-wheels/scikit-learn/releases/download/1.5.2/scikit_learn-1.5.2-cp311-cp311-linux_armv7l.whl');
+INSERT INTO "packages" VALUES('btrees','sha256','e0a3e71ab43ca6c5635610c697eecb204fb6c2e00bd8c5532c3e3389ad89664e','https://github.com/alpine-wheels/btrees/releases/download/6.1/BTrees-6.1-cp312-cp312-linux_x86_64.whl');
 COMMIT;

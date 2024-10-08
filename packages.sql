@@ -750,4 +750,5 @@ INSERT INTO "packages" VALUES('persistent','sha256','c2801570def8b364702d2ee0f5d
 INSERT INTO "packages" VALUES('zodbpickle','sha256','655190bf174f407cdaaef21fd1704f213ecbdecf97e1b18fb22352826b9cbb38','https://github.com/alpine-wheels/zodbpickle/releases/download/4.1/zodbpickle-4.1-cp312-cp312-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('btrees','sha256','e0a3e71ab43ca6c5635610c697eecb204fb6c2e00bd8c5532c3e3389ad89664e','https://github.com/alpine-wheels/btrees/releases/download/6.1/BTrees-6.1-cp312-cp312-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('zodbpickle','sha256','b04dffca1029c29b91b90ad4c38f97a32561c642ae3bc49c930e5f213e22960c','https://github.com/alpine-wheels/zodbpickle/releases/download/4.1.1/zodbpickle-4.1.1-cp312-cp312-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('numpy','sha256','5b69e77fedd489996c4cb9175bfa6527f0400f5762450b94adaf1b52737907bd','https://github.com/alpine-wheels/numpy/releases/download/2.1.2/numpy-2.1.2-cp311-cp311-linux_armv7l.whl');
 COMMIT;

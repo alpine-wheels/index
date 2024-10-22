@@ -756,4 +756,5 @@ INSERT INTO "packages" VALUES('numpy','sha256','5b69e77fedd489996c4cb9175bfa6527
 INSERT INTO "packages" VALUES('zope.interface','sha256','dfeb22df3f16fe0de8b7e067352410ae757bb68cf21b1b7406dc86b3e819f491','https://github.com/alpine-wheels/zope.interface/releases/download/7.1.0/zope.interface-7.1.0-cp312-cp312-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('cryptg','sha256','af05b55a1f569f7e4490ee360f35d6818c15188e16fbf7535e5aee25dd0d4629','https://github.com/alpine-wheels/cryptg/releases/download/0.5.0/cryptg-0.5.0-cp311-cp311-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('cryptg','sha256','9011446f4aa4eaaac2d63f0c26553e467b5e4028d1133108a2a6bb8bfcb468fe','https://github.com/alpine-wheels/cryptg/releases/download/0.5.0/cryptg-0.5.0-cp310-cp310-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('psycopg2','sha256','4748979d94f42f8dfb3a2988a475450f9e298b6578a96d2e479052d2c5564215','https://github.com/alpine-wheels/psycopg2/releases/download/2.9.10/psycopg2-2.9.10-cp312-cp312-linux_aarch64.whl');
 COMMIT;

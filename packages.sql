@@ -760,4 +760,5 @@ INSERT INTO "packages" VALUES('psycopg2','sha256','4748979d94f42f8dfb3a2988a4754
 INSERT INTO "packages" VALUES('psycopg2','sha256','8ac26bbcead1b18c229980de9c7844cfc51dc7873b164c68241c4b75ece2cb90','https://github.com/alpine-wheels/psycopg2/releases/download/2.9.10/psycopg2-2.9.10-cp311-cp311-linux_aarch64.whl');
 INSERT INTO "packages" VALUES('psycopg2','sha256','11dfac6ede8ee972bcb0d085c87afe082175e6bc6812fed6ac1a53cfd6aeba7a','https://github.com/alpine-wheels/psycopg2/releases/download/2.9.10/psycopg2-2.9.10-cp311-cp311-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('psycopg2','sha256','34e27aca1e5cab3935aa19d39cbb85dc9530123e45a0696dacb694433175af99','https://github.com/alpine-wheels/psycopg2/releases/download/2.9.10/psycopg2-2.9.10-cp312-cp312-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('pyodbc','sha256','4d81ad771457d3dfb83c1125bbc2e3105183d4717e6d4d9fef640f14d3423619','https://github.com/alpine-wheels/pyodbc/releases/download/5.2.0/pyodbc-5.2.0-cp312-cp312-linux_x86_64.whl');
 COMMIT;

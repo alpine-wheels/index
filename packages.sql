@@ -757,4 +757,6 @@ INSERT INTO "packages" VALUES('zope.interface','sha256','dfeb22df3f16fe0de8b7e06
 INSERT INTO "packages" VALUES('cryptg','sha256','af05b55a1f569f7e4490ee360f35d6818c15188e16fbf7535e5aee25dd0d4629','https://github.com/alpine-wheels/cryptg/releases/download/0.5.0/cryptg-0.5.0-cp311-cp311-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('cryptg','sha256','9011446f4aa4eaaac2d63f0c26553e467b5e4028d1133108a2a6bb8bfcb468fe','https://github.com/alpine-wheels/cryptg/releases/download/0.5.0/cryptg-0.5.0-cp310-cp310-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('psycopg2','sha256','8ac26bbcead1b18c229980de9c7844cfc51dc7873b164c68241c4b75ece2cb90','https://github.com/alpine-wheels/psycopg2/releases/download/2.9.10/psycopg2-2.9.10-cp311-cp311-linux_aarch64.whl');
+INSERT INTO "packages" VALUES('psycopg2','sha256','11dfac6ede8ee972bcb0d085c87afe082175e6bc6812fed6ac1a53cfd6aeba7a','https://github.com/alpine-wheels/psycopg2/releases/download/2.9.10/psycopg2-2.9.10-cp311-cp311-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('psycopg2','sha256','34e27aca1e5cab3935aa19d39cbb85dc9530123e45a0696dacb694433175af99','https://github.com/alpine-wheels/psycopg2/releases/download/2.9.10/psycopg2-2.9.10-cp312-cp312-linux_x86_64.whl');
 COMMIT;

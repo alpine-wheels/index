@@ -762,4 +762,5 @@ INSERT INTO "packages" VALUES('psycopg2','sha256','11dfac6ede8ee972bcb0d085c87af
 INSERT INTO "packages" VALUES('psycopg2','sha256','34e27aca1e5cab3935aa19d39cbb85dc9530123e45a0696dacb694433175af99','https://github.com/alpine-wheels/psycopg2/releases/download/2.9.10/psycopg2-2.9.10-cp312-cp312-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('pyodbc','sha256','4d81ad771457d3dfb83c1125bbc2e3105183d4717e6d4d9fef640f14d3423619','https://github.com/alpine-wheels/pyodbc/releases/download/5.2.0/pyodbc-5.2.0-cp312-cp312-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('psutil','sha256','e04f308693698373c859e844d86cb78306833a8fcee658a7013e5a7813445e0e','https://github.com/alpine-wheels/psutil/releases/download/6.1.0/psutil-6.1.0-cp36-abi3-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('mysqlclient','sha256','629fae10fac1e2121b121c9066a91b303a5fa1660db7dbfef99cb3e795c8c071','https://github.com/alpine-wheels/mysqlclient/releases/download/2.2.5/mysqlclient-2.2.5-cp311-cp311-linux_x86_64.whl');
 COMMIT;

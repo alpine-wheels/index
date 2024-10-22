@@ -761,4 +761,5 @@ INSERT INTO "packages" VALUES('psycopg2','sha256','8ac26bbcead1b18c229980de9c784
 INSERT INTO "packages" VALUES('psycopg2','sha256','11dfac6ede8ee972bcb0d085c87afe082175e6bc6812fed6ac1a53cfd6aeba7a','https://github.com/alpine-wheels/psycopg2/releases/download/2.9.10/psycopg2-2.9.10-cp311-cp311-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('psycopg2','sha256','34e27aca1e5cab3935aa19d39cbb85dc9530123e45a0696dacb694433175af99','https://github.com/alpine-wheels/psycopg2/releases/download/2.9.10/psycopg2-2.9.10-cp312-cp312-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('pyodbc','sha256','4d81ad771457d3dfb83c1125bbc2e3105183d4717e6d4d9fef640f14d3423619','https://github.com/alpine-wheels/pyodbc/releases/download/5.2.0/pyodbc-5.2.0-cp312-cp312-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('psutil','sha256','e04f308693698373c859e844d86cb78306833a8fcee658a7013e5a7813445e0e','https://github.com/alpine-wheels/psutil/releases/download/6.1.0/psutil-6.1.0-cp36-abi3-linux_x86_64.whl');
 COMMIT;

@@ -766,4 +766,5 @@ INSERT INTO "packages" VALUES('mysqlclient','sha256','629fae10fac1e2121b121c9066
 INSERT INTO "packages" VALUES('zope.interface','sha256','6bb2e0534582013500ba2671aa9afd0afe1fd24d238c67e9c53753df84c6f4f3','https://github.com/alpine-wheels/zope.interface/releases/download/7.1.1/zope.interface-7.1.1-cp312-cp312-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('cryptg','sha256','ea8b706e48657f679986894d48b11cf123da23a0b472d445edda4ddf08bf8708','https://github.com/alpine-wheels/cryptg/releases/download/0.5.0.post0/cryptg-0.5.0.post0-cp311-cp311-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('cryptg','sha256','dbb3524a3e3d9e48f293b65a8638e97a132f53a81cfaec12967b64e861cc3489','https://github.com/alpine-wheels/cryptg/releases/download/0.5.0.post0/cryptg-0.5.0.post0-cp310-cp310-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('numpy','sha256','3ccc572cf97098b347e9dc3b357237ab517bb8aa16bc79ab156c241860ea44f7','https://github.com/alpine-wheels/numpy/releases/download/2.1.3/numpy-2.1.3-cp312-cp312-linux_armv7l.whl');
 COMMIT;

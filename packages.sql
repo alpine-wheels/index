@@ -769,4 +769,5 @@ INSERT INTO "packages" VALUES('cryptg','sha256','dbb3524a3e3d9e48f293b65a8638e97
 INSERT INTO "packages" VALUES('numpy','sha256','3ccc572cf97098b347e9dc3b357237ab517bb8aa16bc79ab156c241860ea44f7','https://github.com/alpine-wheels/numpy/releases/download/2.1.3/numpy-2.1.3-cp312-cp312-linux_armv7l.whl');
 INSERT INTO "packages" VALUES('numpy','sha256','5a2f8bb77e1a7844d8473e43474fca369e2dd694f2b9df700e234bb8cfae52bd','https://github.com/alpine-wheels/numpy/releases/download/2.1.3/numpy-2.1.3-cp310-cp310-linux_armv7l.whl');
 INSERT INTO "packages" VALUES('numpy','sha256','7350eba4c8dbc437485917a0541a161ab8a5a8c7bc27e34e5c1461e188da48a4','https://github.com/alpine-wheels/numpy/releases/download/2.1.3/numpy-2.1.3-cp311-cp311-linux_armv7l.whl');
+INSERT INTO "packages" VALUES('mysqlclient','sha256','ffc37afe41e14178aad1ca01fb9dd52ee99ebbc4d42ffd309f57de672e7747c0','https://github.com/alpine-wheels/mysqlclient/releases/download/2.2.6/mysqlclient-2.2.6-cp311-cp311-linux_x86_64.whl');
 COMMIT;

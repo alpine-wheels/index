@@ -771,6 +771,7 @@ INSERT INTO "packages" VALUES('numpy','sha256','5a2f8bb77e1a7844d8473e43474fca36
 INSERT INTO "packages" VALUES('numpy','sha256','7350eba4c8dbc437485917a0541a161ab8a5a8c7bc27e34e5c1461e188da48a4','https://github.com/alpine-wheels/numpy/releases/download/2.1.3/numpy-2.1.3-cp311-cp311-linux_armv7l.whl');
 INSERT INTO "packages" VALUES('mysqlclient','sha256','ffc37afe41e14178aad1ca01fb9dd52ee99ebbc4d42ffd309f57de672e7747c0','https://github.com/alpine-wheels/mysqlclient/releases/download/2.2.6/mysqlclient-2.2.6-cp311-cp311-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('zope.interface','sha256','09c565e55ba33ed386493c59c73684c9ec8cb53d97f477786078e99a92986af2','https://github.com/alpine-wheels/zope.interface/releases/download/7.2/zope.interface-7.2-cp312-cp312-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('numpy','sha256','0c56d4a814496a6c4f1b048b470719f3a8b7e4c62de8f57306657f82ba21c464','https://github.com/alpine-wheels/numpy/releases/download/2.2.0/numpy-2.2.0-cp312-cp312-linux_armv7l.whl');
 INSERT INTO "packages" VALUES('numpy','sha256','0c089e8e1aa0b4193e7a5f1cb09b05f03da0290e0078a9239db035521d7ae4d9','https://github.com/alpine-wheels/numpy/releases/download/2.2.0/numpy-2.2.0-cp310-cp310-linux_armv7l.whl');
 INSERT INTO "packages" VALUES('numpy','sha256','b1c50bc5b0ef793e07b7fb0930d82f19e4e2bbe628d2a2fea87e163a456ca24a','https://github.com/alpine-wheels/numpy/releases/download/2.2.0/numpy-2.2.0-cp311-cp311-linux_armv7l.whl');
 COMMIT;

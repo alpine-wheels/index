@@ -775,4 +775,6 @@ INSERT INTO "packages" VALUES('numpy','sha256','0c56d4a814496a6c4f1b048b470719f3
 INSERT INTO "packages" VALUES('numpy','sha256','0c089e8e1aa0b4193e7a5f1cb09b05f03da0290e0078a9239db035521d7ae4d9','https://github.com/alpine-wheels/numpy/releases/download/2.2.0/numpy-2.2.0-cp310-cp310-linux_armv7l.whl');
 INSERT INTO "packages" VALUES('numpy','sha256','b1c50bc5b0ef793e07b7fb0930d82f19e4e2bbe628d2a2fea87e163a456ca24a','https://github.com/alpine-wheels/numpy/releases/download/2.2.0/numpy-2.2.0-cp311-cp311-linux_armv7l.whl');
 INSERT INTO "packages" VALUES('numpy','sha256','ebeea71d43533098f2a98837c9779d993fc7b6c1d6cc9d71478bc7f13b39d55a','https://github.com/alpine-wheels/numpy/releases/download/2.2.1/numpy-2.2.1-cp312-cp312-linux_armv7l.whl');
+INSERT INTO "packages" VALUES('numpy','sha256','f4e42370d0957c5d5bcecfbba068fde1218dec47af4a80c4bb4edec91c87e34d','https://github.com/alpine-wheels/numpy/releases/download/2.2.1/numpy-2.2.1-cp310-cp310-linux_armv7l.whl');
+INSERT INTO "packages" VALUES('numpy','sha256','0c9a5d4a18850180abd11a712c6b89cb678a00d79eb6d44e0acc8113b2842ea4','https://github.com/alpine-wheels/numpy/releases/download/2.2.1/numpy-2.2.1-cp311-cp311-linux_armv7l.whl');
 COMMIT;

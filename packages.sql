@@ -778,4 +778,5 @@ INSERT INTO "packages" VALUES('numpy','sha256','ebeea71d43533098f2a98837c9779d99
 INSERT INTO "packages" VALUES('numpy','sha256','f4e42370d0957c5d5bcecfbba068fde1218dec47af4a80c4bb4edec91c87e34d','https://github.com/alpine-wheels/numpy/releases/download/2.2.1/numpy-2.2.1-cp310-cp310-linux_armv7l.whl');
 INSERT INTO "packages" VALUES('numpy','sha256','0c9a5d4a18850180abd11a712c6b89cb678a00d79eb6d44e0acc8113b2842ea4','https://github.com/alpine-wheels/numpy/releases/download/2.2.1/numpy-2.2.1-cp311-cp311-linux_armv7l.whl');
 INSERT INTO "packages" VALUES('psutil','sha256','733998d30a3ca53cf50214238e3f082a467abbac8577ab0d6e7a0fe704f22bf0','https://github.com/alpine-wheels/psutil/releases/download/6.1.1/psutil-6.1.1-cp36-abi3-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('scikit-image','sha256','86af824f762ce588f180d5a28b707938caf0d1e8012e01473e4e5ccaa94a5cf4','https://github.com/alpine-wheels/scikit-image/releases/download/0.25.0/scikit_image-0.25.0-cp312-cp312-linux_x86_64.whl');
 COMMIT;

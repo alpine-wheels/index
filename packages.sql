@@ -779,4 +779,7 @@ INSERT INTO "packages" VALUES('numpy','sha256','f4e42370d0957c5d5bcecfbba068fde1
 INSERT INTO "packages" VALUES('numpy','sha256','0c9a5d4a18850180abd11a712c6b89cb678a00d79eb6d44e0acc8113b2842ea4','https://github.com/alpine-wheels/numpy/releases/download/2.2.1/numpy-2.2.1-cp311-cp311-linux_armv7l.whl');
 INSERT INTO "packages" VALUES('psutil','sha256','733998d30a3ca53cf50214238e3f082a467abbac8577ab0d6e7a0fe704f22bf0','https://github.com/alpine-wheels/psutil/releases/download/6.1.1/psutil-6.1.1-cp36-abi3-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('scikit-learn','sha256','9b70b6b2e99747c1f293e878cbdeec806778b7ef02a00ed0166a81e35829c420','https://github.com/alpine-wheels/scikit-learn/releases/download/1.6.0/scikit_learn-1.6.0-cp312-cp312-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('scikit-learn','sha256','a13a0f472227c993ff1688ac47011e1513fb93c22177a154e9f9cd0cecff9b95','https://github.com/alpine-wheels/scikit-learn/releases/download/1.6.0/scikit_learn-1.6.0-cp311-cp311-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('scikit-learn','sha256','8ca2ca475dbf5c971008b1779ab54acf6a95b33e6a0a95f2ace8c8c277222c41','https://github.com/alpine-wheels/scikit-learn/releases/download/1.6.0/scikit_learn-1.6.0-cp310-cp310-linux_x86_64.whl');
+INSERT INTO "packages" VALUES('scikit-image','sha256','86af824f762ce588f180d5a28b707938caf0d1e8012e01473e4e5ccaa94a5cf4','https://github.com/alpine-wheels/scikit-image/releases/download/0.25.0/scikit_image-0.25.0-cp312-cp312-linux_x86_64.whl');
 COMMIT;

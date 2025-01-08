@@ -790,4 +790,5 @@ INSERT INTO "packages" VALUES('scikit-learn','sha256','8ca2ca475dbf5c971008b1779
 INSERT INTO "packages" VALUES('scikit-image','sha256','86af824f762ce588f180d5a28b707938caf0d1e8012e01473e4e5ccaa94a5cf4','https://github.com/alpine-wheels/scikit-image/releases/download/0.25.0/scikit_image-0.25.0-cp312-cp312-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('zxing-cpp','sha256','01f3979e8e2cc2d80a83871291042aeab0b55fdfa430dfbe3a24fdb4cf840666','https://github.com/alpine-wheels/zxing-cpp/releases/download/2.3.0/zxing_cpp-2.3.0-cp311-cp311-linux_x86_64.whl');
 INSERT INTO "packages" VALUES('scipy','sha256','47dc2924df76fffe56361db09735aba76c00298d4d9882f4921133e73e8464f8','https://github.com/alpine-wheels/scipy/releases/download/1.15.0/scipy-1.15.0-cp311-cp311-linux_armv7l.whl');
+INSERT INTO "packages" VALUES('scipy','sha256','791a7ed15d23585029d4793eb093117e3989df43f9adcb779dc58d68f360bbd9','https://github.com/alpine-wheels/scipy/releases/download/1.15.0/scipy-1.15.0-cp312-cp312-linux_armv7l.whl');
 COMMIT;

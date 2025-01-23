@@ -795,4 +795,5 @@ INSERT INTO "packages" VALUES('scipy','sha256','760b9dda2966e913c8df93f631d1cb72
 INSERT INTO "packages" VALUES('scipy','sha256','f3a246b46773e1014667bafcdcacaf9bc01fec65e0d78a2c13322d73bf083491','https://github.com/alpine-wheels/scipy/releases/download/1.15.0/scipy-1.15.0-cp310-cp310-linux_armv7l.whl');
 INSERT INTO "packages" VALUES('scipy','sha256','47dc2924df76fffe56361db09735aba76c00298d4d9882f4921133e73e8464f8','https://github.com/alpine-wheels/scipy/releases/download/1.15.0/scipy-1.15.0-cp311-cp311-linux_armv7l.whl');
 INSERT INTO "packages" VALUES('scipy','sha256','791a7ed15d23585029d4793eb093117e3989df43f9adcb779dc58d68f360bbd9','https://github.com/alpine-wheels/scipy/releases/download/1.15.0/scipy-1.15.0-cp312-cp312-linux_armv7l.whl');
+INSERT INTO "packages" VALUES('mysqlclient','sha256','9e4be01dc99a2add1e4a96ff3cc7915374a7f1bf282fa0b99939fb3864ccab95','https://github.com/alpine-wheels/mysqlclient/releases/download/2.2.7/mysqlclient-2.2.7-cp311-cp311-linux_x86_64.whl');
 COMMIT;

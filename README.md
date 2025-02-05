@@ -1,3 +1,6 @@
+> [!CAUTION]
+> The [alpine-wheels organization](https://github.com/alpine-wheels/) is currently unmaintained.
+
 # alpine-wheels/index
 
 This is a [PEP 503][a]-compliant Python package index specifically providing wheels built for Alpine Linux.

@@ -45,7 +45,7 @@ jobs:
           docker compose run --user="$(id -u):$(id -g)" --no-TTY add-file ${{ github.event.inputs.package_name }} ${{ github.event.inputs.href }} ${{ github.event.inputs.hash_name }} ${{ github.event.inputs.hash_value }}
 
       - name: Create pull request
-        uses: peter-evans/create-pull-request@v7
+        uses: peter-evans/create-pull-request@v8
         with:
           body: Add a file for ${{ env.PACKAGE_NAME }} to the index
           branch: add-file-to-index
